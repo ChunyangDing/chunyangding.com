@@ -64,15 +64,18 @@ p {
 
 /* Bullet formatting information */
 
-ul.posts {
+ul{
 	font-family: "Helvetica", "Arial", "Sans-Serif";
   font-size: 1.4em;
-  line-height: 1.5em;
+  line-height: 1.5em;	
 	color: #333;
+  list-style: disc;
+}
+
+ul.posts {
 }
 
 ul.posts li {
-  list-style: disc;
 }
 
 /* Table formatting information */

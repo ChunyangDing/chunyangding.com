@@ -7,8 +7,8 @@ echo
     </button>
     <div class="dropdown-content">
 			<a href="/about">About</a>
-			<a href="/assets/files/DingResume.pdf">CV</a>
-			<a href="/assets/files/FailureCV.pdf">Failure CV</a>
+			<a href="/cv">CV</a>
+			<a href="/failure_cv">Failure CV</a>
 		</div>
 	</div>
 
