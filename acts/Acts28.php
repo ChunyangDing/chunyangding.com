@@ -1,7 +1,15 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'; ?>
-<div class="container">
-	<div class="blurb">
-	
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Chunyang Ding</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+	</head>
+	<body>
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
+		<div class="container">
+			<div class="blurb">
+			
 <center> <h1> February 15 -- Acts 28 </h1> </center>
 
 <p> Hey friends, here we are at the end of Acts -- a journey that has taken us from June 2019 to February 2020! not bad :)  </p>
@@ -53,6 +61,8 @@
 
 <center> <p> <a href='/acts/Acts27'>Previous</a> | <a href='/acts/acts'>Back to Main</a> </p> </center>
 
-</div>
-</div>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; ?>
+	</div>
+	</div>
+	</body>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+</html>

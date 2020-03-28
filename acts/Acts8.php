@@ -1,6 +1,14 @@
-<?php include $_SERVER['DOCUMENT_ROOT'].'/header.php'; ?>
-<div class="container">
-	<div class="blurb">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Chunyang Ding</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+	</head>
+	<body>
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
+		<div class="container">
+			<div class="blurb">
 	
 <center> <h1> July 2 -- Acts 8 </h1> </center>
 <p> Hey all! </p> 
@@ -23,6 +31,8 @@
 
 <center> <p> <a href='/acts/Acts7'>Previous</a> | <a href='/acts/acts'>Back to Main</a> |  <a href='/acts/Acts9'>Next</a></p> </center>
 
-</div>
-</div>
-<?php include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; ?>
+	</div>
+	</div>
+	</body>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+</html>
