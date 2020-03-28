@@ -16,6 +16,14 @@ footer {
   font-size: 0.8em;
 }
 
+/* One more Sticky Footer try */
+container{
+	min-height: calc(100vh - 100px);
+}
+.footer{
+	height 50px;
+}
+
 /* Link formatting information */
 a {
   text-decoration: none;
