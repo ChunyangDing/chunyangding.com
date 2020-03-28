@@ -22,7 +22,6 @@ footer {
 }
 
 /* For sticky footer, along with the html height property, and body flex property */
-
 .container {
 	flex: 1 0 auto;
 	padding: 20px;
@@ -30,20 +29,6 @@ footer {
 .footer {
 	flex-shrink: 0;
 	padding: 20px;
-}
-
-/* Formatting of navbar and footbar lists */
-nav ul,
-footer ul{
-  font-family: "Helvetica", "Arial", "Sans-Serif";
-  padding: 0px;
-  list-style: none;
-  font-weight: bold;
-}
-nav ul li,
-footer ul li {
-  display: inline;
-  margin-right: 20px;
 }
 
 /* Link formatting information */
@@ -70,6 +55,7 @@ h1 {
   font-family: "Helvetica", "Arial", "Sans-Serif";
 }
 p {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
   max-width: 90%;
   font-size: 1.4em;
   line-height: 1.5em;
@@ -79,7 +65,9 @@ p {
 /* Bullet formatting information */
 
 ul.posts {
-  font-size: 1.5em;
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-size: 1.4em;
+  line-height: 1.5em;
 	color: #333;
 }
 
