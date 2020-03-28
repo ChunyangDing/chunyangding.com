@@ -7,7 +7,6 @@ html{
 /* Formatting of overall website */
 body {
   background-color: #fffff8;
-  margin: 60px auto;
   margin-left: 100px;
   min-width: 400px;
   max-width: 800px;
@@ -50,8 +49,6 @@ footer ul li {
 /* Link formatting information */
 a {
   text-decoration: none;
-  color: #999;
-	
 	background: -webkit-linear-gradient(#FCFCFC, #FCFCFC), -webkit-linear-gradient(#FCFCFC,#FCFCFC), -webkit-linear-gradient(#CCC, #CCC);
   background: linear-gradient(#FCFCFC, #FCFCFC), linear-gradient(#FCFCFC,#FCFCFC), linear-gradient(#CCC, #CCC);
   -webkit-background-size: 1px 4px;
