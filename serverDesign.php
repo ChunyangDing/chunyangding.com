@@ -8,6 +8,7 @@
 	
 	<body>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
+	
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Server Design</h1>
@@ -25,6 +26,7 @@
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+	
 	</body>
 </html>
 	

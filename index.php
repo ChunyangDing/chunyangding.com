@@ -16,7 +16,7 @@
 				
 				<p> I'm a physicist, a lifelong learner, and have far too many irons in the fire all at once. </p>
 				
-				<p> If you are more interested in finding my <a href="https://www.linkedin.com/in/chunyangding">LinkedIn</a>, a traditional <a href="/about">about page</a>, or a <a href="/assets/files/DingResume.pdf">regular CV</a>, those are available as well. In the meantime, do also check out my <a href="/assets/files/FailureCV.pdf">Failure CV</a> to keep my ego sufficiently deflated.</p>
+				<p> If you are more interested in finding my <a href="https://www.linkedin.com/in/chunyangding">LinkedIn</a>, a traditional <a href="/about">about page</a>, or a <a href="/cv">regular CV</a>, those are available as well. In the meantime, do also check out my <a href="/failure_cv">Failure CV</a> to keep my ego sufficiently deflated.</p>
 				
 				<p> I have written some <a href="https://seattlechunny.wordpress.com">very terrible poetry</a> once upon a time, but focus more of my energy writing about <a href="https://figtwo.wordpress.com">quantum computing </a> these days. I am an avid reader, and you can find recent ruminations of some <a href="https://www.goodreads.com/user/show/10726611-chunyang-ding">good reads here.</a> 
 				
