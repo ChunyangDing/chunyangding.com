@@ -56,6 +56,8 @@ a {
   background-size: 1px 4px;
   background-repeat: no-repeat, no-repeat, repeat-x;
   background-position: 0% 95%; 
+	color: #333;
+
 }
 a:hover {
   text-decoration: underline;
@@ -77,12 +79,11 @@ p {
 /* Bullet formatting information */
 
 ul.posts {
-  margin: 20px auto 40px;
   font-size: 1.5em;
 }
 
 ul.posts li {
-  list-style: none;
+  list-style: disc;
 }
 
 /* Table formatting information */
