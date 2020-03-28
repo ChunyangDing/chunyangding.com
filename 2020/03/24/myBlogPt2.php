@@ -12,7 +12,7 @@
 
 		<h1> The Story of My Blog - Pt. 2 </h1>
 		
-		<p> <em> A continuation - in spirit - of <a href="https://seattlechunny.wordpress.com/2015/04/10/the-story-of-my-blog/">this post from 2015</a>. </p>
+		<p> <em> A continuation - in spirit - of <a href="https://seattlechunny.wordpress.com/2015/04/10/the-story-of-my-blog/">this post from 2015</a>. </em> </p>
 
 		<p> When I was young, I wanted everyone to hear me. That desire didn't come from any lack of attention from my parents, for I was a spoiled only child, nor was I missing engagement from my teachers, who I believe mostly adored my quiet and bookish traits. But those same traits led me to be a bit of an outcast as a kid in elementary and middle school, staying inside during recess, not knowing the first thing about football or pop culture. I had a very limited friend circle, and even with them, felt limited in my ability to physically "hang out" with them. My frequent moves as a kid definitely didn't help; I would start all of my school years through 3rd grade in a completely new, completely different environment. In those days, I would turn externally towards books - Harry Potter, Percy Jackson, Artemis Fowl - to try to understand the world, and then internally to my diaries and journals to construct my own world. </p>
 
@@ -42,7 +42,7 @@
 
 		<p> <a id="#note4">[4]</a> Sorry, I just realized that I got to the end of this post and had not even properly defined what I set out to say. This blog, if not already obvious, will be for reflections that I hope would be fairly long-lasting in intent. I have recently discovered that I am growing old and is now full of opinions about all kinds of things. While I would like to share those opinions with you face-to-face, having a semi-public platform to write still feels incredibly attractive to me, partially for the reasons I have discussed above, and partially for reasons that I do not yet understand in myself. </p> 
 		
-		<p> <a href="/blog">Return to main</a> </p>
+		<p> <a href="/blogHome">Return to main</a> </p>
 
 		</div>
 		</div>

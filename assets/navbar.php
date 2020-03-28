@@ -40,7 +40,7 @@ echo
 			<a href="/food">    Cooking  </a>
 			<!--a href="/finance"> Finance  </a-->
 			<a href="/music">   Guitar   </a>
-			<a href="/serverDesign"> Website </a>
+			<a href="/serverDesign"> Server Design </a>
 		</div>
 	</div>
 </div>';

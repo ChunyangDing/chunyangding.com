@@ -7,21 +7,22 @@ html{
 body {
   background-color: #fffff8;
   margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
   min-width: 400px;
   max-width: 800px;
+	height: 100%;
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
+	height: 50px;
 }
 
 /* One more Sticky Footer try */
-container{
-	min-height: calc(100vh - 100px);
-}
-.footer{
-	height 50px;
+.container{
+	min-height: calc(100vh - 150px);
 }
 
 /* Link formatting information */
