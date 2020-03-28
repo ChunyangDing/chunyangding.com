@@ -23,7 +23,7 @@
 		<p> Of course, seeing Abbey's proposal in perhaps a more generous light, perhaps we can interpret his polemic words as a criticism of the society around him, that there are too many forces molding the general population into this uniform perspective of nature and beauty. But we are all from different backgrounds and perspectives; for reasons completely not due to our own choice, we often face different paths throughout life. For one path, even if that is the path of total freedom and anarchy, to be ordained for everyone, seems self-contradicting. </p>
 
 		<p> But beyond Abbey's politics, and the movements that have risen out of this autobiography, his language is beautiful. The smell of juniper burning, or the delicate beauty of a single cactus bloom, or the arches, standing not for you, not for anyone, but just to be there, out in the wilderness, is a powerful, powerful message in deed. </p>
-
+		<p> <em> <a href="https://www.goodreads.com/review/show/2932419337">Goodreads Review</a> </em> </p>
 		<p> <a html="/blog">Return to main</a> </p>
 
 		</div>

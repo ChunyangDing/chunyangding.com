@@ -38,8 +38,8 @@ echo
 		<button class="dropbtn"> Hobbies &#9660; </button>
 		<div class="dropdown-content">
 			<a href="/food">    Cooking  </a>
+			<!--a href="/finance"> Finance  </a-->
 			<a href="/music">   Guitar   </a>
-			<a href="/finance"> Finance  </a>
 			<a href="/serverDesign"> Website </a>
 		</div>
 	</div>
