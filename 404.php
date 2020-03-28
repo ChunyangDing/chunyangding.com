@@ -13,6 +13,6 @@
 			<p> Looks like I've led you into a dead end! <a href="/index">Want to try again?</a> </p>
 			</div>
 		</div>
-	</body>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'assets/footbar.php'; ?>
+	</body>
 </html>

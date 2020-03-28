@@ -13,8 +13,8 @@
 				<h1>Financial Terms</h1>
 			</div>
 		</div>
-	</body>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+	</body>
 </html>
 	
 	

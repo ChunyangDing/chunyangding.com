@@ -14,9 +14,6 @@
 				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." </p>
 			</div>
 		</div>
-	</body>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+	</body>
 </html>
-	
-	
-	
