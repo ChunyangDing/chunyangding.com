@@ -1,6 +1,7 @@
 html{
   border-left: 12px solid #5e7f79;
   border-right: 12px solid #5e7f79;
+	height: 100%;
 }
 
 /* Formatting of overall website */
@@ -10,11 +11,26 @@ body {
   margin-left: 100px;
   min-width: 400px;
   max-width: 800px;
+	
+	display: flex;
+	flex-direction: column;
+	height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
+}
+
+/* For sticky footer, along with the html height property, and body flex property */
+
+.container {
+	flex: 1 0 auto;
+	padding: 20px;
+}
+.footer {
+	flex-shrink: 0;
+	padding: 20px;
 }
 
 /* Formatting of navbar and footbar lists */
