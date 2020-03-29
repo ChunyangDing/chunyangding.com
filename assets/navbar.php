@@ -19,6 +19,7 @@ echo
 			<a href="/pastwork">Past Work</a>
 			<a href="/booklist">Book Reviews</a>
 			<a href="/links">Links</a>
+			<a href="/quotes">Quotes</a>
 		</div>
 	</div>
 
