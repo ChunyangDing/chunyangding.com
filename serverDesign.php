@@ -19,6 +19,7 @@
 					<ul> 
 						<li> 1 <a href="#motivation"> Motivation </a> </li>
 						<li> 2 <a href="#initial_setup"> Initial Setup </a> </li>
+						<li> 3 <a href="#lamp_setup"> LAMP Setup </a> </li>
 					</ul>
 				</div>
 				<h1 id="#motivation"> Motivation </h1>
@@ -38,18 +39,40 @@
 				
 				<p> First, I wiped an old Desktop and installed Ubuntu 18.04 LTS on it, since Ubuntu has a good long-term support structure, doesn't have automatic updates, and is lightweight. I downloaded the disk image from <a href="https://ubuntu.com/download/desktop">Canonical's official repository here</a>, and flashed it to a USB drive. Afterwards, I restarted the desktop, interrupted the boot sequence to request it to boot from USB, and installed Ubuntu. </p>
 				<p> After that, I ensure that my Ubuntu is fully up to date: </p>
-				<p><pre><code> 
-sudo apt-get update
+				
+<p><pre><code>sudo apt-get update
 sudo apt-get upgrade
 </code></pre></p>
+
 				<p> In my house, my server is sitting in the laundry room, as that is the closest physical location to our router. I would very much like to not have my monitor and keyboard blocking the laundry room entrance! Therefore, one of the first things I set up is SSH, so that I can give commands to the server remotely, as well as copy and edit files. I use <code>openssh-server</code> to accomplish this. Installing it is very easy:</p>
-<p><pre><code>
-sudo apt-get install openssh-server
+				
+<p><pre><code>sudo apt-get install openssh-server
 </code></pre></p>
+
 			<p> and then I do some simple configuration, such as the port number and the number of authorized tries. For editing text files on the command line, I use nano (as it is less likely to trap me in the editor as is, let's say, vim) </p>
-<p><pre><code>
-sudo nano /etc/ssh/ssh_config
+			
+<p><pre><code>sudo nano /etc/ssh/ssh_config
 </code></pre></p>
+
+			<p> I also want to use a ssh key, instead of a password, for the increased security benefit. On my laptop, which is running Windows 10, I am primarily using a combination of PuTTY and WinSCP to connect. PuTTY has a built in function to generate a SSH public and private key, so I go ahead and do that. Then, on the server side, I copy it over, as well as set the permissions and ownerships of that file: </p>
+			
+			<p><pre><code>mkdir -p ~/.ssh
+sudo nano ~/.ssh/authorized_keys
+sudo chmod -R go= ~/.ssh
+sudo chown -R [USERNAME]:[USERNAME] ~/.ssh
+</code></pre></p>
+
+			<p> I also ensure that OpenSSH is accessible through my universal firewall, as follows: </p>
+			
+<p><pre><code>sudo ufw allow OpenSSH
+sudo ufw enable
+</code></pre></p>
+
+			<p> Finally, I disable the SSH via password, so that connecting to my server requires a SSH key. This is to prevent brute force attacks on my server password. This setting can be found in <code>/etc/ssh/sshd_config</code>, as the <code>PasswordAuthentication no</code> option. </p>
+			
+			<p> From here on out, everything else is run completely from my PuTTY terminal from my laptop. </p>
+			
+			<h1 id="#lamp_setup">LAMP Setup</h1>
 
 			</div>
 		</div>
