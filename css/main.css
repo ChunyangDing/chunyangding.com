@@ -84,6 +84,6 @@ tr:nth-child(even) {
 }
 
 /* Preformatted code blocks */
-pre code {
+pre {
   text-align: left;
 }
