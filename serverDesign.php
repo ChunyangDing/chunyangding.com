@@ -18,6 +18,7 @@
 					<p class="toc_title"> Contents </p>
 					<ul> 
 						<li> 1 <a href="#motivation"> Motivation </a> </li>
+						<li> 2 <a href="#initial_setup"> Initial Setup </a> </li>
 					</ul>
 				</div>
 				<h1 id="#motivation"> Motivation </h1>
