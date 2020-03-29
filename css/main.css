@@ -83,7 +83,9 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-pre code{
-	background-color: #eff0f1;
+pre{
+	font-size: 1.4em;
+	overflow: auto;
+	background-color: #f9f9fa;
 	border: 1px solid #aaa;
 }

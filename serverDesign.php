@@ -37,15 +37,20 @@
 				<h1 id="initial_setup"> Initial Setup </h1>
 				
 				<p> First, I wiped an old Desktop and installed Ubuntu 18.04 LTS on it, since Ubuntu has a good long-term support structure, doesn't have automatic updates, and is lightweight. I downloaded the disk image from <a href="https://ubuntu.com/download/desktop">Canonical's official repository here</a>, and flashed it to a USB drive. Afterwards, I restarted the desktop, interrupted the boot sequence to request it to boot from USB, and installed Ubuntu. </p>
-				<p> 
-<pre>	<code> 
+				<p> After that, I ensure that my Ubuntu is fully up to date: </p>
+				<p><pre><code> 
 sudo apt-get update
 sudo apt-get upgrade
+</code></pre></p>
+				<p> In my house, my server is sitting in the laundry room, as that is the closest physical location to our router. I would very much like to not have my monitor and keyboard blocking the laundry room entrance! Therefore, one of the first things I set up is SSH, so that I can give commands to the server remotely, as well as copy and edit files. I use <code>openssh-server</code> to accomplish this. Installing it is very easy:</p>
+<p><pre><code>
 sudo apt-get install openssh-server
+</code></pre></p>
+			<p> and then I do some simple configuration, such as the port number and the number of authorized tries. For editing text files on the command line, I use nano (as it is less likely to trap me in the editor as is, let's say, vim) </p>
+<p><pre><code>
 sudo nano /etc/ssh/ssh_config
-</code> </pre> 
-				</p>
-				
+</code></pre></p>
+
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
