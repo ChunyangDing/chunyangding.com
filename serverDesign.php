@@ -20,6 +20,19 @@
 						<li> 1 <a href="#motivation"> Motivation </a> </li>
 						<li> 2 <a href="#initial_setup"> Initial Setup </a> </li>
 						<li> 3 <a href="#lamp_setup"> LAMP Setup </a> </li>
+						<li> 4 <a href="#webdesign"> Website Design </a> 
+							<ul>
+								<li>
+									<li> 4.1 <a href="navbar">Creating a Navigational Bar</a></li>
+									<li> 4.2 <a href="header_footer">Creating header and footer php files </a></li>
+									<li> 4.3 <a href="redirect_php">Redirecting Webpages Without .php Endings</a></li>
+									<li> 4.4 <a href="password_protection">Creating Password Protected Pages </h1>
+									<li> 4.5 <a href="404_page">Creating my 404 page</a></li>
+								</li>
+							</ul>
+						<li> 5 <a href="git_backup">Backup to Github</a></li>
+						<li> 6 <a href="general_tips">General Tips</a></li>
+						</li>
 					</ul>
 				</div>
 				<h1 id="#motivation"> Motivation </h1>
@@ -73,7 +86,21 @@ sudo ufw enable
 			<p> From here on out, everything else is run completely from my PuTTY terminal from my laptop. </p>
 			
 			<h1 id="#lamp_setup">LAMP Setup</h1>
-
+			<h1 id="#virtual_hosts">Virtual Hosts</h1>
+			<h1 id="ssl_certification">SSL Certification</h1>
+			<!--All of these should be subheaders of a general web heading -->
+			<h1 id="webdesign">Website design</h1>
+			<h1 id="navbar">Creating a navigational bar at the top of my page </h1>
+			<h1 id="header_footer">Creating header and footer php files</h1>
+			<h1 id="redirect_php">Redirecting webpages without .php ending</h1>
+			<h1 id="password_protection">Creating password protected pages</h1>
+			<h1 id="404_page">Creating my 404 page</h1>
+			<h1 id="git_backup">Creating a git backup</h1>
+			<h1 id="general_tips">General Tips</h1>
+			<p>	I think the key thing that I learned here was the importance of doing this web setup in small steps. My initial attempts to create a website was in using Wordpress's backend, and by copying other websites that I liked the aesthetics of. However, doing so meant that I didn't really understand what was going on, creating something that was very easily breakable. It takes a lot of trial and error to get something going properly, but thankfully trial and error is very cheap for web design - only time and a few pennies of electricity! </p>
+			<p> The other part of this is that it's so easy to get overwhelmed with the number of options for customizability of the website. Obviously, this is a field that has been around for a while, so it's easy to get pulled into a forum where everyone has been breathing this type of design for decades. Learning in this manner can be particularly difficult because there are few signposts separating what is important from what is trivial. For a newcomer, everything here looks important. I was able to narrow my focus by creating a fairly detailed <code>todo </code> list every day before starting work on my website for the day, so that I could focus on accomplishing a single goal instead of just wandering around, making lots of different edits. </p>
+			
+			<p> I used notepad++ and Firefox to make all of my html, php, and css edits. It's by far the best, most lightweight option to do so, and it was still very easy to see updates by refreshing my browser from time to time. I highly recommend changing the tab setting of notepad++ to be 2 spaces instead of the default 4, for php and css files, so that the nested structure doesn't just run off the page. </p>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
