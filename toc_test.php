@@ -7,22 +7,25 @@
 		
 		<style>
 			#toc_container {
-					background: #f9f9f9 none repeat scroll 0 0;
+					background: #fffff8 none repeat scroll 0 0;
 					border: 1px solid #aaa;
 					display: table;
 					font-size: 95%;
+					margin-top: 20px;
 					margin-bottom: 1em;
 					padding: 20px;
 					width: auto;
 			}
 
 			.toc_title {
-					font-weight: 700;
+					font-weight: bold;
 					text-align: center;
 			}
 
 			#toc_container li, #toc_container ul, #toc_container ul li{
 					list-style: outside none none !important;
+					font-size: 1.4em;
+					line-height: 1.5em;	
 			}
 		</style>
 	
