@@ -83,7 +83,7 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-/* Preformatted code blocks */
-pre {
-  text-align: left;
+pre code{
+	background-color: #eff0f1;
+	border: 1px solid #aaa;
 }

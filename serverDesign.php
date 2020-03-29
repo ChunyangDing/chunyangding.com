@@ -38,12 +38,12 @@
 				
 				<p> First, I wiped an old Desktop and installed Ubuntu 18.04 LTS on it, since Ubuntu has a good long-term support structure, doesn't have automatic updates, and is lightweight. I downloaded the disk image from <a href="https://ubuntu.com/download/desktop">Canonical's official repository here</a>, and flashed it to a USB drive. Afterwards, I restarted the desktop, interrupted the boot sequence to request it to boot from USB, and installed Ubuntu. </p>
 				<p> 
-					<pre>	<code> 
-					sudo apt-get update
-					sudo apt-get upgrade
-					sudo apt-get install openssh-server
-					sudo nano /etc/ssh/ssh_config
-					</code> </pre> 
+<pre>	<code> 
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install openssh-server
+sudo nano /etc/ssh/ssh_config
+</code> </pre> 
 				</p>
 				
 			</div>
