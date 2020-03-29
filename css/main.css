@@ -14,15 +14,15 @@ body {
 	height: 100%;
 }
 
+/* One more Sticky Footer try */
+.container{
+	min-height: calc(100vh - 150px);
+}
+
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
 	height: 50px;
-}
-
-/* One more Sticky Footer try */
-.container{
-	min-height: calc(100vh - 150px);
 }
 
 /* Link formatting information */
@@ -66,12 +66,6 @@ ul{
   list-style: disc;
 }
 
-ul.posts {
-}
-
-ul.posts li {
-}
-
 /* Table formatting information */
 table {
   font-family: "Helvetica", "Arial", "Sans-Serif";
@@ -87,4 +81,9 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+/* Preformatted code blocks */
+pre code {
+  text-align: left;
 }
