@@ -1,0 +1,23 @@
+#toc {
+		background: #fffff8 none repeat scroll 0 0;
+		border: 1px solid #aaa;
+		display: table;
+		margin-top: 0;
+		margin-bottom: 1em;
+		width: auto;
+		padding-right: 20px;
+}
+
+.toc_title {
+		font-weight: bold;
+		text-align: center;
+}
+
+#toc ul{
+		list-style: outside none none !important;
+		font-size: 1.4em;
+		line-height: 1.5em;	
+}
+#toc ul ul{
+		font-size: 1.0em;
+}
