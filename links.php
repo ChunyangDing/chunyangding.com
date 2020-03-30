@@ -11,10 +11,7 @@
 			<div class="blurb">
 				<h1> Links around the web </h1>
 				<p> Here are some links to spots on the web that I like - some creative, some silly, and all of them good. Hope you enjoy! </p>
-				<ul>
-					<li> <a href="https://www.adorasvitak.com/">Adora's Blog</a> </li>
-				</ul>
-				
+
 				<p> Articles and comics that I still frequently think about </p>
 				<ul>
 					<li> <a href="https://www.smbc-comics.com/comic/the-art-cycle">Zach Weinersmith - SMBC - The Art Cycle </a> </li>
@@ -32,6 +29,7 @@
 					<li> <a href="https://felixtripier.com">Felix Tripier</a></li>
 					<li> <a href="https://thewoksoflife.com">The Woks of Life</a></li>
 					<li> <a href="https://rohanchandra30.github.io"> Rohan Chandra</a></li>
+					<li> <a href="https://www.adorasvitak.com/">Adora Svitak</a> </li>
 				</ul>
 				<img src="/assets/pics/toonLink.jpg" alt="more links!" style="width:200px;height:auto;" class="center">
 
