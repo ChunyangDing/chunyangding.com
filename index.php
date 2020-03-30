@@ -11,9 +11,9 @@
 		
 		<div class="container">
 			<div class="blurb">
-				<h1>Chunny's Terrible Website</h1>
+				<h1>Chunny's <del>Terrible</del>Not So Good Website</h1>
 				
-				<p> Hi, I'm Chunny! Welcome to my poorly made website. I hope you stick around! </p>
+				<p> Hi, I'm Chunny! Welcome to my <del>poorly made</del>slowly improving website. I hope you stick around! </p>
 				
 				<p> I'm a physicist, a lifelong learner, and have far too many irons in the fire all at once. </p>
 				
@@ -25,9 +25,6 @@
 				
 				
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
-				
-				<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
-					$access_number = visitor($page_name); ?>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>

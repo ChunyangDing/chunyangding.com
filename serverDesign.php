@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Chunyang Ding - Web Design</title>
+		<?php $page_name = "Chunyang Ding - Web Design"; ?>
+		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 		<link rel="stylesheet" type="text/css" href="/css/toc.css">

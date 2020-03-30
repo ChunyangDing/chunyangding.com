@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<header>
-		<title> Chunyang Ding - Past Work </title>
+		<?php $page_name = "Chunyang Ding - Past Work"; ?>
+		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 	</header>
