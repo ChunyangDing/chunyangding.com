@@ -27,6 +27,8 @@
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
 			</div>
 		</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
 	</body>
 </html>

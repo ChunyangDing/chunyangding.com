@@ -16,6 +16,8 @@
 			<p> <b> 24 Mar 2020 &gt; &gt; </b> <a href="/2020/03/24/myBlogPt2">Story of My Blog, Pt. 2</a></p> 
 			</div>
 		</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
 	</body>
 </html>

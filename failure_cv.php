@@ -17,6 +17,8 @@
 				<p> I have found that facing my own shortcomings has been one of the most productive ways of moving forwards. To that end, I collected some of those directly measurable failures and formatted it like a Resume, as inspired by Johannes Haushofer. Hope you enjoy! </p>
 			</div>
 		</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
 	</body>
 </html>

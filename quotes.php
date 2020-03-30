@@ -54,6 +54,8 @@
 				<p> "Life is so beautiful that death has fallen in love with it, a jealous possessive love that grabs at what it can. But life leaps over oblivion lightly, losing only a thing or two of no importance, and gloom is but the passing shadow of a cloud." ~ Yann Martel, Life of Pi</p>
 			</div>
 		</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
 	</body>
 </html>

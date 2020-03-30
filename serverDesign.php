@@ -120,10 +120,8 @@ sudo ufw enable
 		
 		</div>
 	</div>
-	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
-	
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>	
 	</body>
 </html>
-	
-	
-	

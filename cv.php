@@ -16,6 +16,8 @@
 				<p> <a href="/assets/files/DingResume.pdf">PDF of my Resume</a>(last updated: 1/2020) </p>				
 			</div>
 		</div>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
 	</body>
 </html>
