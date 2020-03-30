@@ -12,6 +12,12 @@
 			<div class='blurb'>
 				<h1>Guitar Playing</h1>
 				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." </p>
+				
+				<video width="320" height="240" controls>
+					<source src="/assets/vids/20200329_LaVieEnRose.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video> 
+
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
