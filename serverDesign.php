@@ -19,8 +19,14 @@
 					<ul> 
 						<li> 1 <a href="#motivation"> Motivation </a> </li>
 						<li> 2 <a href="#initial_setup"> Initial Setup </a> </li>
-						<li> 3 <a href="#lamp_setup"> LAMP Setup </a> </li>
-						<li> 4 <a href="#webdesign"> Website Design </a> 
+						<li> 3 <a href="#serverdesign"> Server Design </a> </li>
+							<ul>
+								<li> 3.1 <a href="#lamp_setup"> LAMP Setup </a> </li>
+								<li> 3.2 <a href="#virtual_hosts">Virtual Hosts </a> </li>
+								<li> 3.3 <a href="#ssl_certification">SSL Certification </a></li>
+							</ul>
+						</li>
+						<li> 4 <a href="#webdesign"> Website Design </a> 								
 							<ul>
 								<li>
 									<li> 4.1 <a href="#navbar">Creating a Navigational Bar</a></li>
@@ -88,7 +94,7 @@ sudo ufw enable
 			
 			<h1 id="#lamp_setup">LAMP Setup</h1>
 			<h1 id="#virtual_hosts">Virtual Hosts</h1>
-			<h1 id="ssl_certification">SSL Certification</h1>
+			<h1 id="#ssl_certification">SSL Certification</h1>
 			<!--All of these should be subheaders of a general web heading -->
 			<h1 id="#webdesign">Website design</h1>
 			<h1 id="#navbar">Creating a navigational bar at the top of my page </h1>
