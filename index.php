@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Chunyang Ding</title>
+		<?php $page_name = "Chunyang Ding - Index"; ?>
+		<title><?php echo #page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 	</head>
@@ -24,6 +25,11 @@
 				
 				
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
+				
+				<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+					$access_number = visitor($page_name);
+				?>
+				<?php echo "<p> You are the", $access_number, " visitor on this site!"; ?>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
