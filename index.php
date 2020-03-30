@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<?php $page_name = "Chunyang Ding - Index"; ?>
-		<title><?php echo #page_name; ?></title>
+		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 	</head>
@@ -29,7 +29,7 @@
 				<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
 					$access_number = visitor($page_name);
 				?>
-				<?php echo "<p> You are the", $access_number, " visitor on this site!"; ?>
+				<?php echo "<p> You are the", $access_number, " visitor on this site! </p>"; ?>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
