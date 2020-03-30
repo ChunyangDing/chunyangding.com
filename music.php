@@ -5,11 +5,6 @@
 		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
-		<style> 
-		video{
-			transform:rotate(180deg);
-		}
-		</style>
 	</head>
 	
 	<body>
