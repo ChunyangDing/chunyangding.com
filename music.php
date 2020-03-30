@@ -8,6 +8,7 @@
 		video{
 			transform:rotate(180deg);
 		}
+		</style>
 	</head>
 	
 	<body>
