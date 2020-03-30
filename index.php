@@ -28,7 +28,6 @@
 				
 				<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
 					$access_number = visitor($page_name); ?>
-				<?php echo "<p> Page Hits: ", $access_number, "</p>"; ?>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>

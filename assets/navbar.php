@@ -44,5 +44,7 @@ echo
 			<a href="/serverDesign"> Server Design </a>
 		</div>
 	</div>
-</div>';
+</div>
+<?php include $_SERVER[\'DOCUMENT_ROOT\'].\'/assets/webcounter.php\';
+	$access_number = visitor($page_name); ?>';
 ?>
