@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Chunyang Ding</title>
+		<title> Chunyang Ding - Book Reviews</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 	</head>

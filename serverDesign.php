@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> Chunyang Ding</title>
+		<title> Chunyang Ding - Web Design</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 		<link rel="stylesheet" type="text/css" href="/css/toc.css">
@@ -12,7 +12,7 @@
 	
 		<div class='container'>
 			<div class='blurb'>
-				<h1>Server Design</h1>
+				<h1>Server and Web Design</h1>
 
 				<div id="toc"> 
 					<p class="toc_title"> Contents </p>
@@ -26,10 +26,11 @@
 									<li> 4.1 <a href="#navbar">Creating a Navigational Bar</a></li>
 									<li> 4.2 <a href="#header_footer">Creating header and footer php files </a></li>
 									<li> 4.3 <a href="#redirect_php">Redirecting Webpages Without .php Endings</a></li>
-									<li> 4.4 <a href="#password_protection">Creating Password Protected Pages </h1>
+									<li> 4.4 <a href="#password_protection">Creating Password Protected Pages </a></li>
 									<li> 4.5 <a href="#404_page">Creating my 404 page</a></li>
 								</li>
 							</ul>
+						</li>
 						<li> 5 <a href="#git_backup">Backup to Github</a></li>
 						<li> 6 <a href="#general_tips">General Tips</a></li>
 						</li>
