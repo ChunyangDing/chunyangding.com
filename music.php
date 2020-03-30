@@ -14,6 +14,7 @@
 				<h1>Guitar Playing</h1>
 				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." </p>
 				
+				<h2> 29 Mar 2020 - La Vie En Rose </h2>
 				<video width="600" height=auto controls>
 					<source src="/assets/vids/20200329_LaVieEnRose.mp4" type="video/mp4">
 					Your browser does not support the video tag.
