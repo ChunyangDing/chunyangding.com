@@ -35,6 +35,12 @@
 								<li> 4.3 <a href="#redirect_php">Redirecting Webpages Without .php Endings</a></li>
 								<li> 4.4 <a href="#password_protection">Creating Password Protected Pages </a></li>
 								<li> 4.5 <a href="#404_page">Creating my 404 page</a></li>
+								<li> 4.6 <a href="#general_css">General CSS ideas </a></li>
+								<li> 4.7 <a href="#sticky_footer">Setting up a sticky footer</a></li>
+								<li> 4.8 <a href="#video_embed">Embedding videos</a></li>
+								<li> 4.9 <a href="#toc_css">Creating a Table of Contents CSS</a></li>
+								<li> 4.10 <a href="#pagecounter">Setting up MySQL and a pagecounter</a></li>
+								<li> 4.11 <a href="#photogallery">Creating a photo gallery</a></li>
 							</li>
 						</ul>
 					</li>
@@ -96,9 +102,118 @@ sudo ufw enable
 			<p> From here on out, everything else is run completely from my PuTTY terminal from my laptop. </p>
 			
 			<h1 id="serverdesign"> Server Design </h1>
+			
+			<p> At this point, the basic functionality of my server has been set up. Now, the remaining work is to configure all of the packages to function together. </p>
+			
 			<h2 id="lamp_setup"> LAMP Setup </h2>		
+			
+			<p><b> Apache2 Setup </b></p>
+			
+			<p> All web pages are served by the Apache2 client. It allows users to make a request over the http or https protocol, and return the corresponding html page. Therefore, we need to 1) install the package, and 2) allow it access through the <code>universal firewall</code> that we had set up. </p>
+			
+<p><pre><code>sudo apt install apache2
+sudo ufw app info "Apache Full"
+sudo ufw allow in "Apache Full"
+</code></pre></p>
+
+			<p> After Apache is installed, go to your local address (which should look something like <code>192.168.1.XX</code>) to see a "It Works!" page. To find out what your local IP address is, you can type the command <code>ip a</code> into the command line.</p>
+
+			<p> It is also useful to have access to your router settings as well, which typically is accessed through something like <code>192.168.1.1</code>. This may require a login and a password; look at your physical router to see if there is a default password on the outside of it. At this point, I then configured the default ports for http (80) and https (443) to forward from external traffic to my server. I then tested to make sure that I could see the Apache2 "It Works!" page when pinging my external IP address, which is <code>173.73.196.43</code> for me. </p>
+			
+			<p> At this point, I took a slight detour and configured the web domain that I had purchased, <code>chunyangding.com</code>, to redirect to my public IP address. I had purchased my domain through <a href="https://www.namecheap.com">namecheap.com</a>, although there are many options out there today. The two main things to configure here is to forward my "A record" for the base domain (<code>chunyangding.com</code>) as well as the primary alias (<code>www.chunyangding.com</code>) to forward to my public IP address. It takes a bit of time for this to propagate through the DNS lookup system, so I recommend getting it set up earlier so that it is ready when you want it to be. </p> 
+			
+			<p><b>MySQL Setup</b></p>
+			
+			<p> Next, we set up MySQL, a database software that stores data in tables. Although I didn't have any immediate use for this, it came in handy when I wanted to set up some pagecounter code later on. </p>
+			
+<p><pre><code>sudo apt install mysql-server
+sudo mysql_secure_installation
+</code></pre></p>
+			<p> These commands installed mysql-server on Ubuntu. When running the <code>mysql_secure_installation</code>, I chose to have a strong password, removed anonymous users, disallowed root login remotely, removed test database, and reloaded privilege tables - in short, all the options provided. This is primarily for security purposes; it's not so good to have a database that can be accessed with default credentials. Afterwards, I configured the database with secure passwords, as follows:
+			
+<p><pre><code>sudo mysql
+	SELECT user,authentication_string,plugin,host FROM mysql.user;
+	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '[PASSWORD GOES HERE]'
+	FLUSH PRIVILEGES;
+	SELECT user,authentication_string,plugin,host FROM mysql.user;
+</code></pre></p>
+			<p> These are commands to configure my root account with the proper password, and then to flush the priviliges. To be honest, I don't fully understand how security in MySQL works, but this is what I did. </p>
+			
+			<p><b> php Setup</b></p>
+			
+			<p> Finally, we setup php, a processing language for generating html pages on the fly. This has been very useful, as it allows me to not have to type in manually code that would be repeated across many pages, such as my header and footer. </p>
+			
+<p><pre><code>sudo apt install php libapache2-mod-php php-mysql</code></pre></p>
+
+			<p> And that's it! I chose not to install any additional packages at this point, since vanilla php was already sufficient for my purposes. </p>
+			
 			<h2 id="virtual_hosts"> Virtual Hosts </h2>
+			
+			<p> Now, this is the part of the setup that tripped me up the most, and actually led me to completely wiping my previous configuration and redoing it. In theory, Apache2 is able to serve any number of web domains from a single box, according to the different virtual hosts that are setup. By default, Apache2 will try to serve pages from the folder <code>/var/www/default</code>, but you can configure new folders for different host names. </p>
+			
+<p><pre><code> sudo mkdir /var/www/chunyangding.com
+sudo chown -R $USER:$USER /var/www/chunyangding.com
+sudo chmod -R 755 /var/www/chunyangding.com
+</code></pre></p>
+			<p> Now, there exists a folder that collects all of my webpages. Important - I believe you do need to make sure that the title of the folder is the same as your domain address, although I'm not sure if this is the case. I had previously set it up where the folder was only chunyangding, and for some reason this did not seem to work. Next, I need to edit the configuration to point to the correct folder. </p>
+			
+<p><pre><code>
+sudo nano /etc/apache2/sites-available/chunyangding.com.conf
+	&gt;VirtualHost *:80&lt;
+		ServerAdmin webmaster@localhost
+		ServerName chunyangding.com
+		ServerAlias www.chunyangding.com
+		DocumentRoot /var/www/chunyangding.com
+		ErrorLog ${APACHE_LOG_DIR}/error.log
+		CustomLog ${APACHE_LOG_DIR}/access.log combined
+	&gt;/VirtualHost&lt;
+sudo systemctl reload apache2
+</code></pre></p>
+			<p>After creating that .conf file, I then need to enable that configuration in apache2, and disable the default configuration. Finally, before anything will actually be updated, I need to reload apache2. </p>
+			
+<p><pre><code> sudo a2ensite chunyangding.com.conf
+sudo a2dissite 000-default.conf
+sudo systemctl reload apache2
+</code></pre></p>
+
+			<p> Now, I want to test that this is working. Since the base domain page will look for a page called <code>index.html</code>, I then go ahead and create one with the most basic information, to see if it works or not. </p>
+			
+<p><pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Hello World!&lt;/title&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;h1&gt; Welcome to chunyangding.com! &lt;/h1&gt;
+		&lt;p&gt; Hello world! &lt;/p&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre></p>
+
+			<p> I then go to my browser (firefox is what I am using to debug) and verify that I can see that sample page when I go to chunyangding.com. Success! </p>
+	
 			<h2 id="ssl_certification"> SSL Certification </h2>
+			
+			<p> After the website runs, I want to set up SSL certification. Honestly, I'm not entirely sure how this process runs, but it seems like there are free services that will grant you a SSL certificate, created and administrated by the Electronic Frontier Foundation. I just go ahead and do what is needed. </p>
+			
+<p><pre><code> sudo add-apt-repository ppa:certbot/certbot
+sudo apt install python-certbot-apache
+sudo apache2ctl configtest
+	returned: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message//Syntax OK
+	sudo nano /etc/apache2/apache2.conf
+		ServerName chunyangding.com (appended to bottom of file)
+	sudo apache2ctl configtest
+		returned: Syntax OK
+sudo certbot --apache -d chunyangding.com -d www.chunyangding.com
+sudo certbot renew --dry-run
+</code></pre></p>
+			<p> Note that I ran into issues in the middle there, where it appears that I did not properly configure the servername on my <code>apache2.conf</code> file. Why is this necessary? No clue. </p>
+			
+			<p> In any case, this seems like a success! It ensures that my website has a valid SSL certificate, and is valid for 3 months. I can then renew that certificate at a later time. I also set up during the configuration to redirect all traffic by default from <code>http://chunyangding.com</code> to <code>https://chunyangding.com</code>. My understanding is that having a SSL certification means that people are unable to sniff packages that are being sent between my website and the user. While this is essentially pointless here (I have no place on my website for you to give me your social security number and your mother's maiden name, for instance), it still seems like good practice to have. </p>
+			
+			<p> At this point, everything is set up for the server! I am ready to begin creating web pages, and most of the remaining work is in html, php, and css instead. However, I still have terminal access, such as when I need to install or configure additional packages. </p>
 		
 			<h1 id="webdesign"> Website design </h1>
 			<h2 id="navbar"> Creating a navigational bar at the top of my page </h2>
@@ -109,7 +224,7 @@ sudo ufw enable
 			<h2 id="general_css"> General CSS ideas </h2>
 			<h2 id="sticky_footer"> Setting up a sticky footer </h2>
 			<h2 id="video_embed"> Embedding videos</h2>
-			<h2 id="toc"> Creating a Table of Contents CSS </h2>
+			<h2 id="toc_css"> Creating a Table of Contents CSS </h2>
 			<h2 id="pagecounter"> Setting up MySQL and a pagecounter </h2>
 			<h2 id="photogallery"> Creating a photo gallery </h2>
 			
