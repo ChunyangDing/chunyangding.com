@@ -44,10 +44,16 @@ a:hover {
 }
 
 /* Main text formatting information */
-h1 {
+h1{
   font-size: 2.5em;
   font-family: "Helvetica", "Arial", "Sans-Serif";
 }
+
+h2{
+	font-size: 2.0em;
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
 p {
   font-family: "Helvetica", "Arial", "Sans-Serif";
   max-width: 90%;

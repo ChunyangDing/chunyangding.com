@@ -96,20 +96,25 @@ sudo ufw enable
 			<p> From here on out, everything else is run completely from my PuTTY terminal from my laptop. </p>
 			
 			<h1 id="serverdesign"> Server Design </h1>
-			
-			<h1 id="lamp_setup"> LAMP Setup </h1>
-			
-			<p> Test post please ignore </p>
-			
-			<h1 id="virtual_hosts"> Virtual Hosts </h1>
-			<h1 id="ssl_certification"> SSL Certification </h1>
+			<h2 id="lamp_setup"> LAMP Setup </h2>		
+			<h2 id="virtual_hosts"> Virtual Hosts </h2>
+			<h2 id="ssl_certification"> SSL Certification </h2>
+		
 			<h1 id="webdesign"> Website design </h1>
-			<h1 id="navbar"> Creating a navigational bar at the top of my page </h1>
-			<h1 id="header_footer"> Creating header and footer php files </h1>
-			<h1 id="redirect_php"> Redirecting webpages without .php ending </h1>
-			<h1 id="password_protection"> Creating password protected pages </h1>
-			<h1 id="404_page"> Creating my 404 page </h1>
+			<h2 id="navbar"> Creating a navigational bar at the top of my page </h2>
+			<h2 id="header_footer"> Creating header and footer php files </h2>
+			<h2 id="redirect_php"> Redirecting webpages without .php ending </h2>
+			<h2 id="password_protection"> Creating password protected pages </h2>
+			<h2 id="404_page"> Creating my 404 page </h2>
+			<h2 id="general_css"> General CSS ideas </h2>
+			<h2 id="sticky_footer"> Setting up a sticky footer </h2>
+			<h2 id="video_embed"> Embedding videos</h2>
+			<h2 id="toc"> Creating a Table of Contents CSS </h2>
+			<h2 id="pagecounter"> Setting up MySQL and a pagecounter </h2>
+			<h2 id="photogallery"> Creating a photo gallery </h2>
+			
 			<h1 id="git_backup"> Creating a git backup </h1>
+			
 			<h1 id="general_tips"> General Tips </h1>
 		
 			<p>	I think the key thing that I learned here was the importance of doing this web setup in small steps. My initial attempts to create a website was in using Wordpress's backend, and by copying other websites that I liked the aesthetics of. However, doing so meant that I didn't really understand what was going on, creating something that was very easily breakable. It takes a lot of trial and error to get something going properly, but thankfully trial and error is very cheap for web design - only time and a few pennies of electricity! </p>

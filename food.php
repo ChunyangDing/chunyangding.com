@@ -12,6 +12,9 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Recipes</h1>
+				<p> <a href="/2020/03/30/honey-soy-salmon">Honey Soy Salmon</a> </p>
+				<p> <a href="/2020/03/30/smashed-cucumbers">Smashed Cucumbers</a></p>
+				
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
