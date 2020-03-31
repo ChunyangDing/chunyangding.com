@@ -72,6 +72,13 @@ ul{
   list-style: disc;
 }
 
+ol{
+	font-family: "Helvetica", "Arial", "Sans-Serif";
+	font-size: 1.4em;
+	line-height: 1.5em;
+	color: #333;
+}
+
 /* Table formatting information */
 table {
   font-family: "Helvetica", "Arial", "Sans-Serif";
