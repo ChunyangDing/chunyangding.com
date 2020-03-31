@@ -24,6 +24,13 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>Speak Up!</td>
+				<td>Adora Svitak</td>
+				<td><a href="https://www.goodreads.com/review/show/3236334659">Review</a></td>
+				<td>5/5</td>
+				<td>30 Mar 2020</td>
+			</tr>
+			<tr>
 				<td>The Last Unicorn</td>
 				<td>Peter S. Beagle</td>
 				<td><a href="https://www.goodreads.com/review/show/3252796914">Review</a></td>

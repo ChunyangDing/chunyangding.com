@@ -30,7 +30,8 @@
 					<li> <a href="https://felixtripier.com">Felix Tripier</a></li>
 					<li> <a href="https://thewoksoflife.com">The Woks of Life</a></li>
 					<li> <a href="https://rohanchandra30.github.io"> Rohan Chandra</a></li>
-					<li> <a href="https://www.adorasvitak.com/">Adora Svitak</a> </li>
+					<li> <a href="https://www.adorasvitak.com">Adora Svitak</a> </li>
+					<li> <a href="https://tangsida.com">Sida Tang </a></li>
 				</ul>
 				<img src="/assets/pics/toonLink.jpg" alt="more links!" style="width:200px;height:auto;" class="center">
 
