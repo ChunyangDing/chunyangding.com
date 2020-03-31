@@ -24,11 +24,39 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>The Last Unicorn</td>
+				<td>Peter S. Beagle</td>
+				<td><a href="https://www.goodreads.com/review/show/3252796914">Review</a></td>
+				<td>4/5</td>
+				<td>29 Mar 2020</td>
+			</tr>
+			<tr>
+				<td>Philosophical Investigations</td>
+				<td>Ludwig Wittgenstein</td>
+				<td><a href="https://www.goodreads.com/review/show/2842445870">Review</a></td>
+				<td>4/5</td>
+				<td>29 Mar 2020</td>
+			</tr>
+			<tr>
+				<td>The Sword in the Stone</td>
+				<td>T. H. White</td>
+				<td><a href="https://www.goodreads.com/review/show/3223481012">Review</a></td>
+				<td>4/5</td>
+				<td>25 Mar 2020</td>
+			</tr>
+			<tr>
 				<td>The Brightest Fell</td>
 				<td>Nipul Chowdhury</td>
 				<td><a href="https://www.goodreads.com/review/show/3236335552">Review</a></td>
 				<td>3/5</td>
 				<td>22 Mar 2020</td>
+			</tr>
+			<tr>
+				<td>The Origin of Others</td>
+				<td>Toni Morrison</td>
+				<td><a href="https://www.goodreads.com/review/show/3235139584">Review</a></td>
+				<td>4/5</td>
+				<td>17 Mar 2020</td>
 			</tr>
 			<tr>
 				<td>The Nancy Pelosi Way</td>
