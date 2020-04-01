@@ -23,6 +23,7 @@ footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
 	height: 50px;
+	display: inline-block;
 }
 
 /* Link formatting information */
