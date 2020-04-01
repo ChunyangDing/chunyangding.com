@@ -27,9 +27,9 @@
 		
 		<div class="container">
 			<div class="blurb">
-				<h1>Chunny's <del>Terrible</del>Not So Good Website</h1>
+				<h1>Chunny's Okay Website</h1>
 				
-				<p> Hi, I'm Chunny! Welcome to my <del>poorly made</del>slowly improving website. I hope you stick around! </p>
+				<p> Hi, I'm Chunny! Welcome to my slowly improving website. I hope you stick around! </p>
 				
 				<p> I'm a physicist, a lifelong learner, and have far too many irons in the fire all at once. </p>
 				
@@ -43,8 +43,8 @@
 				
 				<script src="/assets/copyVal.js"></script> 
 				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Click me to copy my email address to your clipboard: me@chunyangding.com</button> 
+				<p></p>
 				<br>
-				
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
 			</div>
 		</div>

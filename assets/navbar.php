@@ -37,7 +37,7 @@ echo
 	
 	
 	<div class="dropdown">
-		<button class="dropbtn"> Hobbies &#9660; </button>
+		<button class="dropbtn"> Interests &#9660; </button>
 		<div class="dropdown-content">
 			<a href="/food">Cooking</a>
 			<!--a href="/finance">Finance</a-->
