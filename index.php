@@ -5,6 +5,22 @@
 		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<style>
+			/*For formatting the copy email button */
+			.emailCopy {
+				background-color: #fffff8;
+				border: none;
+				color: #0000EE;
+				padding: 5px 5px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 1.4em;
+				border-radius: 0px;
+				font-family: "Helvetica", "Arial", "Sans-Serif";
+				cursor: pointer;
+			}
+			</style>
 	</head>
 	<body>
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
@@ -23,7 +39,8 @@
 				
 				<p> I have spent much of my life spewing words all over the internet, and a selection of some of my favorite pieces can be <a href="/aroundtheweb">found here</a>. I also <a href="https://en.wikipedia.org/wiki/User:ChunyangD">edit Wikipedia</a>, <a href="https://github.com/chunyangding">commit on Github</a>, and have a <a href="https://www.reddit.com/user/seattlechunny/">Reddit account</a>, although those are checked a bit less frequently. </p>
 				
-				
+				<p> Feel free to poke around, and drop me a line! </p>
+				<button class = "emailCopy" onclick="copyVal(\'me@chunyangding.com\')">Click me to copy my email address to your clipboard: me@chunyangding.com</button> 
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
 			</div>
 		</div>

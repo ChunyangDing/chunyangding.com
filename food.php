@@ -11,6 +11,7 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 		<div class='container'>
 			<div class='blurb'>				
+				<h1>Cooking</h1>
 				<p> I really enjoy cooking, probably because I really love eating. My mom repeatedly refuses to make a cookbook for me, but she does send me pictures of what she makes all the time. I wanted to compile some of the things that I've made, along with some very basic instructions. </p>
 				
 				<p> Typically when I look at a recipe, I tend to ignore measurements and cooking times. Instead, I just sorta taste it repeatedly while cooking and add until it tastes "right". In that same spirit, I don't think any of these recipes will have measurements or times either! </p>

@@ -10,7 +10,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 			<div class="container">
 			<div class="blurb">
-				<h1> Links around the web </h1>
+				<h1> Links</h1>
 				<p> Here are some links to spots on the web that I like - some creative, some silly, and all of them good. Hope you enjoy! </p>
 
 				<p> Articles and comics that I still frequently think about </p>

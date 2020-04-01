@@ -10,6 +10,7 @@
 	font-size: 1.4em;
 	border-radius: 0px;
 	font-family: "Helvetica", "Arial", "Sans-Serif";
+	cursor: pointer;
 }
 
 <button class = "emailCopy" onclick="copyVal(\'me@chunyangding.com\')">me@chunyangding.com</button> 
