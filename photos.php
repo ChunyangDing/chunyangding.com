@@ -61,13 +61,12 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Photography</h1>
-				<p> Here are some photos that I like </p>
-				
+				<p> Here are some photos that I have taken. Camera: Blackberry KeyOne. </p>
 				
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191207_1622475.jpg">
-							<img src="/assets/pics/IMG_20191207_1622475.jpg" width="600">
+							<img src="/assets/pics/IMG_20191207_1622475.jpg" width="1000">
 						</a>
 					</div>
 				</div>
@@ -76,7 +75,7 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191219_1327332.jpg">
-							<img src="/assets/pics/IMG_20191219_1327332.jpg" width="600">
+							<img src="/assets/pics/IMG_20191219_1327332.jpg" width="1000">
 						</a>
 					</div>
 				</div>
@@ -84,15 +83,23 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191225_0000000.jpg">
-							<img src="/assets/pics/IMG_20191225_0000000.jpg" width="600">
+							<img src="/assets/pics/IMG_20191225_0000000.jpg" width="1000">
 						</a>
 					</div>
 				</div>
-
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg">
+							<img src="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191231_1102414.jpg">
-							<img src="/assets/pics/IMG_20191231_1102414.jpg" width="600">
+							<img src="/assets/pics/IMG_20191231_1102414.jpg" width="1000">
 						</a>
 					</div>
 				</div>
@@ -100,28 +107,21 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191231_1121568.jpg">
-							<img src="/assets/pics/IMG_20191231_1121568.jpg" width="600">
-						</a>
-					</div>
-				</div>
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg">
-							<img src="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg" width="600">
+							<img src="/assets/pics/IMG_20191231_1121568.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20200223_1701308.jpg">
-							<img src="/assets/pics/IMG_20200223_1701308.jpg" width="600">
+							<img src="/assets/pics/IMG_20200223_1701308.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20200319_EFFECTS.jpg">
-							<img src="/assets/pics/IMG_20200319_EFFECTS.jpg" width="600">
+							<img src="/assets/pics/IMG_20200319_EFFECTS.jpg" width="1000">
 						</a>
 					</div>
 				</div>
@@ -130,7 +130,7 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="img_mountains.jpg">
-							<img src="img_mountains.jpg" width="600">
+							<img src="img_mountains.jpg" width="1000">
 						</a>
 					</div>
 				</div>
