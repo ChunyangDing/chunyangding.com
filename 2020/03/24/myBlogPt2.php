@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<header>
+		<?php $page_name = "Blog - My Blog Pt 2"; ?>
+		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 	</header>
@@ -46,6 +48,8 @@
 
 		</div>
 		</div>
-	</body>
+	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
+	</body>
 </html>
