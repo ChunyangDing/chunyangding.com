@@ -242,19 +242,19 @@ sudo certbot renew --dry-run
 &lt;/div&gt;
 </code></pre><p>
 
-			<p> While creating this, I was editing it live on my <code>index.html</p> page, but quickly realized that this was not sustainable. I did not want to manually update the navbar for every single page when I put in a new page for consistency. This led me to my next section, implementing php.</p>
+			<p> While creating this, I was editing it live on my <code>index.html</code> page, but quickly realized that this was not sustainable. I did not want to manually update the navbar for every single page when I put in a new page for consistency. This led me to my next section, implementing php.</p>
 			
 			<h2 id="header_footer"> Creating header and footer php files </h2>
 			
 			<p>PHP is a language for processing hypertext. It functions like a simple programming language, and is in fact <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>, but so far I have only used it for some fairly trivial functions. The most basic function is to <code>echo</code> html text from one file to another. This allows you to have a single file, such as <code>navbar.php</code>, that then gets inserted into the html code of many other files. </p>
 			
-			<p> To begin with, php is a language that is processed on my server. That means that if you view the source of any of my pages, you will not see any php code, which is delineated by <code>&lt;?php  ?%gt;</code>. Instead, my understanding is that the installed php on my computer will first process all of the php code prior to serving the raw html file via apache2 to your browser. Therefore, when you look at the html on your browser, it only contains the final html. This allows for dynamic content to be generated, yet still be lightweight (still just a html file. </p>
+			<p> To begin with, php is a language that is processed on my server. That means that if you view the source of any of my pages, you will not see any php code, which is delineated by <code>&lt;?php  ?&gt;</code>. Instead, my understanding is that the installed php on my computer will first process all of the php code prior to serving the raw html file via apache2 to your browser. Therefore, when you look at the html on your browser, it only contains the final html. This allows for dynamic content to be generated, yet still be lightweight (still just a html file. </p>
 			
 			<p> To implement this navbar, I use the <code> php include </code> command, which includes the php from some other file. Here, the other file was <code>/assets/navbar.php</code>. Within the <code>navbar.php</code> file, I used the <code>echo</code> command to just spit out verbatim the html for the navbar. See below for some code samples.</p>
 			
 <p><pre><code>&lt;?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?&gt;
 
-	/assets/navbar.php:
+/assets/navbar.php:
 &lt;?php
 echo 
 '&lt;div class="navbar"&gt;
@@ -266,7 +266,7 @@ echo
 			
 			<p> Now that I have php documents, all of my urls look somewhat ugly, ending in <code>.php</code>. This is a somewhat aesthetic choice, but I would prefer the url to just simply be <code>chunyangding.com/about</code> rather than have to be <code>chunyangding.com/about.php</code>. Dropping the ending makes it easier to tell other humans about a specific page, and somewhat future-proofs your website (ie, if you decide to go from php back to html or forwards to some future system, like perhaps qhq). </p>
 			
-			<p> This change is not with the html/css code, but instead, with the apache2 configurations and a file called <code>.htaccess</code>. I created a file using <code>sudo nano /var/www/chunyangding.com/.htaccess and put in the following: </p>
+			<p> This change is not with the html/css code, but instead, with the apache2 configurations and a file called <code>.htaccess</code>. I created a file using <code>sudo nano /var/www/chunyangding.com/.htaccess</code> and put in the following: </p>
 			
 <p><pre><code>RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -291,9 +291,101 @@ sudo service apache2 restart
 			<p> And I think that's it! From here on out, any page without an ending will automatically get a .php attached to it before retrieving it from my file system. </p>
 			
 			<h2 id="password_protection"> Creating password protected pages </h2>
+			
+			<p> Suppose you have a few pages on your website that you want to only be accessible by certain users. What would be the best way to protect that information? </p>
+			
+			<p> First, you can not have a link to your page. This would solve the immediate problem that unless if someone knows what the address of your page is, they would be unable to easily find it. However, this type of security is very bare, and can't really be relied on. The next level of security is to configure your <code>.htaccess</code> to use a login and a password to access certain pages. </p>
+			
+			<p> For me, I created my password protected pages underneathe a subdomain, called <code>/foobar</code>. Then, I did <code> sudo nano /var/www/chunyangding.com/foobar/.htaccess</code> with the following information: </p>
+			
+<p><pre><code>AuthName "[INSERT TEXT HERE]"
+AuthType Basic
+AuthUserFile /var/www/chunyangding.com/.htpasswd
+require valid-user 
+</code></pre></p>
+			
+			<p> Where <code>AuthName</code> is the prompt text that pops up when you try to access one of those pages. This .htaccess file then applies recursively to all of the files and subfolders within the folder where it lives. Note that I refer to a <code>.htpasswd</code> file, which I create with the command <code>htpasswd -c .htpasswd [USERNAME GOES HERE]</code>. The command prompt then prompts me to enter a password, which I do. </p>
+			
+			<p> And that's it! Your pages protected from prying eyes. </p>
+			
 			<h2 id="404_page"> Creating my 404 page </h2>
+			
+			<p> It's nice to have a custom 404 page, if not just to redirect people back to your main page. The default Apache2 404 page smacks of poorly configured 90s websites. Luckily, it is almost trivial to create a 404 page. </p>
+			
+			<p> First, create whatever you want on your page. For me, I kept it simple, keeping the same header and footer, with a standard "Well, this is embarassing" header, and a link back to my main page in the body. I save this file as <code>404.php</code> in my document root. </p>
+			
+			<p> Next, edit your <code>.htaccess</code> file that is your document root to include the line: </p>
+			
+<p><pre><code>ErrorDocument 404 /404</code></pre></p>
+
+			<p> And you are good to go! </p>
+			
 			<h2 id="general_css"> General CSS ideas </h2>
+			
+			<p> Now, some general CSS ideas. I don't think I'm really suitable to be telling anyone how to design a website, as you can tell just by looking around this site. However, I have noticed some things that make your website look less like a computer science professor who configured their site in fall of 1985 and has not touched the design ever since. </p>
+			
+			<p><b>Font, spacing, and text boxes</b></p>
+			
+			<p> I think the most important aspect of making a website look passable is to use a reasonable font. Without changing any settings, the text will just run all over the place, from one end of the screen to the other. In general, I have a sense that I don't want the text to be larger than some certain width. To do this, I configure the margins and min/max widths of the <code>body</code> tag, as follows. </p>
+			
+<p><pre><code>body {
+  margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+  min-width: 400px;
+  max-width: 800px;
+}
+</code></pre></p>
+			
+			<p> I first make a margin on the left hand side - I don't want the text scrunched up all the way to the left side of your screen. Afterwards, I set the <code>min-width</code> to be 400 pixels, and the maximum width to be 800 pixels. This was determined through just messing with the numbers until it started to look okay. This is somewhat responsive, so I dragged the size of the web browser and looked at how the site appeared on my phone as well (Android with Chrome) to make sure that things were not squeezed too much. </p>
+			
+			<p> I also make some changes to the font, font-size, and line-height within my <code>p</code> tags. Most of my text lives within these p tags, and I don't want it to look too scrunched together. Therefore: </p>
+			
+<p><pre><code>p {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  max-width: 90%;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  color: #333;
+}
+</code></pre></p>
+			
+			<p> There are some additional adjustments that I made, including for size of headers, for tables, for links (which I mostly copied over from <a href="http://colemancollins.com">Coleman's website</a>), and for preformatted code blocks. To look at what I did there, just take a look at <a href="/css/main.css">my main css file here</a>. You have my blanket permission to copy whatever you like! </p>
+			
+			<p><b>Use of color</b></p>
+			
+			<p> For me, color should be used very sparingly, only to provide slight accenting when relevant. I don't see the point of having a ton of different borders and boundaries everywhere. So, the only places that have color is my background, which is configured in the CSS as <code> body{ background-color: #fffffb; }</code>, and the sidebars of my html, which are: </p>
+			
+<p><pre><code>html{
+  border-left: 12px solid #5e7f79;
+  border-right: 12px solid #5e7f79;
+}
+</code></pre></p>
+			
+			<p> (Incidentally, the color that I chose for my border is the same color as my bike; a moss green Kona Dew Plus that I love) </p>
+			
 			<h2 id="sticky_footer"> Setting up a sticky footer </h2>
+
+			<p> The next CSS thing I did was set up a sticky footer, which was way more difficult than I had initially expected. This seems to be a problem that has been repeatedly solved since the dawn of html, resulting in tons of different solutions floating around the web. Oddly, most of them didn't seem to work for me, resulting in lots of trial and error. The following (very simple) css is the only thing that did end up working:</p>
+			
+<p><pre><code>body{
+	height: 100%;
+}
+.container{
+	min-height: calc(100vh - 150px);
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: 0.8em;
+	height: 50px;
+}
+</code></pre></p>
+
+			<p> Some explanation. First, I make it such that everything within the body is at 100%. I do not understand what that 100% refers to, but it seems to work. I then define a <b>class</b> called <code>.container</code>, which can then be used within a <code>div</code> tag as <code>&lt;div class='container&gt;</code>. This forces that container to be 100% of the viewport height, less 150 pixels which is given to the sticky footer. The footer itself has some height defined as 50 pixels, and some border and font size as well. </p>
+			
+			<p> As you can tell from the poor explanation, I don't really understand why or how this works. Ah, <em> c'est la vie. </em> </p>
+
 			<h2 id="video_embed"> Embedding videos</h2>
 			<h2 id="toc_css"> Creating a Table of Contents CSS </h2>
 			<h2 id="pagecounter"> Setting up MySQL and a pagecounter </h2>
