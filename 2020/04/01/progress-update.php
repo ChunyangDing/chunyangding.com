@@ -12,6 +12,8 @@
 		<div class="container">
 		<div class="blurb">
 		
+		<h1> Web Design Complete! </h1>
+		
 		<p> I'm honestly fairly surprised at myself for how accurately I'm sticking with the <a href="/2020/02/04/2020-plan">original schedule</a> that I drew up back in early February, even amidst changes that have been far larger than I could have possibly imagined. I don't think I've ever been able to stick to a "new year's resolution" type thing for this long ever before. So hooray! </p>
 		
 		<p> This past month has brought a remarkably large amount of change. Besides the obvious disruption caused by the coronavirus crisis, the fact that I have now been working from home for the last three weeks seems to have had a significant effect. I feel like I've almost gone through the grieving process, or some thing akin to it. Suddenly watching American public health and the global economy crash seemed like it was really just wearing on my soul for a few weeks in mid March. It became so incredibly difficult to focus on even my regular work, never mind my additional hobbies. I think for a few days, I did nothing but stare at a Onshape document for a few hours, boil some wontons, and then sleep more. There was no structure, there was no joy. </p>

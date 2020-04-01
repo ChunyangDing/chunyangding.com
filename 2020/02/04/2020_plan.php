@@ -38,7 +38,7 @@
 		<ul>
 			<li> So it definitely makes sense for this to come first, because after this is up, I would actually have a place to store all of these updates/notes/additional files! But I don't think I really have the bandwidth to get this up, and I actually would like for this to be done a bit more carefully.</li>
 			<li> I have a cheap computer that I plan on adapting into a server (installing ubuntu, apache, and then able to host my own website on it). For the website, I'm probably going to use a WordPress-style blog, but made slightly nicer. I hope that I can make chunyangding.com to be a central hub of everything I do on the web, which would include:</li>
-				<ul>
+				<ul style="font-size:1.0em;">
 					<li> Email Server</li>
 					<li> File Server (NAS)</li>
 					<li> Resume/CV</li>
@@ -83,13 +83,16 @@
 			<li> Tasks that are purely maintenance - things like spending too much time cooking, cleaning, and watching Netflix. There just isn't any meaning in doing any of those tasks. I think the best way to free up time here is just by using some of the easier ways out. That means more of just premade salads, premade soups, simple stir-fry, premade curry, simple sandwiches, etc. The goal is to still be healthy (primarily by cutting as many carbs/filler as possible, while having lean meat (chicken, fish). </li>
 			<li> Travel - January had a significantly larger amount of travel than I expected, and I got to see so many good friends around the country. But I think it has also taxed me to some extent. I don't want to be inwardly focused, but other than a weekend trip up to NYC (April perhaps?) and a flight to Chicago for the visit weekend, I don't see myself traveling until July. </li>
 			<li> Entertainment - One of the big draws of DC is that I can just take a subway into the city and do the museums and see the orchestra and do other cool things like that. But, I don't think that actually helps change me in many productive ways. I think I would like to go see more concerts and stuff, but it isn't really worth it at the moment, which seems pretty sad to me. But it would help me with my budgeting, and my somewhat return to normalcy? </li>
-			
+		</ol>
 		<p> Things that I don't want to cut out include:</p>
 		<ol>
 			<li> Other people - I still want to nurture relationships - with my church, a new community group, with coworkers, my housemates, and hopefully more UMD people as well. Being there for other people, and not just spending time on myself, is the key lesson I took from that last minute decision in Miami. </li>
 			<li> Exercise - maintaining a reasonable exercise routine is still really important to me. I think I will really aim to do cardio on the weekends, as well as on Monday and Thursdays. Four times a week would be more than I previously have been able to commit to, so it's probably not too crazy of a goal? </li>
 			<li> Physics - Even with these other things, I need to push myself to work more on the QCJC, classical mechanics prep problems, and general physics knowledge. </li>
+		</ol>
 		<p> So yeah. Let's see where 2020 takes me! </p>
+		
+		<p> <a href="/blogHome">Return to main</a> </p>
 		
 		</div>
 		</div>
