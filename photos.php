@@ -66,8 +66,8 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20191207_1622475.jpg">
-							<img src="IMG_20191207_1622475.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20191207_1622475.jpg">
+							<img src="/assets/pics/IMG_20191207_1622475.jpg" width="600">
 						</a>
 					</div>
 				</div>
@@ -75,53 +75,53 @@
 
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20191219_1327332.jpg">
-							<img src="IMG_20191219_1327332.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20191219_1327332.jpg">
+							<img src="/assets/pics/IMG_20191219_1327332.jpg" width="600">
 						</a>
 					</div>
 				</div>
 
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20191225_0000000.jpg">
-							<img src="IMG_20191225_0000000.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20191225_0000000.jpg">
+							<img src="/assets/pics/IMG_20191225_0000000.jpg" width="600">
 						</a>
 					</div>
 				</div>
 
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20191231_1102414.jpg">
-							<img src="IMG_20191231_1102414.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20191231_1102414.jpg">
+							<img src="/assets/pics/IMG_20191231_1102414.jpg" width="600">
 						</a>
 					</div>
 				</div>
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20191231_1121568.jpg">
-							<img src="IMG_20191231_1121568.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20191231_1121568.jpg">
+							<img src="/assets/pics/IMG_20191231_1121568.jpg" width="600">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20200126_1826103-EFFECTS.jpg">
-							<img src="IMG_20200126_1826103-EFFECTS.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg">
+							<img src="/assets/pics/IMG_20200126_1826103-EFFECTS.jpg" width="600">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20200223_1701308.jpg">
-							<img src="IMG_20200223_1701308.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20200223_1701308.jpg">
+							<img src="/assets/pics/IMG_20200223_1701308.jpg" width="600">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="IMG_20200319_EFFECTS.jpg">
-							<img src="IMG_20200319_EFFECTS.jpg" width="600">
+						<a target="_blank" href="/assets/pics/IMG_20200319_EFFECTS.jpg">
+							<img src="/assets/pics/IMG_20200319_EFFECTS.jpg" width="600">
 						</a>
 					</div>
 				</div>
