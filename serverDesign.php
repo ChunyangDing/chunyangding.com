@@ -132,10 +132,10 @@ sudo mysql_secure_installation
 			<p> These commands installed mysql-server on Ubuntu. When running the <code>mysql_secure_installation</code>, I chose to have a strong password, removed anonymous users, disallowed root login remotely, removed test database, and reloaded privilege tables - in short, all the options provided. This is primarily for security purposes; it's not so good to have a database that can be accessed with default credentials. Afterwards, I configured the database with secure passwords, as follows:
 			
 <p><pre><code>sudo mysql
-	SELECT user,authentication_string,plugin,host FROM mysql.user;
-	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '[PASSWORD GOES HERE]'
-	FLUSH PRIVILEGES;
-	SELECT user,authentication_string,plugin,host FROM mysql.user;
+  SELECT user,authentication_string,plugin,host FROM mysql.user;
+  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '[PASSWORD GOES HERE]'
+  FLUSH PRIVILEGES;
+  SELECT user,authentication_string,plugin,host FROM mysql.user;
 </code></pre></p>
 
 			<p> These are commands to configure my root account with the proper password, and then to flush the priviliges. To be honest, I don't fully understand how security in MySQL works, but this is what I did. </p>
@@ -159,19 +159,19 @@ sudo chmod -R 755 /var/www/chunyangding.com
 			<p> Now, there exists a folder that collects all of my webpages. Important - I believe you do need to make sure that the title of the folder is the same as your domain address, although I'm not sure if this is the case. I had previously set it up where the folder was only chunyangding, and for some reason this did not seem to work. Next, I need to edit the configuration to point to the correct folder. </p>
 			
 <p><pre><code>sudo nano /etc/apache2/sites-available/chunyangding.com.conf
-	&gt;VirtualHost *:80&lt;
-		ServerAdmin webmaster@localhost
-		ServerName chunyangding.com
-		ServerAlias www.chunyangding.com
-		DocumentRoot /var/www/chunyangding.com
-		ErrorLog ${APACHE_LOG_DIR}/error.log
-		CustomLog ${APACHE_LOG_DIR}/access.log combined
-	&gt;/VirtualHost&lt;
+  &lt;VirtualHost *:80&gt;
+    ServerAdmin webmaster@localhost
+    ServerName chunyangding.com
+    ServerAlias www.chunyangding.com
+    DocumentRoot /var/www/chunyangding.com
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+  &lt;/VirtualHost&gt;
 sudo systemctl reload apache2
 </code></pre></p>
 			<p>After creating that .conf file, I then need to enable that configuration in apache2, and disable the default configuration. Finally, before anything will actually be updated, I need to reload apache2. </p>
 			
-<p><pre><code> sudo a2ensite chunyangding.com.conf
+<p><pre><code>sudo a2ensite chunyangding.com.conf
 sudo a2dissite 000-default.conf
 sudo systemctl reload apache2
 </code></pre></p>
@@ -180,13 +180,13 @@ sudo systemctl reload apache2
 			
 <p><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
-	&lt;head&gt;
-		&lt;title&gt;Hello World!&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt; Welcome to chunyangding.com! &lt;/h1&gt;
-		&lt;p&gt; Hello world! &lt;/p&gt;
-	&lt;/body&gt;
+  &lt;head&gt;
+    &lt;title&gt;Hello World!&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt; Welcome to chunyangding.com! &lt;/h1&gt;
+    &lt;p&gt; Hello world! &lt;/p&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 
 </code></pre></p>
@@ -200,11 +200,11 @@ sudo systemctl reload apache2
 <p><pre><code>sudo add-apt-repository ppa:certbot/certbot
 sudo apt install python-certbot-apache
 sudo apache2ctl configtest
-	returned: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message//Syntax OK
-	sudo nano /etc/apache2/apache2.conf
-		ServerName chunyangding.com (appended to bottom of file)
-	sudo apache2ctl configtest
-		returned: Syntax OK
+  returned: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message//Syntax OK
+  sudo nano /etc/apache2/apache2.conf
+    ServerName chunyangding.com (appended to bottom of file)
+  sudo apache2ctl configtest
+    returned: Syntax OK
 sudo certbot --apache -d chunyangding.com -d www.chunyangding.com
 sudo certbot renew --dry-run
 </code></pre></p>
@@ -234,11 +234,11 @@ sudo certbot renew --dry-run
     &lt;button class="dropbtn"&gt; About Me &#9660;
     &lt;/button&gt;
     &lt;div class="dropdown-content"&gt;
-			&lt;a href="/about"&gt;About&lt;/a&gt;
-			&lt;a href="/cv"&gt;CV&lt;/a&gt;
-			&lt;a href="/failure_cv"&gt;Failure CV&lt;/a&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
+      &lt;a href="/about"&gt;About&lt;/a&gt;
+      &lt;a href="/cv"&gt;CV&lt;/a&gt;
+      &lt;a href="/failure_cv"&gt;Failure CV&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 </code></pre><p>
 
@@ -255,10 +255,12 @@ sudo certbot renew --dry-run
 <p><pre><code>&lt;?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?&gt;
 
 /assets/navbar.php:
+
 &lt;?php
 echo 
 '&lt;div class="navbar"&gt;
-  &lt;a href="/">Home&lt;/a&gt;
+  &lt;a href="/">Home&lt;/a&gt;'
+?&gt;
 </code></pre></p>
 			<p> One thing to point out is that the include statement also has the phrase <code>$_SERVER['DOCUMENT_ROOT'].</code> in it. This is so that php always knows where to look for. By default, php will start searching for the included file starting from the location of where your current file is. For instance, if this include statement does not have the document root phrase and is in one of my blog posts which lives in <code>/2020/03/31/</code>, it will start searching for <code>/2020/03/31/assets/navbar.php</code> which does not exist. Therefore, even in pages that do live in my document root, I keep the same phrase there for consistency, and in case if I want to move that page in the future. </p> 			
 			
@@ -281,11 +283,11 @@ sudo systemctl restart apache2
 			<p> However, you are not quite done yet. If you were using Apache2 with the installation that I described above, the main <code>apache2.conf</code> file is not configured to accept these kinds of rewrites. You need to do as follows: </p>
 
 <p><pre><code>sudo nano /etc/apache2/apache2.conf
-	&lt;Directory /var/www/&gt;
-		Options Indexes FollowSymLinks
-		AllowOverride All (changed from AllowOverride None)
-		Require all granted
-	&lt;/Directory&gt;
+  &lt;Directory /var/www/&gt;
+    Options Indexes FollowSymLinks
+    AllowOverride All (changed from AllowOverride None)
+    Require all granted
+  &lt;/Directory&gt;
 sudo service apache2 restart
 </code></pre></p>
 			<p> And I think that's it! From here on out, any page without an ending will automatically get a .php attached to it before retrieving it from my file system. </p>
@@ -330,8 +332,8 @@ require valid-user
 			
 <p><pre><code>body {
   margin-left: 100px;
-	margin-top: 20px;
-	margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
   min-width: 400px;
   max-width: 800px;
 }
@@ -369,16 +371,16 @@ require valid-user
 			<p> The next CSS thing I did was set up a sticky footer, which was way more difficult than I had initially expected. This seems to be a problem that has been repeatedly solved since the dawn of html, resulting in tons of different solutions floating around the web. Oddly, most of them didn't seem to work for me, resulting in lots of trial and error. The following (very simple) css is the only thing that did end up working:</p>
 			
 <p><pre><code>body{
-	height: 100%;
+  height: 100%;
 }
 .container{
-	min-height: calc(100vh - 150px);
+  min-height: calc(100vh - 150px);
 }
 
 footer {
   border-top: 1px solid #d5d5d5;
   font-size: 0.8em;
-	height: 50px;
+  height: 50px;
 }
 </code></pre></p>
 
