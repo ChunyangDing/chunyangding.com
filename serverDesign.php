@@ -59,10 +59,6 @@
 			
 			<p> The code for this website is edited in Notepad++ on my main laptop. I then commit all of the changes to Git, which through <a href="github.com/chunyangding/chunyangding.com"> Github</a>, is then pushed to the live website. Therefore, my <code>dev</code> workspace is local on my laptop, while <code>prod</code> is on the desktop that is permanently on and permanently connected to the web. </p> 
 			
-			<p> Before I had Github setup, I was directly SSHing onto my server, using PuTTY for server commands and WinSCP for copying and editing files live on prod. For obvious reasons, live editing on prod is generally discouraged, even if it is a product that isn't really used! Just to get into the right mindset for things, I decided to transition to the Github model, although I imagine that quick changes would probably still go through the WinSCP route. </p> 
-			
-			<p> The main downside of doing things through Github is that it is fairly roundabout. To start, I don't have Apache installed on my local windows machine, so I am unable to preview pages. Then, to push something to the server, I first need to switch to Github desktop, add the changed files to my commit, push to origin, then switch over to PuTTY and git pull to update the documents. This seems like a lot of extra work, especially for something that used to be live. However, I think this still makes sense for the long term maintenance of the website - ie, when the website has reached some sort of steady-state where I am no longer making dramatic changes, and only updating blog posts. Then, Github would be able to easily track changes, and revert back to older versions if needed. </p> 
-			
 			<h1 id="initial_setup"> Initial Setup </h1>
 			
 			<p> First, I wiped an old Desktop and installed Ubuntu 18.04 LTS on it, since Ubuntu has a good long-term support structure, doesn't have automatic updates, and is lightweight. I downloaded the disk image from <a href="https://ubuntu.com/download/desktop">Canonical's official repository here</a>, and flashed it to a USB drive. Afterwards, I restarted the desktop, interrupted the boot sequence to request it to boot from USB, and installed Ubuntu. </p>
@@ -387,13 +383,129 @@ footer {
 			<p> Some explanation. First, I make it such that everything within the body is at 100%. I do not understand what that 100% refers to, but it seems to work. I then define a <b>class</b> called <code>.container</code>, which can then be used within a <code>div</code> tag as <code>&lt;div class='container&gt;</code>. This forces that container to be 100% of the viewport height, less 150 pixels which is given to the sticky footer. The footer itself has some height defined as 50 pixels, and some border and font size as well. </p>
 			
 			<p> As you can tell from the poor explanation, I don't really understand why or how this works. Ah, <em> c'est la vie. </em> </p>
-
 			<h2 id="video_embed"> Embedding videos</h2>
 			<h2 id="toc_css"> Creating a Table of Contents CSS </h2>
+			
 			<h2 id="pagecounter"> Setting up MySQL and a pagecounter </h2>
+			
+			<p> As a bonus, I was interested in creating a page counter script that automatically logs the number of hits that I got per page. I am used to the Wordpress way of tracking visits, but that seemed to just have too much overhead - and it honestly collected more information than I was comfortable with. I truly do not need to know the demographic or geographic information of my visitors! </p>
+			
+			<p> To do this, I set up a MySQL table to track the number of hits per page. I also write a php script to update the table and get the number of total hits. </p>
+			
+			<p> <b>Setting up the MySQL table</b></p>
+			
+			<p> First, I want to create a new user in MySQL that is not root. I don't want my php to be using the root account, as that seems to be dangerous (even though I have very little valuable information in this table, best practices yada yada). </p>
+			
+<p><pre><code>sudo mysql -p
+	GRANT ALL PRIVILEGES ON *.* TO '[USERNAME]'@'localhost' IDENTIFIED BY '[PASSWORD]'
+	\q
+mysql -u [USERNAME] -p
+</code></pre></p>
+
+			<p> Note that you need to use the -p flag to be prompted for your password. After creating this new user, I then login as that user and begin setting up the table. </p>
+			
+<p><pre><code>CREATE DATABASE webstats;
+CREATE TABLE pagecounter{
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	access_page VARCHAR(255) NOT NULL UNIQUE,
+	access_counter INT,
+	access_date TIMESTAMP ON UPDATE CURRENT_TIMESTAMP DEFAULT '2020-04-01 00:00:00'
+};
+DESCRIBE pagecounter;
+\q
+</code></pre></p>
+			
+			<p> Now, I have a table called <code>pagecounter</code> within a database called <code>webstats</code>. It has four fields: An ID for each of my pages, the name of each page, an int that serves as the number of hits, and an access_date column that serves as the last time someone visited that page. </p>
+			
+			<p> From here, we are done setting up the database, and can go into setting up a php script to talk to the database. I create a new file, <code>/assets/webcounter.php</code>, and begin creating a php function. That function would then later be called on the page. </p>
+			
+<p><pre><code>&lt;?php
+function visitor($record) {
+  $db_host = "localhost";
+  $db_username = "[USERNAME]"; 
+  $db_password = "[PASSWORD]";
+  $db_name = "webstats";
+  $db_table = "pagecounter";
+  $counter_page = "access_page";
+  $counter_field = "access_counter";
+	
+  $db = mysqli_connect($db_host, $db_username, $db_password, $db_name) or die("Host not accessible");
+
+  $sql_call = "INSERT INTO ".$db_table." (".$counter_page.", ".$counter_field.") VALUES ('".$record."', 1) ON DUPLICATE KEY UPDATE ".$counter_field." = ".$counter_field." + 1"; 
+	
+  mysqli_query($db, $sql_call) or die("Error while entering");
+</code></pre></p>
+
+			<p>First, we define some variables used for the following script. We then connect to the database using the <code>mysqli_connect</code> command, and then make a SQL call. During that call, we first check if the table already has a line with that page heading, indicated as <code>$record</code>. If there does not exist one, then create that row. If there does already exist such an entry, then increment the <code>$counter_field</code> by one. </p>
+
+<p><pre><code>  $sql_call = "SELECT ".$counter_field. " FROM ".$db_table." WHERE ".$counter_page. " = '".$record. "'";
+  $sql_result = mysqli_query($db, $sql_call) or die("SQL request failed");
+	
+  $row = mysqli_fetch_assoc($sql_result);
+  $x = $row[$counter_field];
+	
+	mysqli_close($db);
+	return $x;
+	}
+?&gt;
+</code></pre></p>
+
+			<p> This next section then retrieves the value of the number of page_counts back, so that you can report it on the website. Like above, it first creates a sql_call, and then queries that call. Finally, it closes the database and returns the value. </p>
+			
+			<p> Now that this function has been written, we can start implementing it. First, we can insert the <code>$access_number</code> into the footer, so that there is a consistent place where page counts would show up. This can be done as <code>Page Hits: ', $access_number, ' </code>. Of course, this does nothing if <code>$access_number</code> was not already defined. So, we need to insert the following php script into each page:</p>
+			
+<p><pre><code>&lt;?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
+$access_number = visitor($page_name); 
+?&gt;
+</code></pre></p>
+
+			<p>In addition, you need to define the <code>$page_name</code> for each page. I went ahead and used the same text for the page_name as well as the title, making the following change: </p>
+			
+<p><pre><code>&lt;?php $page_name = "Chunyang Ding - 404"; ?&gt;
+&lt;title&gt;&lt;?php echo $page_name; ?&gt;&lt;/title&gt;&gt;
+</code></pre></p>
+			
+			<p>This, sadly, requires a lot of manual editing of pages, but I felt like it was well worth it. One thing that I learned from doing this is that php variables seem to persist throughout the page. I don't really know how scoping works for these, but it seems convenient enough. </p>
+			
 			<h2 id="photogallery"> Creating a photo gallery </h2>
 			
 			<h1 id="git_backup"> Creating a git backup </h1>
+			
+			<p> Most of the above work was done editing live on the server. Before I had Github setup, I was directly SSHing onto my server, using PuTTY for server commands and WinSCP for copying and editing files live on prod. For obvious reasons, live editing on prod is generally discouraged, even if it is a product that isn't really used! Just to get into the right mindset for things, I decided to transition to the Github model, although I imagine that quick changes would probably still go through the WinSCP route. </p> 
+			
+			<p> The main downside of doing things through Github is that it is fairly roundabout. To start, I don't have Apache installed on my local windows machine, so I am unable to preview pages. Then, to push something to the server, I first need to switch to Github desktop, add the changed files to my commit, push to origin, then switch over to PuTTY and git pull to update the documents. This seems like a lot of extra work, especially for something that used to be live. However, I think this still makes sense for the long term maintenance of the website - ie, when the website has reached some sort of steady-state where I am no longer making dramatic changes, and only updating blog posts. Then, Github would be able to easily track changes, and revert back to older versions if needed. </p> 
+			
+			<p> To get started, I needed to install <code>git</code> on the server. </p>
+			
+<p><pre><code>sudo apt update
+sudo apt upgrade
+sudo apt install git
+git --version
+  (output): git version 2.17.1
+git config --global user.name "Chunyang Ding"
+git config --global user.email "[MY EMAIL GOES HERE]"
+</code></pre></p>
+			
+			<p>Since it's been a few days since I last made direct changes to my server, I make sure that any patches or updates are installed. Then, I install git and configure my name and email into the global variables. </p>
+			
+			<p> Next, I want to add all of the files that I have already created to this git repository. </p>
+			
+<p><pre><code>cd /var/www/chunyangding.com
+git init
+git add --all (to recursively add all files in the folder to git)
+git status
+(created repo chunyangding.com on github)
+git remote add origin https://github.com/ChunyangDing/chunyangding.com.git
+</code></pre></p>
+			
+			<p> While <code>git</code> was installing, I set up a project on my Github profile called chunyangding.com. This allows me to sync my project through github. I then initialize the repo, add all files recursively to it starting with the document root, check to make sure the status is correct, and remotely add it to the origin branch. </p>
+			
+			<p> Then I want to push this to the master branch as my first commit. This requires the command </p>
+<p><pre><code>git push -u origin</code></pre></p>
+			<p>which is simple enough. You are then prompted for a username and a password. <b>Warning: </b> If you have two-factor authorization enabled (ie, get a text with a code each time you want to log in), you <b>cannot</b> directly use your password. Instead, from your Github account, go to Settings/Developer Settings/Personal Access Tokens, and generate a token. Before generating the token, I gave myself all the access that was shown, although I don't think that is actually strictly necessary. </p>
+			
+			<p> And that's it! After the push goes through, you can check on your Github page to make sure that everything is updated. From here on out, most of my work was done in my local drive. When I'm ready to commit something, I use Github's desktop app to write a commit message, push it to origin, and then switch to PuTTY to do a <code>git pull</code> in the <code>/var/www/chunyangding.com</code> folder. </p>
+			
 			
 			<h1 id="general_tips"> General Tips </h1>
 		

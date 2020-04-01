@@ -16,6 +16,7 @@ function visitor($record) {
 
 	$sql_call = "SELECT ".$counter_field. " FROM ".$db_table." WHERE ".$counter_page. " = '".$record. "'";
 	$sql_result = mysqli_query($db, $sql_call) or die("SQL request failed");
+	
 	$row = mysqli_fetch_assoc($sql_result);
 	$x = $row[$counter_field];
 
