@@ -1,0 +1,4 @@
+AuthName "re:Acts!"
+AuthType Basic
+AuthUserFile /var/www/chunyangding.com/.htpasswd
+require valid-user 
