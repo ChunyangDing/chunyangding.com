@@ -47,16 +47,18 @@
 	<body>
 		<h1> ¯\_(ツ)_/¯ </h1>
 		<div class="tooltip">
-			<button onclick="copyShrug()">¯\_(ツ)_/¯</button> 
+			<button id="temp" onclick="copyShrug()">¯\_(ツ)_/¯</button> 
 		</div>
 		<script>
 		function copyShrug() {
 			/* Get the text field */
-			var copyText = "¯\_(ツ)_/¯";
-
-			/* Copy the text inside the text field */
+			var copyText = document.querySelector("#temp");
+			copyText.select();
+			
+			/* Copy the text of the button??? */
 			document.execCommand("copy");
 
+			/*Pop up a tooltip that just shrugs at you*/
 			var tooltip = document.getElementById("myTooltip");
 			tooltip.innerHTML = "¯\_(ツ)_/¯";
 		} 
