@@ -39,10 +39,11 @@ echo
 	<div class="dropdown">
 		<button class="dropbtn"> Hobbies &#9660; </button>
 		<div class="dropdown-content">
-			<a href="/food">    Cooking  </a>
-			<!--a href="/finance"> Finance  </a-->
-			<a href="/music">   Guitar   </a>
-			<a href="/serverDesign"> Server Design </a>
+			<a href="/food">Cooking</a>
+			<!--a href="/finance">Finance</a-->
+			<a href="/music">Guitar</a>
+			<a href="/photos">Photography</a>
+			<a href="/quine">Server Design</a>
 		</div>
 	</div>
 </div>';
