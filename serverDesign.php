@@ -137,6 +137,7 @@ sudo mysql_secure_installation
 	FLUSH PRIVILEGES;
 	SELECT user,authentication_string,plugin,host FROM mysql.user;
 </code></pre></p>
+
 			<p> These are commands to configure my root account with the proper password, and then to flush the priviliges. To be honest, I don't fully understand how security in MySQL works, but this is what I did. </p>
 			
 			<p><b> php Setup</b></p>
@@ -151,14 +152,13 @@ sudo mysql_secure_installation
 			
 			<p> Now, this is the part of the setup that tripped me up the most, and actually led me to completely wiping my previous configuration and redoing it. In theory, Apache2 is able to serve any number of web domains from a single box, according to the different virtual hosts that are setup. By default, Apache2 will try to serve pages from the folder <code>/var/www/default</code>, but you can configure new folders for different host names. </p>
 			
-<p><pre><code> sudo mkdir /var/www/chunyangding.com
+<p><pre><code>sudo mkdir /var/www/chunyangding.com
 sudo chown -R $USER:$USER /var/www/chunyangding.com
 sudo chmod -R 755 /var/www/chunyangding.com
 </code></pre></p>
 			<p> Now, there exists a folder that collects all of my webpages. Important - I believe you do need to make sure that the title of the folder is the same as your domain address, although I'm not sure if this is the case. I had previously set it up where the folder was only chunyangding, and for some reason this did not seem to work. Next, I need to edit the configuration to point to the correct folder. </p>
 			
-<p><pre><code>
-sudo nano /etc/apache2/sites-available/chunyangding.com.conf
+<p><pre><code>sudo nano /etc/apache2/sites-available/chunyangding.com.conf
 	&gt;VirtualHost *:80&lt;
 		ServerAdmin webmaster@localhost
 		ServerName chunyangding.com
@@ -178,8 +178,7 @@ sudo systemctl reload apache2
 
 			<p> Now, I want to test that this is working. Since the base domain page will look for a page called <code>index.html</code>, I then go ahead and create one with the most basic information, to see if it works or not. </p>
 			
-<p><pre><code>
-&lt;!DOCTYPE html&gt;
+<p><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 	&lt;head&gt;
 		&lt;title&gt;Hello World!&lt;/title&gt;
@@ -198,7 +197,7 @@ sudo systemctl reload apache2
 			
 			<p> After the website runs, I want to set up SSL certification. Honestly, I'm not entirely sure how this process runs, but it seems like there are free services that will grant you a SSL certificate, created and administrated by the Electronic Frontier Foundation. I just go ahead and do what is needed. </p>
 			
-<p><pre><code> sudo add-apt-repository ppa:certbot/certbot
+<p><pre><code>sudo add-apt-repository ppa:certbot/certbot
 sudo apt install python-certbot-apache
 sudo apache2ctl configtest
 	returned: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message//Syntax OK
@@ -216,9 +215,81 @@ sudo certbot renew --dry-run
 			<p> At this point, everything is set up for the server! I am ready to begin creating web pages, and most of the remaining work is in html, php, and css instead. However, I still have terminal access, such as when I need to install or configure additional packages. </p>
 		
 			<h1 id="webdesign"> Website design </h1>
+			
+			<p> As I mentioned at the very beginning, my overall web design philosophy is to keep things as simple as possible. To that, I drew a ton of inspiration from other <a href="/links">fairly minimalistic personal websites</a>, and tried to only add things on when I felt like they were necessary to achieve some kind of function. So, my initial start for designing everything was to just have plain text pages that were linked to each other. As I tinkered more, I began putting in more and more functions, such that while it is still very basic now, I think it's approaching something of a nice design. </p>
+			
+			<p> You can see the full organization of my website on my <a href="https://github.com/chunyangding/chunyangding.com">Github</a>, but a brief overview. Within my root folder, I have an <code>assets</code> folder, which stores items that are frequently reused, such as my <code>navbar.php</code>, <code>footbar.php</code>, and <code>pagecounter.php</code>. I also have subfolders to store files, pictures, and videos, although those are not backed up to Github because of size considerations. Back to my root folder, I have another subfolder for all of my <code>css</code> files. For my regular posts, I keep them in date coordinated folders, such that a blog post or a recipe posted on March 31st, 2020 would live in <code>/2020/03/31/blog.php</code>. All of my main pages are stored in the root folder. </p> 
+			
 			<h2 id="navbar"> Creating a navigational bar at the top of my page </h2>
+			
+			<p> One of the first things that I knew I wanted to include was to have a navigational bar that linked to all of the other pages in my website. I initially edited this navigational bar directly on my <code>index.html</code> page. The CSS of this was a bit complicated, and I think I got it from some html/css cookbook online. You can find that <a href="/css/dropdown.css">css file here</a>. </p>
+
+			<p> After the CSS file was set up, all I needed to do was to implement the navigational bar. The entire navbar was contained within a <code>div</code> that had a <code>navbar</code> class. Links to other pages simply used the <code>&lt;a href="/page"&gt;</code> syntax. For tabs on the navbar that needed to dropdown, I implemented a <code>button</code> with a <code>dropbtn</code> class, opening up to a sub <code>div</code> that contained more links. Links, links, links! </p>
+			
+			<p> See below for a section of my navbar: </p>
+			
+<p><pre><code>&lt;div class="navbar"&gt;
+  &lt;a href="/"&gt;Home&lt;/a&gt;
+  &lt;div class="dropdown"&gt;
+    &lt;button class="dropbtn"&gt; About Me &#9660;
+    &lt;/button&gt;
+    &lt;div class="dropdown-content"&gt;
+			&lt;a href="/about"&gt;About&lt;/a&gt;
+			&lt;a href="/cv"&gt;CV&lt;/a&gt;
+			&lt;a href="/failure_cv"&gt;Failure CV&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>
+
+			<p> While creating this, I was editing it live on my <code>index.html</p> page, but quickly realized that this was not sustainable. I did not want to manually update the navbar for every single page when I put in a new page for consistency. This led me to my next section, implementing php.</p>
+			
 			<h2 id="header_footer"> Creating header and footer php files </h2>
+			
+			<p>PHP is a language for processing hypertext. It functions like a simple programming language, and is in fact <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>, but so far I have only used it for some fairly trivial functions. The most basic function is to <code>echo</code> html text from one file to another. This allows you to have a single file, such as <code>navbar.php</code>, that then gets inserted into the html code of many other files. </p>
+			
+			<p> To begin with, php is a language that is processed on my server. That means that if you view the source of any of my pages, you will not see any php code, which is delineated by <code>&lt;?php  ?%gt;</code>. Instead, my understanding is that the installed php on my computer will first process all of the php code prior to serving the raw html file via apache2 to your browser. Therefore, when you look at the html on your browser, it only contains the final html. This allows for dynamic content to be generated, yet still be lightweight (still just a html file. </p>
+			
+			<p> To implement this navbar, I use the <code> php include </code> command, which includes the php from some other file. Here, the other file was <code>/assets/navbar.php</code>. Within the <code>navbar.php</code> file, I used the <code>echo</code> command to just spit out verbatim the html for the navbar. See below for some code samples.</p>
+			
+<p><pre><code>&lt;?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?&gt;
+
+	/assets/navbar.php:
+&lt;?php
+echo 
+'&lt;div class="navbar"&gt;
+  &lt;a href="/">Home&lt;/a&gt;
+</code></pre></p>
+			<p> One thing to point out is that the include statement also has the phrase <code>$_SERVER['DOCUMENT_ROOT'].</code> in it. This is so that php always knows where to look for. By default, php will start searching for the included file starting from the location of where your current file is. For instance, if this include statement does not have the document root phrase and is in one of my blog posts which lives in <code>/2020/03/31/</code>, it will start searching for <code>/2020/03/31/assets/navbar.php</code> which does not exist. Therefore, even in pages that do live in my document root, I keep the same phrase there for consistency, and in case if I want to move that page in the future. </p> 			
+			
 			<h2 id="redirect_php"> Redirecting webpages without .php ending </h2>
+			
+			<p> Now that I have php documents, all of my urls look somewhat ugly, ending in <code>.php</code>. This is a somewhat aesthetic choice, but I would prefer the url to just simply be <code>chunyangding.com/about</code> rather than have to be <code>chunyangding.com/about.php</code>. Dropping the ending makes it easier to tell other humans about a specific page, and somewhat future-proofs your website (ie, if you decide to go from php back to html or forwards to some future system, like perhaps qhq). </p>
+			
+			<p> This change is not with the html/css code, but instead, with the apache2 configurations and a file called <code>.htaccess</code>. I created a file using <code>sudo nano /var/www/chunyangding.com/.htaccess and put in the following: </p>
+			
+<p><pre><code>RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</code></pre></p>
+			<p> Note that this does require you to have installed <code>rewrite_engine</code>. I think it comes by default, but to be safe, you can run </p>
+			
+<p><pre><code>sudo a2enmod rewrite
+sudo systemctl restart apache2
+</code></pre><p>
+			
+			<p> However, you are not quite done yet. If you were using Apache2 with the installation that I described above, the main <code>apache2.conf</code> file is not configured to accept these kinds of rewrites. You need to do as follows: </p>
+
+<p><pre><code>sudo nano /etc/apache2/apache2.conf
+	&lt;Directory /var/www/&gt;
+		Options Indexes FollowSymLinks
+		AllowOverride All (changed from AllowOverride None)
+		Require all granted
+	&lt;/Directory&gt;
+sudo service apache2 restart
+</code></pre></p>
+			<p> And I think that's it! From here on out, any page without an ending will automatically get a .php attached to it before retrieving it from my file system. </p>
+			
 			<h2 id="password_protection"> Creating password protected pages </h2>
 			<h2 id="404_page"> Creating my 404 page </h2>
 			<h2 id="general_css"> General CSS ideas </h2>
