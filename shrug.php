@@ -19,15 +19,15 @@
 			border-radius: 4px;
 		}
 		
-		.button2 {
+		.emailCopy {
 			background-color: #fffff8;
 			border: none;
-			color: #333;
+			color: #0000EE;
 			padding: 5px 5px;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 0.8em;
+			font-size: 1.4em;
 			border-radius: 0px;
 			font-family: "Helvetica", "Arial", "Sans-Serif";
 		}
@@ -43,7 +43,7 @@
 			<button class = "button" onclick="copyVal('¯\\_(ツ)_/¯')">¯\_(ツ)_/¯</button> 
 			<br>
 			<p> test post please ignore</p>			
-			<button class = "button2" onclick="copyVal('me@chunyangding.com')">me@chunyangding.com</button> 
+			<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">me@chunyangding.com</button> 
 			<script src="/assets/copyVal.js"></script> 
 			</div>
 		</div>
