@@ -9,6 +9,7 @@ echo
 			<a href="/about">About</a>
 			<a href="/cv">CV</a>
 			<a href="/failure_cv">Failure CV</a>
+			<a href="/shrug">¯\_(ツ)_/¯</a>
 		</div>
 	</div>
 

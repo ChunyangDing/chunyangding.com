@@ -15,8 +15,20 @@
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 45px;
+			font-size: 100px;
 			border-radius: 4px;
+		}
+		
+		.button2 {
+			background-color: #fffff8;
+			border: none;
+			color: white;
+			padding: 0px 0px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 0.8em;
+			border-radius: 0px;
 		}
 		</style>
 		
@@ -28,6 +40,7 @@
 			<div class="blurb">
 			<h1>  ¯\_(ツ)_/¯ </h1>
 			<button class = "button" onclick="copyVal('¯\\_(ツ)_/¯')">¯\_(ツ)_/¯</button> 
+			<button class = "button2" onclick="copyVal('me@chunyangding.com')">me@chunyangding.com</button> 
 			<script src="/assets/copyVal.js"></script> 
 			</div>
 		</div>
