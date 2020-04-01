@@ -72,7 +72,7 @@
 				</div>
 
 
-				<div class="responsive">
+				<div class="responsive"> <!--Probably replace this one? -->
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20191219_1327332.jpg">
 							<img src="/assets/pics/IMG_20191219_1327332.jpg" width="1000">
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 				
-				<!--
+				<!-- photo template
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="img_mountains.jpg">
@@ -135,6 +135,7 @@
 					</div>
 				</div>
 				-->
+				<p> Hope you enjoy! </p>
 				
 			</div>
 		</div>

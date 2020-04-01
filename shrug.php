@@ -17,6 +17,7 @@
 			display: inline-block;
 			font-size: 100px;
 			border-radius: 4px;
+			cursor:pointer; 
 		}
 		</style>
 		

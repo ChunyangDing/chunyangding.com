@@ -515,6 +515,8 @@ git remote add origin https://github.com/ChunyangDing/chunyangding.com.git
 			
 			<p> I used notepad++ and Firefox to make all of my html, php, and css edits. It's by far the best, most lightweight option to do so, and it was still very easy to see updates by refreshing my browser from time to time. I highly recommend changing the tab setting of notepad++ to be 2 spaces instead of the default 4, for php and css files, so that the nested structure doesn't just run off the page. </p>
 		
+			<img src="/assets/pics/quine.jpg" alt="quinequinequine" style="width:400px;height:auto;" class="center">
+			
 		</div>
 	</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
