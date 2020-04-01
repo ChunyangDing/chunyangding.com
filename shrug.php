@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="blurb">
 			<h1>  ¯\_(ツ)_/¯ </h1>
-			<button onclick="copyVal('¯\\_(ツ)_/¯')">¯\_(ツ)_/¯</button> 
+			<button class = "button" onclick="copyVal('¯\\_(ツ)_/¯')">¯\_(ツ)_/¯</button> 
 			<script src="/assets/copyVal.js"></script> 
 			</div>
 		</div>
