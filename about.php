@@ -10,7 +10,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 		<div class="container">
 			<div class="blurb">
-				<h1>Bio, short (&lt; 100 words)</h1>
+				<h1>Bio, short</h1>
 				<p>
 					Chunyang Ding is a physicist working on novel implementations of quantum computing, 
 					currently living in College Park, MD. He graduated from Yale University with a B.S. 
