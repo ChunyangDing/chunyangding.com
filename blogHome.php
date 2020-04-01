@@ -15,7 +15,7 @@
 			<p><b>11 Aug 2019 &gt; &gt;</b> <a href="/2019/08/11/DesertSolitaire">Reflections on Desert Solitaire </a></p>
 			<p><b>04 Feb 2020 &gt; &gt;</b> <a href="/2020/02/04/2020_plan">A Plan for 2020</a></p>
 			<p><b>24 Mar 2020 &gt; &gt;</b> <a href="/2020/03/24/myBlogPt2">Story of My Blog, Pt. 2</a></p> 
-			<p><b>01 Apr 2020 &gt; &gt;</b> <a href="/2020/04/01/progress-update">Web Design: Complete!</a></p> 
+			<!--p><b>01 Apr 2020 &gt; &gt;</b> <a href="/2020/04/01/progress-update">Web Design: Complete!</a></p--> 
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
