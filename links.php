@@ -15,13 +15,15 @@
 
 				<p> Articles and comics that I still frequently think about </p>
 				<ul>
-					<li> <a href="https://www.smbc-comics.com/comic/the-art-cycle">Zach Weinersmith - SMBC - The Art Cycle </a> </li>
-					<li> <a href="http://phdcomics.com/comics.php?f=1924">PHD Comics - Academia </a> </li> 
-					<li> <a href="https://xkcd.com/1909/">Randall Munroe - XKCD - Digital Resource Lifespan</a> </li>
-					<li> <a href="https://www.nytimes.com/2015/10/18/nyregion/dying-alone-in-new-york-city.html">N. R. Kleinfeld - NYT - The Lonely Death of George Bell </a> </li>
-					<li> <a href="https://yaledailynews.com/blog/2012/05/27/keegan-the-opposite-of-loneliness/">Marina Keegan - YDN - The Opposite of Loneliness </a> </li>
-					<li> <a href="https://www.sbnation.com/a/17776-football">Jon Bois - SB Nation - 17776 </a> </li>
-					<li> <a href="https://www.theatlantic.com/technology/archive/2015/10/what-makes-a-volcano-sacred/413203/">Adrienne LaFrance - The Atlantic - What Makes a Volcano Sacred?</a> </li> 
+					<li> Zach Weinersmith - SMBC - <a href="https://www.smbc-comics.com/comic/the-art-cycle">The Art Cycle </a> </li>
+					<li> PHD Comics - <a href="http://phdcomics.com/comics.php?f=1924">Academia </a> </li> 
+					<li> Randall Munroe - XKCD - <a href="https://xkcd.com/1909/">Digital Resource Lifespan</a> </li>
+					<li> N. R. Kleinfeld - NYTimes - <a href="https://www.nytimes.com/2015/10/18/nyregion/dying-alone-in-new-york-city.html">The Lonely Death of George Bell </a> </li>
+					<li> Marina Keegan - YDN - <a href="https://yaledailynews.com/blog/2012/05/27/keegan-the-opposite-of-loneliness/">The Opposite of Loneliness </a> </li>
+					<li> Jon Bois - SB Nation - <a href="https://www.sbnation.com/a/17776-football">17776 </a> </li>
+					<li> Adrienne LaFrance - The Atlantic - <a href="https://www.theatlantic.com/technology/archive/2015/10/what-makes-a-volcano-sacred/413203/">What Makes a Volcano Sacred?</a> </li> 
+					<li> Tim Urban - Wait but Why - Why Procrastinators Procrastinate: <a href="https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html"> Part One </a> <a href="https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html"> Part Two </a> </li>
+					<li> Tim Urban - Wait but Why - <a href="https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html">Life is a Picture, but You Live in a Pixel</a> </li>
 				</ul>
 				
 				<p> Websites that I <del>ripped off</del> found inspiration in </p>
@@ -33,6 +35,7 @@
 					<li> <a href="https://www.adorasvitak.com">Adora Svitak</a> </li>
 					<li> <a href="https://tangsida.com">Sida Tang</a></li>
 					<li> <a href="http://p13i.io/">Pramod Kotipalli</a></li>
+					<li> <a href="https://dellsystem.me/">Wendy Liu</a></li>
 				</ul>
 				<img src="/assets/pics/toonLink.jpg" alt="more links!" style="width:200px;height:auto;" class="center">
 
