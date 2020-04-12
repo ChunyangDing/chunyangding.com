@@ -12,7 +12,8 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Guitar Playing</h1>
-				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." </p>
+				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." My goal is to <a href="https://reductress.com/post/man-learning-guitar-plans-to-ruin-first-party-after-this-is-all-over/
+"> become this man.</a> </p>
 				
 				<h2> 29 Mar 2020 - La Vie En Rose </h2>
 				<video width="600" height=auto controls>
