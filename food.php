@@ -22,7 +22,9 @@
 
 				<p> <a href="/2020/03/30/honey-soy-salmon">Honey Soy Salmon</a> </p>
 				<p> <a href="/2020/03/30/smashed-cucumbers">Smashed Cucumbers</a></p>
-				<p> <a href="/2020/03/31/stir-fried-tomatoes-and-egg">Stir Fried Tomatoes and Egg </a> </p>
+				<p> <a href="/2020/04/12/stir-fried-tomato-eggs">Stir Fried Tomatoes and Egg </a> </p>
+				<p> <a href="/2020/04/12/lentil-soup">Lentil Soup </a> </p>
+				<p> <a href="/2020/04/12/anchovy-pasta">Anchovy Pasta </a> </p>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
