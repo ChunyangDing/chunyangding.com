@@ -24,6 +24,34 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>How To</td>
+				<td>Randall Munroe</td>
+				<td><a href="https://www.goodreads.com/review/show/3270970466">Review</a></td>
+				<td>4/5</td>
+				<td>12 Apr 2020</td>
+			</tr>
+			<tr>
+				<td>The Catholic Church: What Everyone Needs to Know</td>
+				<td>John L. Allen Jr.</td>
+				<td><a href="https://www.goodreads.com/review/show/3261027927">Review</a></td>
+				<td>4/5</td>
+				<td>08 Apr 2020</td>
+			</tr>
+			<tr>
+				<td>Finite and Infinite Games</td>
+				<td>James P. Carse</td>
+				<td><a href="https://www.goodreads.com/review/show/3262824577">Review</a></td>
+				<td>3/5</td>
+				<td>06 Apr 2020</td>
+			</tr>	
+			<tr>
+				<td>Judaism: A very short introduction</td>
+				<td>Norman Solomon</td>
+				<td><a href="https://www.goodreads.com/review/show/3261024656">Review</a></td>
+				<td>4/5</td>
+				<td>05 Apr 2020</td>
+			</tr>
+			<tr>
 				<td>Speak Up!</td>
 				<td>Adora Svitak</td>
 				<td><a href="https://www.goodreads.com/review/show/3236334659">Review</a></td>

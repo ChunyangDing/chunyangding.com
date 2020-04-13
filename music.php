@@ -16,8 +16,14 @@
 "> become this man.</a> </p>
 				
 				<h2> 29 Mar 2020 - La Vie En Rose </h2>
-				<video width="600" height=auto controls>
-					<source src="/assets/vids/20200329_LaVieEnRose.mp4" type="video/mp4">
+				<video width="1280" height=auto controls>
+					<source src="/assets/vids/20200329_LaVieEnRose_2.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video> 
+				
+				<h2> 12 Apr 2020 - Falling Slowly </h2>
+				<video width="1280" height=auto controls>
+					<source src="/assets/vids/20200412_FallingSlowly_4.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video> 
 
