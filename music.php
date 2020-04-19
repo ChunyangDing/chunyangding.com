@@ -26,6 +26,18 @@
 					<source src="/assets/vids/20200412_FallingSlowly_4.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video> 
+				
+				<h2> 19 Apr 2020 - Cornerstone </h2>
+				<video width="1280" height=auto controls>
+					<source src="/assets/vids/20200419_Cornerstone.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video> 
+				
+				<h2> 19 Apr 2020 - 10,000 Reasons </h2>
+				<video width="1280" height=auto controls>
+					<source src="/assets/vids/20200419_10000Reasons.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video> 
 
 			</div>
 		</div>
