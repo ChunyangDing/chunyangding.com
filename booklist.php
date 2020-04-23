@@ -303,6 +303,48 @@
 				<td>5/5</td>
 				<td>7 Dec 2019</td>
 			</tr>
+			<tr>
+				<td>When Breath Becomes Air</td>
+				<td>Paul Kalanithi</td>
+				<td><a href="https://www.goodreads.com/review/show/2961209162">Review</a></td>
+				<td>5/5</td>
+				<td>3 Oct 2019</td>
+			</tr>
+			<tr>
+				<td>Sync</td>
+				<td>Steven H. Strogatz</td>
+				<td><a href="https://www.goodreads.com/review/show/2961192082">Review</a></td>
+				<td>5/5</td>
+				<td>1 Sep 2019</td>
+			</tr>
+			<tr>
+				<td>A Grip of Time</td>
+				<td>Lauren Kessler</td>
+				<td><a href="https://www.goodreads.com/review/show/2961195239">Review</a></td>
+				<td>2/5</td>
+				<td>1 Sep 2019</td>
+			</tr>
+			<tr>
+				<td>Desert Solitaire</td>
+				<td>Edward Abbey</td>
+				<td><a href="https://www.goodreads.com/review/show/2932419337">Review</a></td>
+				<td>5/5</td>
+				<td>1 Sep 2019</td>
+			</tr>
+			<tr>
+				<td>Conscience</td>
+				<td>Patricia S. Churchland</td>
+				<td><a href="https://www.goodreads.com/review/show/2876226303">Review</a></td>
+				<td>5/5</td>
+				<td>29 Jun 2019</td>
+			</tr>
+			<tr>
+				<td>Being Mortal</td>
+				<td>Atul Gawande</td>
+				<td><a href="https://www.goodreads.com/review/show/2823757352">Review</a></td>
+				<td>5/5</td>
+				<td>17 May 2019</td>
+			</tr>
 			</tbody>
 		</table>
 		</div>
