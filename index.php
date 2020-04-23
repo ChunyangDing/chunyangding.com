@@ -42,7 +42,7 @@
 				<p> Feel free to poke around, and drop me a line! </p>
 				
 				<script src="/assets/copyVal.js"></script> 
-				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Click me to copy my email address to your clipboard: me@chunyangding.com</button> 
+				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Contact me: me@chunyangding.com</button> 
 				<p></p>
 				<br>
 				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">

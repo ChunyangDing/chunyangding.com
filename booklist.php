@@ -24,6 +24,20 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>The Hidden Girl and Other Stories</td>
+				<td>Ken Liu</td>
+				<td><a href="https://www.goodreads.com/review/show/3224772443">Review</a></td>
+				<td>5/5</td>
+				<td>22 Apr 2020</td>
+			</tr>
+			<tr>
+				<td>Prisoners of Geography</td>
+				<td>Tim Marshall</td>
+				<td><a href="https://www.goodreads.com/review/show/3097326303">Review</a></td>
+				<td>2/5</td>
+				<td>15 Apr 2020</td>
+			</tr>
+			<tr>
 				<td>How To</td>
 				<td>Randall Munroe</td>
 				<td><a href="https://www.goodreads.com/review/show/3270970466">Review</a></td>
