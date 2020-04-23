@@ -40,9 +40,9 @@
 
 		<p> <a id="note2">[2]</a> "Just saying, even when I know that nobody is going to read this, I still hesitate to write. If this was a  hand-written piece, you would see scribble marks and even big sections marked out! This is because I don’t want to offend, hurt, or even tarnish my reputation. Often, I’ll read over what I have just written and think that it was too harsh, and just scratch the entire paragraph!" - February 3, 2011 </p>
 
-		<p> <a id="#note3">[3]</a> science is spending 2 hours downloading an experiment file to find that the file is corrupted :C // // oh wait did i say science? i meant HELL. - August 25, 2016 </p>
+		<p> <a id="note3">[3]</a> science is spending 2 hours downloading an experiment file to find that the file is corrupted :C // // oh wait did i say science? i meant HELL. - August 25, 2016 </p>
 
-		<p> <a id="#note4">[4]</a> Sorry, I just realized that I got to the end of this post and had not even properly defined what I set out to say. This blog, if not already obvious, will be for reflections that I hope would be fairly long-lasting in intent. I have recently discovered that I am growing old and is now full of opinions about all kinds of things. While I would like to share those opinions with you face-to-face, having a semi-public platform to write still feels incredibly attractive to me, partially for the reasons I have discussed above, and partially for reasons that I do not yet understand in myself. </p> 
+		<p> <a id="note4">[4]</a> Sorry, I just realized that I got to the end of this post and had not even properly defined what I set out to say. This blog, if not already obvious, will be for reflections that I hope would be fairly long-lasting in intent. I have recently discovered that I am growing old and is now full of opinions about all kinds of things. While I would like to share those opinions with you face-to-face, having a semi-public platform to write still feels incredibly attractive to me, partially for the reasons I have discussed above, and partially for reasons that I do not yet understand in myself. </p> 
 		
 		<p> <a href="/blogHome">Return to main</a> </p>
 
