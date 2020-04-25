@@ -50,7 +50,7 @@
 				</ul>
 			</div>
 			
-			<h1 id="#motivation"> Motivation </h1>
+			<h1 id="motivation"> Motivation </h1>
 			<p> Part of what I had wanted to accomplish in designing this website was learning how to use my own server for hosting. I have serious reservations about using large, complex software-as-a-service subscriptions for hosting things that would hopefully live semi-permanently, and it didn't seem like too much of a challenge to learn the basics. I followed several web tutorials to set up a pure Linux box, which is what is currently serving you this page! While setting things up, I kept a careful record of all of the commands I sent the server, so that I could fix an mistakes as needed. So far, things look okay, so I'm going to post what I did here, to hopefully act as a simple guide for setting up your own server. </p> 
 			
 			<p> Overall, this website is made with just html/css/php, without much fancy addons (ie, javascript, html5, or any other content management system (CMS) ). Since the primary purpose of the website is to just deliver text, I figured that a maximally simple and lightweight design would probably be optimal. </p>
@@ -58,6 +58,8 @@
 			<p> All of the website is hosted on a desktop running Ubuntu 18.04, which is also running Apache, MySQL, and PhP - the conventional LAMP server. That is directly connected to my home router, connected by a static internal IP with port 443 (http) open to the public, which is then mapped onto my domain name <a href="chunyangding.com">chunyangding.com</a>). When I move, I would have to remap the public IP address of the router to my website domain name once more. </p>
 			
 			<p> The code for this website is edited in Notepad++ on my main laptop. I then commit all of the changes to Git, which through <a href="github.com/chunyangding/chunyangding.com"> Github</a>, is then pushed to the live website. Therefore, my <code>dev</code> workspace is local on my laptop, while <code>prod</code> is on the desktop that is permanently on and permanently connected to the web. </p> 
+			
+			<p> <a href="#toc">Back to top</a> </p>
 			
 			<h1 id="initial_setup"> Initial Setup </h1>
 			
@@ -96,6 +98,8 @@ sudo ufw enable
 			<p> Finally, I disable the SSH via password, so that connecting to my server requires a SSH key. This is to prevent brute force attacks on my server password. This setting can be found in <code>/etc/ssh/sshd_config</code>, as the <code>PasswordAuthentication no</code> option. </p>
 			
 			<p> From here on out, everything else is run completely from my PuTTY terminal from my laptop. </p>
+			
+			<p> <a href="#toc">Back to top</a> </p>
 			
 			<h1 id="serverdesign"> Server Design </h1>
 			
@@ -144,6 +148,8 @@ sudo mysql_secure_installation
 
 			<p> And that's it! I chose not to install any additional packages at this point, since vanilla php was already sufficient for my purposes. </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="virtual_hosts"> Virtual Hosts </h2>
 			
 			<p> Now, this is the part of the setup that tripped me up the most, and actually led me to completely wiping my previous configuration and redoing it. In theory, Apache2 is able to serve any number of web domains from a single box, according to the different virtual hosts that are setup. By default, Apache2 will try to serve pages from the folder <code>/var/www/default</code>, but you can configure new folders for different host names. </p>
@@ -189,6 +195,8 @@ sudo systemctl reload apache2
 
 			<p> I then go to my browser (firefox is what I am using to debug) and verify that I can see that sample page when I go to chunyangding.com. Success! </p>
 	
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="ssl_certification"> SSL Certification </h2>
 			
 			<p> After the website runs, I want to set up SSL certification. Honestly, I'm not entirely sure how this process runs, but it seems like there are free services that will grant you a SSL certificate, created and administrated by the Electronic Frontier Foundation. I just go ahead and do what is needed. </p>
@@ -210,12 +218,16 @@ sudo certbot renew --dry-run
 			
 			<p> At this point, everything is set up for the server! I am ready to begin creating web pages, and most of the remaining work is in html, php, and css instead. However, I still have terminal access, such as when I need to install or configure additional packages. </p>
 		
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h1 id="webdesign"> Website design </h1>
 			
 			<p> As I mentioned at the very beginning, my overall web design philosophy is to keep things as simple as possible. To that, I drew a ton of inspiration from other <a href="/links">fairly minimalistic personal websites</a>, and tried to only add things on when I felt like they were necessary to achieve some kind of function. So, my initial start for designing everything was to just have plain text pages that were linked to each other. As I tinkered more, I began putting in more and more functions, such that while it is still very basic now, I think it's approaching something of a nice design. </p>
 			
 			<p> You can see the full organization of my website on my <a href="https://github.com/chunyangding/chunyangding.com">Github</a>, but a brief overview. Within my root folder, I have an <code>assets</code> folder, which stores items that are frequently reused, such as my <code>navbar.php</code>, <code>footbar.php</code>, and <code>pagecounter.php</code>. I also have subfolders to store files, pictures, and videos, although those are not backed up to Github because of size considerations. Back to my root folder, I have another subfolder for all of my <code>css</code> files. For my regular posts, I keep them in date coordinated folders, such that a blog post or a recipe posted on March 31st, 2020 would live in <code>/2020/03/31/blog.php</code>. All of my main pages are stored in the root folder. </p> 
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="navbar"> Creating a navigational bar at the top of my page </h2>
 			
 			<p> One of the first things that I knew I wanted to include was to have a navigational bar that linked to all of the other pages in my website. I initially edited this navigational bar directly on my <code>index.html</code> page. The CSS of this was a bit complicated, and I think I got it from some html/css cookbook online. You can find that <a href="/css/dropdown.css">css file here</a>. </p>
@@ -240,6 +252,8 @@ sudo certbot renew --dry-run
 
 			<p> While creating this, I was editing it live on my <code>index.html</code> page, but quickly realized that this was not sustainable. I did not want to manually update the navbar for every single page when I put in a new page for consistency. This led me to my next section, implementing php.</p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="header_footer"> Creating header and footer php files </h2>
 			
 			<p>PHP is a language for processing hypertext. It functions like a simple programming language, and is in fact <a href="https://en.wikipedia.org/wiki/Turing_completeness">Turing complete</a>, but so far I have only used it for some fairly trivial functions. The most basic function is to <code>echo</code> html text from one file to another. This allows you to have a single file, such as <code>navbar.php</code>, that then gets inserted into the html code of many other files. </p>
@@ -260,6 +274,8 @@ echo
 </code></pre></p>
 			<p> One thing to point out is that the include statement also has the phrase <code>$_SERVER['DOCUMENT_ROOT'].</code> in it. This is so that php always knows where to look for. By default, php will start searching for the included file starting from the location of where your current file is. For instance, if this include statement does not have the document root phrase and is in one of my blog posts which lives in <code>/2020/03/31/</code>, it will start searching for <code>/2020/03/31/assets/navbar.php</code> which does not exist. Therefore, even in pages that do live in my document root, I keep the same phrase there for consistency, and in case if I want to move that page in the future. </p> 			
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="redirect_php"> Redirecting webpages without .php ending </h2>
 			
 			<p> Now that I have php documents, all of my urls look somewhat ugly, ending in <code>.php</code>. This is a somewhat aesthetic choice, but I would prefer the url to just simply be <code>chunyangding.com/about</code> rather than have to be <code>chunyangding.com/about.php</code>. Dropping the ending makes it easier to tell other humans about a specific page, and somewhat future-proofs your website (ie, if you decide to go from php back to html or forwards to some future system, like perhaps qhq). </p>
@@ -288,6 +304,8 @@ sudo service apache2 restart
 </code></pre></p>
 			<p> And I think that's it! From here on out, any page without an ending will automatically get a .php attached to it before retrieving it from my file system. </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="password_protection"> Creating password protected pages </h2>
 			
 			<p> Suppose you have a few pages on your website that you want to only be accessible by certain users. What would be the best way to protect that information? </p>
@@ -306,6 +324,8 @@ require valid-user
 			
 			<p> And that's it! Your pages protected from prying eyes. </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="404_page"> Creating my 404 page </h2>
 			
 			<p> It's nice to have a custom 404 page, if not just to redirect people back to your main page. The default Apache2 404 page smacks of poorly configured 90s websites. Luckily, it is almost trivial to create a 404 page. </p>
@@ -318,6 +338,8 @@ require valid-user
 
 			<p> And you are good to go! </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="general_css"> General CSS ideas </h2>
 			
 			<p> Now, some general CSS ideas. I don't think I'm really suitable to be telling anyone how to design a website, as you can tell just by looking around this site. However, I have noticed some things that make your website look less like a computer science professor who configured their site in fall of 1985 and has not touched the design ever since. </p>
@@ -362,6 +384,8 @@ require valid-user
 			
 			<p> (Incidentally, the color that I chose for my border is the same color as my bike; a moss green Kona Dew Plus that I love) </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="sticky_footer"> Setting up a sticky footer </h2>
 
 			<p> The next CSS thing I did was set up a sticky footer, which was way more difficult than I had initially expected. This seems to be a problem that has been repeatedly solved since the dawn of html, resulting in tons of different solutions floating around the web. Oddly, most of them didn't seem to work for me, resulting in lots of trial and error. The following (very simple) css is the only thing that did end up working:</p>
@@ -385,6 +409,8 @@ footer {
 			<p> As you can tell from the poor explanation, I don't really understand why or how this works. Ah, <em> c'est la vie. </em> </p>
 			<h2 id="video_embed"> Embedding videos</h2>
 			<h2 id="toc_css"> Creating a Table of Contents CSS </h2>
+
+			<p> <a href="#toc">Back to top</a> </p>
 			
 			<h2 id="pagecounter"> Setting up MySQL and a pagecounter </h2>
 			
@@ -467,8 +493,12 @@ $access_number = visitor($page_name);
 			
 			<p>This, sadly, requires a lot of manual editing of pages, but I felt like it was well worth it. One thing that I learned from doing this is that php variables seem to persist throughout the page. I don't really know how scoping works for these, but it seems convenient enough. </p>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h2 id="photogallery"> Creating a photo gallery </h2>
 			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h1 id="git_backup"> Creating a git backup </h1>
 			
 			<p> Most of the above work was done editing live on the server. Before I had Github setup, I was directly SSHing onto my server, using PuTTY for server commands and WinSCP for copying and editing files live on prod. For obvious reasons, live editing on prod is generally discouraged, even if it is a product that isn't really used! Just to get into the right mindset for things, I decided to transition to the Github model, although I imagine that quick changes would probably still go through the WinSCP route. </p> 
@@ -506,7 +536,8 @@ git remote add origin https://github.com/ChunyangDing/chunyangding.com.git
 			
 			<p> And that's it! After the push goes through, you can check on your Github page to make sure that everything is updated. From here on out, most of my work was done in my local drive. When I'm ready to commit something, I use Github's desktop app to write a commit message, push it to origin, and then switch to PuTTY to do a <code>git pull</code> in the <code>/var/www/chunyangding.com</code> folder. </p>
 			
-			
+			<p> <a href="#toc">Back to top</a> </p>
+
 			<h1 id="general_tips"> General Tips </h1>
 		
 			<p>	I think the key thing that I learned here was the importance of doing this web setup in small steps. My initial attempts to create a website was in using Wordpress's backend, and by copying other websites that I liked the aesthetics of. However, doing so meant that I didn't really understand what was going on, creating something that was very easily breakable. It takes a lot of trial and error to get something going properly, but thankfully trial and error is very cheap for web design - only time and a few pennies of electricity! </p>
@@ -514,6 +545,8 @@ git remote add origin https://github.com/ChunyangDing/chunyangding.com.git
 			<p> The other part of this is that it's so easy to get overwhelmed with the number of options for customizability of the website. Obviously, this is a field that has been around for a while, so it's easy to get pulled into a forum where everyone has been breathing this type of design for decades. Learning in this manner can be particularly difficult because there are few signposts separating what is important from what is trivial. For a newcomer, everything here looks important. I was able to narrow my focus by creating a fairly detailed <code>todo </code> list every day before starting work on my website for the day, so that I could focus on accomplishing a single goal instead of just wandering around, making lots of different edits. </p>
 			
 			<p> I used notepad++ and Firefox to make all of my html, php, and css edits. It's by far the best, most lightweight option to do so, and it was still very easy to see updates by refreshing my browser from time to time. I highly recommend changing the tab setting of notepad++ to be 2 spaces instead of the default 4, for php and css files, so that the nested structure doesn't just run off the page. </p>
+
+			<p> <a href="#toc">Back to top</a> </p>
 		
 			<img src="/assets/pics/quine.jpg" alt="quinequinequine" style="width:400px;height:auto;" class="center">
 			

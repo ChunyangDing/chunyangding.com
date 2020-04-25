@@ -16,6 +16,8 @@
 				<p> "You're in the story with the rest of us now, and you must go with it, whether you will or no." ~ The Last Unicorn </p>
 				<p>  "So be it: we live in the present. Whatever community we form that night is ephemeral." ~ Adora Svitak </p>
 				<p>  "The really important kind of freedom involves attention and awareness and discipline, and being able truly to care  about other people and to sacrifice for them over and over in myriad petty, unsexy ways every day." ~ David Foster Wallace, This is Water (commencement at Kenyon, 2005)</p>
+				<p>"I guess all I can do is embrace the pandemonium, find happiness in the unique insanity of being here, now." ~ Eleanor Shellstrop, The Good Place, Chapter 39 </p>
+				<p> "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them." ~ Henry David Thoreau, Walden </p>
 				<p> "Those of us who are going to live, have to start living by our own lights." ~ Neal Stephenson, Seveneves </p>
 				<p> "The spring has now come to an end, and it will never return. By winter we will know everything." ~ Ludvik Vaculik, Two Thousand Words </p>
 				<p> "Let us give up this impossible demand that someone above us must always provide us with the only possible interpretation of things, one simple conclusion. Every single one of us will have to be responsible for arriving at his own conclusions... In the future, we shall have to display personal initiative and determination of our own." ~ Ludvik Vaculik, Two Thousand Words </p>

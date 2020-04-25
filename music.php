@@ -12,32 +12,19 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Guitar Playing</h1>
-				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." My goal is to <a href="https://reductress.com/post/man-learning-guitar-plans-to-ruin-first-party-after-this-is-all-over/
-"> become this man.</a> </p>
+				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." My goal is to <a href="https://reductress.com/post/man-learning-guitar-plans-to-ruin-first-party-after-this-is-all-over/"> become this man.</a> </p>
 				
-				<h2> 29 Mar 2020 - La Vie En Rose </h2>
-				<video width="1280" height=auto controls>
-					<source src="/assets/vids/20200329_LaVieEnRose_2.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video> 
+				<h2> <a href="/music/la-vie-en-rose"> La Vie En Rose </a> </h2>
 				
-				<h2> 12 Apr 2020 - Falling Slowly </h2>
-				<video width="1280" height=auto controls>
-					<source src="/assets/vids/20200412_FallingSlowly_4.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video> 
+				<h2> <a href="/music/falling-slowly"> Falling Slowly</a> </h2>
 				
-				<h2> 19 Apr 2020 - Cornerstone </h2>
-				<video width="1280" height=auto controls>
-					<source src="/assets/vids/20200419_Cornerstone.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video> 
+				<h2> <a href="/music/cornerstone"> Cornerstone </a> </h2>
 				
-				<h2> 19 Apr 2020 - 10,000 Reasons </h2>
-				<video width="1280" height=auto controls>
-					<source src="/assets/vids/20200419_10000Reasons.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-				</video> 
+				<h2> <a href="/music/10000-reasons"> 10,000 Reasons </a> </h2>
+				
+				<h2> <a href="/music/if-you-want-me"> If You Want Me </a> </h2>
+				
+				<h2> <a href="/all-songs"> List of all songs </a> </p>
 
 			</div>
 		</div>
