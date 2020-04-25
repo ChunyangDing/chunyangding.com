@@ -29,7 +29,7 @@
 			<div class="blurb">
 				<h1>Chunny's Okay Website</h1>
 
-				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:200px;height:auto;" align="left" HSPACE="50">
+				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:200px;height:auto;margin:0px 25px" align="left">
 				
 				<p> Hi, I'm Chunny! Welcome to my slowly improving website. I hope you stick around! </p>
 				
