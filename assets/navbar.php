@@ -41,7 +41,7 @@ echo
 		<div class="dropdown-content">
 			<a href="/food">Cooking</a>
 			<!--a href="/finance">Finance</a-->
-			<a href="/music">Guitar</a>
+			<a href="/guitar">Guitar</a>
 			<a href="/photos">Photography</a>
 			<a href="/quine">Server Design</a>
 		</div>
