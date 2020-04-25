@@ -28,6 +28,8 @@
 		<div class="container">
 			<div class="blurb">
 				<h1>Chunny's Okay Website</h1>
+
+				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:200px;height:auto;" align="left">
 				
 				<p> Hi, I'm Chunny! Welcome to my slowly improving website. I hope you stick around! </p>
 				
@@ -43,9 +45,7 @@
 				
 				<script src="/assets/copyVal.js"></script> 
 				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Contact me: me@chunyangding.com</button> 
-				<p></p>
-				<br>
-				<img src="/assets/pics/YSM_Headshot.jpg" alt="Chunyang Ding" style="width:400px;height:auto;" class="center">
+
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
