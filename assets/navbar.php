@@ -28,7 +28,7 @@ echo
 		<button class="dropbtn"> Blogs &#9660;
 		</button>
 		<div class="dropdown-content">
-			<a href="/blogHome">Current Blog</a>
+			<a href="/blog">Current Blog</a>
 			<a href="https://figtwo.wordpress.com">Fig Two (QCJC)</a>
 			<a href="http://campuspress.yale.edu/chunyangding/">Campuspress (Yale)</a>
 			<a href="https://seattlechunny.wordpress.com">Seattlechunny (HS)</a>

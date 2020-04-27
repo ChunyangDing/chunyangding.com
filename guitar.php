@@ -24,8 +24,6 @@
 				
 				<h2> <a href="/music/if-you-want-me"> If You Want Me </a> </h2>
 				
-				<h2> <a href="/all-songs"> List of all songs </a> </p>
-
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';

@@ -92,7 +92,7 @@
 		</ol>
 		<p> So yeah. Let's see where 2020 takes me! </p>
 		
-		<p> <a href="/blogHome">Return to main</a> </p>
+		<p> <a href="/2019/08/24/desert-solitaire">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/03/24/my-blog-pt-2"> Next </a> </p>
 		
 		</div>
 		</div>
