@@ -25,6 +25,9 @@
 				<p> <a href="/2020/04/12/stir-fried-tomato-eggs">Stir Fried Tomatoes and Egg </a> </p>
 				<p> <a href="/2020/04/12/lentil-soup">Lentil Soup </a> </p>
 				<p> <a href="/2020/04/12/anchovy-pasta">Anchovy Pasta </a> </p>
+				<p> <a href="/2020/04/26/black-beans">Black Beans </a> </p>
+				<p> <a href="/2020/04/26/potato-salad">Potato Salad </a> </p>
+				<p> <a href="/2020/04/26/southern-green-beans">Southern Green Beans </a> </p>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
