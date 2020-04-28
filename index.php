@@ -39,7 +39,7 @@
 				
 				<p> I wrote some <a href="https://seattlechunny.wordpress.com">very terrible poetry</a> once upon a time, but focus more of my energy writing about <a href="https://figtwo.wordpress.com">quantum computing </a> these days. I am an avid reader, and you can find recent ruminations of some <a href="https://www.goodreads.com/user/show/10726611-chunyang-ding">good reads here.</a> 
 				
-				<p> I have spent much of my life spewing words all over the internet, and a selection of some of my favorite pieces can be <a href="/aroundtheweb">found here</a>. I also <a href="https://en.wikipedia.org/wiki/User:ChunyangD">edit Wikipedia</a>, <a href="https://github.com/chunyangding">commit on Github</a>, and have a <a href="https://www.reddit.com/user/seattlechunny/">Reddit account</a>, although I check those much less frequently. </p>
+				<p> I have spent much of my life spewing words all over the internet, and a selection of some of my favorite pieces can be <a href="/pastwork">found here</a>. I also <a href="https://en.wikipedia.org/wiki/User:ChunyangD">edit Wikipedia</a>, <a href="https://github.com/chunyangding">commit on Github</a>, and have a <a href="https://www.reddit.com/user/seattlechunny/">Reddit account</a>, although I check those much less frequently. </p>
 				
 				<p> Feel free to poke around, and drop me a line! </p>
 				

@@ -23,7 +23,7 @@
 					<a href="https://mist.pratt.duke.edu/">Jungsang Kim</a>. Besides his passion for quantum computing, 
 					Chunny is an <a href="https://www.goodreads.com/user/show/10726611-chunyang-ding">avid reader</a> of sci-fi 
 					(among other genres) and is enthusiastic about <a href="/pastwork">scientific communication</a>. 
-					He's currently learning how to <a href="/music">be bad at more instruments</a>, 
+					He's currently learning how to <a href="/guitar">be bad at more instruments</a>, 
 					create <a href="/quine">poorly-designed websites</a>, and <a href ="/food">cooking non-poisonous foods</a>.
 				</p>
 			</div>
