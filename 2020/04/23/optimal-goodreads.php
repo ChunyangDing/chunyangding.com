@@ -51,7 +51,7 @@
 		<p> <a id="note6">[6]</a> This is part of the reason why I keep a <a href="/booklist">html table</a> of the books that I have read. Sure, it's a bit more work, but even I don't read that much to make it really a pain. </p>
 		
 		
-		<p> <a href="/2020/03/24/my-blog-pt-2">Previous</a> | <a href="/blog">Return to main</a> </p>
+		<p> <a href="/2020/03/24/my-blog-pt-2">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/05/01/the-four-cs">Next</a> </p>
 
 		</div>
 		</div>
