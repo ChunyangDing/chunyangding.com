@@ -43,13 +43,16 @@
 		<p> Creation is ... why is creation good? Because creation doesn't necessarily benefit ourselves, or even benefit others for that matter. Creation can be evil in nature, or destructive as well. Just because you create something does not mean that you created something good or useful. I was thinking about creation as adding value to something, but I now realize that you can also add negative value to something. ie, if your creation is in hate, your actions can hurt and damage others just as much as you can heal and improve. </p>
 
 		<p> But in general, I feel like creation has a better purpose. That we are put on this Earth to worship God and to create something that is pleasing in His image. We have the intention of living out a life that is honest and upheld to a higher standard. We want to create something that has an impact on other people, instead of just on ourselves. Selfish creation vs selfless creation also seems like a useful category to consider. If you are creating something that is not intended to ever be seen by anyone, then the intent behind the creation is also fundamentally different. Even then, things can be good in the long run - ie, Diary of Anne Frank. There is still somehow, inherent value in the creation of something. Is it because of our interaction with the material world that brings something of value? That anything we create can then be interpreted by someone else, and create something else? </p>
-
+		
+		
+		<p> Some additional, unanswered questions...</p> 
 		<ul>
 			<li> Does creation beget creation?
 			<li> What about constrained creation? Ie, homework - you are still creating something, but it is not necessarily independent thought. Is writing an essay more of a creative task? In a sense, you are assembling the words yourself, but if it is in response to something else of someone else's choosing, is that creative or continuing?
 			<li> What about our social aspects of our character?
 		</ul>
-
+		
+	
 		<p> NB: These are incomplete thoughts/notes from October 2019. I find it fairly useful to put things into this kind of mentality in my day-to-day, as some sort of a mental checklist for when things seem stuck in a rut. </p>
 
 		<p> NB2: Republishing this in the public, because this kind of thinking seems particularly useful at the present moment. This is partially motivated by <a href="https://www.youtube.com/watch?v=snAhsXyO3Ck">CGP Grey's recent video</a>, but mostly driven by the framework that gives my life a bit more structure right now during this pandemic. I think the one main thing that I would add to all of this is to have the capacity to forgive yourself when your life gets out of balance. Holding on to frustrations leads to downward spirals, but being able to acknowledge that sometimes, things just don't quite work out, and being able to move forwards nonetheless, can be very powerful. </p>

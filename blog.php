@@ -16,7 +16,7 @@
 			<p><b>04 Feb 2020 &gt; &gt;</b> <a href="/2020/02/04/2020-plan">A Plan for 2020</a></p>
 			<p><b>24 Mar 2020 &gt; &gt;</b> <a href="/2020/03/24/my-blog-pt-2">Story of My Blog, Pt. 2</a></p> 
 			<p><b>23 Apr 2020 &gt; &gt;</b> <a href="/2020/04/23/optimal-goodreads">Why Goodreads is my Optimal Social Media Platform</a></p> 
-			<p><b>23 Apr 2020 &gt; &gt;</b> <a href="/2020/05/01/the-four-cs">The Four Cs</a></p> 
+			<p><b>01 May 2020 &gt; &gt;</b> <a href="/2020/05/01/the-four-cs">The Four Cs</a></p> 
 			<!--p><b>01 Apr 2020 &gt; &gt;</b> <a href="/2020/04/01/progress-update">Web Design: Complete!</a></p--> 
 			</div>
 		</div>
