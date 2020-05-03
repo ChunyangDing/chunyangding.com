@@ -23,6 +23,41 @@
 				<th>Stars</th>
 				<th>Date Reviewed</th>
 			</tr>
+			<!--<tr>
+				<td>Together</td>
+				<td>Vivek H. Murthy</td>
+				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
+				<td>4/5</td>
+				<td>?? May 2020</td>
+			</tr>
+			<tr>
+				<td>Cadillac Desert</td>
+				<td>Marc Reisner</td>
+				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
+				<td>5/5</td>
+				<td>?? May 2020</td>
+			</tr>
+			<tr>
+				<td>Dear Girls</td>
+				<td>Ali Wong</td>
+				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
+				<td>3/5</td>
+				<td>3 May 2020</td>
+			</tr>-->
+			<tr>
+				<td>Good Faith Collaboration</td>
+				<td>Joseph Reagle Jr.</td>
+				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
+				<td>2/5</td>
+				<td>29 Apr 2020</td>
+			</tr>
+			<tr>
+				<td>The Queen of Air and Darkness</td>
+				<td>T. H. White</td>
+				<td><a href="https://www.goodreads.com/review/show/3252791393">Review</a></td>
+				<td>4/5</td>
+				<td>23 Apr 2020</td>
+			</tr>
 			<tr>
 				<td>The Hidden Girl and Other Stories</td>
 				<td>Ken Liu</td>
