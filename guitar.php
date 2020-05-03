@@ -23,6 +23,8 @@
 				<h2> <a href="/music/10000-reasons"> 10,000 Reasons </a> </h2>
 				
 				<h2> <a href="/music/if-you-want-me"> If You Want Me </a> </h2>
+
+				<h2> <a href="/music/lies"> Lies </a> </h2>
 				
 			</div>
 		</div>
