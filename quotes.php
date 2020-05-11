@@ -13,6 +13,8 @@
 			<div class='blurb'>
 				<h1>Favorite Quotes</h1>
 				<p> I have been collecting quotes from myriad pop-culture sources for a while now; on Facebook, on Goodreads, and anywhere else that allowed me to. Here's a selection from those! (organized in roughly reverse chronological order, but honestly even I do not know when I gathered some of these lines.)</p>
+				<p> "If critical distance is what we're after, I think there is an important distinction to make between isolating onself versus removing onself from the clamor and undue influence of public opinion." ~ Jenny Odell, How to Do Nothing </p>
+				<p> "Sometimes it's good to be stuck in the in-between, even if it's uncomfortable" ~ Jenny Odell, How to Do Nothing </p>
 				<p> "You're in the story with the rest of us now, and you must go with it, whether you will or no." ~ The Last Unicorn </p>
 				<p>  "So be it: we live in the present. Whatever community we form that night is ephemeral." ~ Adora Svitak </p>
 				<p>  "The really important kind of freedom involves attention and awareness and discipline, and being able truly to care  about other people and to sacrifice for them over and over in myriad petty, unsexy ways every day." ~ David Foster Wallace, This is Water (commencement at Kenyon, 2005)</p>

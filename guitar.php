@@ -25,7 +25,11 @@
 				<h2> <a href="/music/if-you-want-me"> If You Want Me </a> </h2>
 
 				<h2> <a href="/music/lies"> Lies </a> </h2>
-				
+
+				<h2> <a href="/music/country-roads"> Take Me Home, Country Roads </a> </h2>
+
+				<h2> <a href="/music/poems-prayers-promises"> Poems, Prayers, and Promises </a> </h2>
+
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
