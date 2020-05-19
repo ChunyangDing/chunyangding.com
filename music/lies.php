@@ -19,6 +19,9 @@
 					<source src="/assets/vids/20200503_Lies.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video> 
+				
+				<p> <a href="/assets/files/lies.txt" download> Chord sheet download here </a> </p> 
+
 
 			</div>
 		</div>

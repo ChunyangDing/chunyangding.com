@@ -19,6 +19,8 @@
 					<source src="/assets/vids/20200412_FallingSlowly_4.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video> 
+				
+				<p> <a href="/assets/files/falling-slowly.txt" download> Chord sheet download here </a> </p> 
 
 			</div>
 		</div>

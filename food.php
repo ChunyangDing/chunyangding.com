@@ -28,6 +28,8 @@
 				<p> <a href="/2020/04/26/black-beans">Black Beans </a> </p>
 				<p> <a href="/2020/04/26/potato-salad">Potato Salad </a> </p>
 				<p> <a href="/2020/04/26/southern-green-beans">Southern Green Beans </a> </p>
+				<p> <a href="/2020/05/19/carmelized-onions">Carmelized Onions </a> </p>
+				<p> <a href="/2020/05/19/recipes-link">Recipes Link </a> </p>
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';

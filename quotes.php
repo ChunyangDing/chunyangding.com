@@ -13,6 +13,7 @@
 			<div class='blurb'>
 				<h1>Favorite Quotes</h1>
 				<p> I have been collecting quotes from myriad pop-culture sources for a while now; on Facebook, on Goodreads, and anywhere else that allowed me to. Here's a selection from those! (organized in roughly reverse chronological order, but honestly even I do not know when I gathered some of these lines.)</p>
+				<p> "But I believe in intention and I believe in work. I believe in waking up in the middle of the night and packing our bags and leaving our worst selves for our better ones." ~Leslie Jamison, The Empathy Exams </p>
 				<p> "If critical distance is what we're after, I think there is an important distinction to make between isolating onself versus removing onself from the clamor and undue influence of public opinion." ~ Jenny Odell, How to Do Nothing </p>
 				<p> "Sometimes it's good to be stuck in the in-between, even if it's uncomfortable" ~ Jenny Odell, How to Do Nothing </p>
 				<p> "You're in the story with the rest of us now, and you must go with it, whether you will or no." ~ The Last Unicorn </p>
