@@ -18,7 +18,10 @@
 				
 				<p> My favorite cookbook right now is Samin Nosrat's <em> <a href="http://www.saltfatacidheat.com">Salt, Fat, Acid, Heat</a></em>, which really goes into some of the principles of cooking. Check it out! </p>
 				
-				<h1>Recipes</h1>
+				<p> There are some recipes that I really enjoy but have already been written up very well from other sources. See <a href="/2020/05/19/recipes-links"> this list of recipes for those links. </a> </p>
+ 
+				
+				<h1>My recipes</h1>
 
 				<p> <a href="/2020/03/30/honey-soy-salmon">Honey Soy Salmon</a> </p>
 				<p> <a href="/2020/03/30/smashed-cucumbers">Smashed Cucumbers</a></p>
@@ -29,8 +32,9 @@
 				<p> <a href="/2020/04/26/potato-salad">Potato Salad </a> </p>
 				<p> <a href="/2020/04/26/southern-green-beans">Southern Green Beans </a> </p>
 				<p> <a href="/2020/05/19/carmelized-onions">Carmelized Onions </a> </p>
-				<p> <a href="/2020/05/19/recipes-link">Recipes Link </a> </p>
+				<p> <a href="/2020/05/21/chickpea-tomato-salad">Chickpea Tomato Salad </a> </p>
 			</div>
+
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
 		$access_number = visitor($page_name); ?>
