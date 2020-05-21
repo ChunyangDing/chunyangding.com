@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php $page_name = "Recipe - Chickpeak Tomato Salad"; ?>
+		<?php $page_name = "Recipe - Chickpea Tomato Salad"; ?>
 		<title><?php echo $page_name; ?></title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
@@ -18,7 +18,7 @@
 				
 				<p> Ingredients </p>
 				<ul>
-					<li> Can of chickpeaks </li>
+					<li> Can of chickpeas </li>
 					<li> Cherry tomatoes </li>
 					<li> Olive oil </li>
 					<li> Balsimic vinegar </li>
