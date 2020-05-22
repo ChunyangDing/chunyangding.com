@@ -29,6 +29,21 @@
 				<h2> <a href="/music/country-roads"> Take Me Home, Country Roads </a> </h2>
 
 				<h2> <a href="/music/poems-prayers-promises"> Poems, Prayers, and Promises </a> </h2>
+				
+				<h1> Albums I'm listening to </h1>
+				
+				<p> I don't have Spotify, (mostly because I don't really believe in streaming/SaaS), but I have been getting more and more into listening to full albums. Here are some albums that I have been recently been getting more into! </p>
+				
+				<p> Update on 21 May 2020: </p>
+				<ul>
+					<li> Electric Light Orchestra - Time </li>
+					<li> Justice - Audio, Video, Disco </li>
+					<li> Moon Sonata - Lovers End </li> 
+					<li> Sufjan Stevens - Illinoise </li>
+					<li> The Mountain Goats - The Sunset Tree </li>
+				</ul>
+				
+				<p> If you have any albums that you might recommend, please feel free to contact me! </p> 
 
 			</div>
 		</div>
