@@ -23,7 +23,7 @@
 				<th>Stars</th>
 				<th>Date Reviewed</th>
 			</tr>
-			<!--<tr>
+			<!--tr>
 				<td>Together</td>
 				<td>Vivek H. Murthy</td>
 				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
@@ -36,14 +36,70 @@
 				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
 				<td>5/5</td>
 				<td>?? May 2020</td>
+			</tr-->
+			<tr>
+				<td>The Once and Future King</td>
+				<td>T.H. White</td>
+				<td><a href="https://www.goodreads.com/review/show/3223477325">Review</a></td>
+				<td>5/5</td>
+				<td>27 May 2020</td>
+			</tr>
+			<tr>
+				<td>The Candle in the Wind</td>
+				<td>T.H. White</td>
+				<td><a href="https://www.goodreads.com/review/show/3359096469">Review</a></td>
+				<td>4/5</td>
+				<td>27 May 2020</td>
+			</tr>
+			<tr>
+				<td>My Year of Rest and Relaxation</td>
+				<td>Ottessa Moshfegh</td>
+				<td><a href="https://www.goodreads.com/review/show/3359094888">Review</a></td>
+				<td>2/5</td>
+				<td>26 May 2020</td>
+			</tr>
+			<tr>
+				<td>The Empathy Exams</td>
+				<td>Leslie Jamison</td>
+				<td><a href="https://www.goodreads.com/review/show/3296007799">Review</a></td>
+				<td>2/5</td>
+				<td>24 May 2020</td>
+			</tr>
+			<tr>
+				<td>The Ill-Made Knight</td>
+				<td>T.H. White</td>
+				<td><a href="https://www.goodreads.com/review/show/3297708471">Review</a></td>
+				<td>4/5</td>
+				<td>23 May 2020</td>
+			</tr>
+			<tr>
+				<td>Exhalation</td>
+				<td>Ted Chiang</td>
+				<td><a href="https://www.goodreads.com/review/show/3334553034">Review</a></td>
+				<td>5/5</td>
+				<td>15 May 2020</td>
+			</tr>
+			<tr>
+				<td>Do You Mind If I Cancel?</td>
+				<td>Gary Janetti</td>
+				<td><a href="https://www.goodreads.com/review/show/3329136095">Review</a></td>
+				<td>X/5</td>
+				<td>11 May 2020</td>
+			</tr>
+			<tr>
+				<td>How to Do Nothing</td>
+				<td>Jenny Odell</td>
+				<td><a href="https://www.goodreads.com/review/show/3106955149">Review</a></td>
+				<td>5/5</td>
+				<td>7 May 2020</td>
 			</tr>
 			<tr>
 				<td>Dear Girls</td>
 				<td>Ali Wong</td>
-				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
-				<td>3/5</td>
+				<td><a href="https://www.goodreads.com/review/show/3117465394">Review</a></td>
+				<td>4/5</td>
 				<td>3 May 2020</td>
-			</tr>-->
+			</tr>
 			<tr>
 				<td>Good Faith Collaboration</td>
 				<td>Joseph Reagle Jr.</td>

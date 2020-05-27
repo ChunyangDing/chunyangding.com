@@ -23,7 +23,7 @@
 					<li> Olive oil </li>
 					<li> Balsimic vinegar </li>
 					<li> Seasonings - Salt, pepper, cumin, cayenne powder, red pepper flakes, thyme </li>
-				</p>
+				</ul>
 				
 				<p> Instructions </p> 
 				<ol>

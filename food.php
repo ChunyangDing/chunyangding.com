@@ -33,6 +33,8 @@
 				<p> <a href="/2020/04/26/southern-green-beans">Southern Green Beans </a> </p>
 				<p> <a href="/2020/05/19/carmelized-onions">Carmelized Onions </a> </p>
 				<p> <a href="/2020/05/21/chickpea-tomato-salad">Chickpea Tomato Salad </a> </p>
+				<p> <a href="/2020/05/25/hong-shao-kao-fu">Hongshao Kaofu (红烧烤麸) - Red Braised Baked Gluten </a> </p>
+				<p> <a href="/2020/05/25/tang-cu-pai-gu">Tangcu Paigu （糖醋排骨） - Sweet and Sour Pork Shortribs </a> </p>
 			</div>
 
 		</div>
