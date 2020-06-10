@@ -17,9 +17,9 @@
 				<p> Almost all of the recipes that I post on here are a result of me taking some recipe I found online, and adapting it slightly to make it work better for myself. This helps me because I can have a centralized hub for the things that I have had experience in cooking, and I get to skip the long, often-bloated websites from others. However, there are a few recipes that I have no way of improving on, either because the original is already so thorough that I couldn't really replicate it without just copying verbatim, or because of a particularly elegant way of describing the cooking process. For those, I will just provide the links below! </p>
 
 				<ul>
-					<li> <a html="https://thewoksoflife.com/chinese-tea-eggs/">Chinese Tea Eggs - Woks of Life </a> </li>
-					<li> <a html="https://www.koreanbapsang.com/dweji-bulgogi-korean-spicy-pork-bbq/"> Jeyuk Bokkeum (Spicy Pork BBQ) - Korean Bapsang </a> </li>
-					<li> <a html="https://prettysimplesweet.com/lemon-tart/">Lemon Tart - Pretty Simple Sweet </a> </li>
+					<li> <a href="https://thewoksoflife.com/chinese-tea-eggs/">Chinese Tea Eggs - Woks of Life </a> </li>
+					<li> <a href="https://www.koreanbapsang.com/dweji-bulgogi-korean-spicy-pork-bbq/"> Jeyuk Bokkeum (Spicy Pork BBQ) - Korean Bapsang </a> </li>
+					<li> <a href="https://prettysimplesweet.com/lemon-tart/">Lemon Tart - Pretty Simple Sweet </a> </li>
 				</ul>
 				
 				<p> <a href="/food">Back to All Recipes </a> </p>

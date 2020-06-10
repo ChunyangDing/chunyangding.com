@@ -38,6 +38,34 @@
 				<td>?? May 2020</td>
 			</tr-->
 			<tr>
+				<td>Saving God from Religion</td>
+				<td>Robin Meyers</td>
+				<td><a href="https://www.goodreads.com/review/show/3376260930">Review</a></td>
+				<td>4/5</td>
+				<td>09 Jun 2020</td>
+			</tr>
+			<tr>
+				<td>Together</td>
+				<td>Vivek Murthy</td>
+				<td><a href="https://www.goodreads.com/review/show/3310616367">Review</a></td>
+				<td>3/5</td>
+				<td>03 Jun 2020</td>
+			</tr>
+			<tr>
+				<td>All the Light We Cannot See</td>
+				<td>Anthony Doerr</td>
+				<td><a href="https://www.goodreads.com/review/show/2961210349">Review</a></td>
+				<td>5/5</td>
+				<td>01 Jun 2020</td>
+			</tr>
+			<tr>
+				<td>Following Jesus in the 'Real World'</td>
+				<td>Richard C. Lamb Jr.</td>
+				<td><a href="https://www.goodreads.com/review/show/3364968631">Review</a></td>
+				<td>4/5</td>
+				<td>31 May 2020</td>
+			</tr>
+			<tr>
 				<td>The Once and Future King</td>
 				<td>T.H. White</td>
 				<td><a href="https://www.goodreads.com/review/show/3223477325">Review</a></td>
@@ -91,14 +119,14 @@
 				<td>Jenny Odell</td>
 				<td><a href="https://www.goodreads.com/review/show/3106955149">Review</a></td>
 				<td>5/5</td>
-				<td>7 May 2020</td>
+				<td>07 May 2020</td>
 			</tr>
 			<tr>
 				<td>Dear Girls</td>
 				<td>Ali Wong</td>
 				<td><a href="https://www.goodreads.com/review/show/3117465394">Review</a></td>
 				<td>4/5</td>
-				<td>3 May 2020</td>
+				<td>03 May 2020</td>
 			</tr>
 			<tr>
 				<td>Good Faith Collaboration</td>
@@ -217,14 +245,14 @@
 				<td>Mark Twain</td>
 				<td><a href="https://www.goodreads.com/review/show/3224198657">Review</a></td>
 				<td>2/5</td>
-				<td>9 Mar 2020</td>
+				<td>09 Mar 2020</td>
 			</tr>
 			<tr>
 				<td>The Death and Life of Great American Cities</td>
 				<td>Jane Jacobs</td>
 				<td><a href="https://www.goodreads.com/review/show/3123610066">Review</a></td>
 				<td>4/5</td>
-				<td>8 Mar 2020</td>
+				<td>08 Mar 2020</td>
 			</tr>
 			<tr>
 				<td>Ninefox Gambit</td>
@@ -385,42 +413,42 @@
 				<td>Nate Silver</td>
 				<td><a href="https://www.goodreads.com/review/show/2891406088">Review</a></td>
 				<td>4/5</td>
-				<td>7 Dec 2019</td>
+				<td>07 Dec 2019</td>
 			</tr>
 			<tr>
 				<td>Hopper</td>
 				<td>Rolf Gunter Renner</td>
 				<td><a href="https://www.goodreads.com/review/show/3076638357">Review</a></td>
 				<td>5/5</td>
-				<td>7 Dec 2019</td>
+				<td>07 Dec 2019</td>
 			</tr>
 			<tr>
 				<td>When Breath Becomes Air</td>
 				<td>Paul Kalanithi</td>
 				<td><a href="https://www.goodreads.com/review/show/2961209162">Review</a></td>
 				<td>5/5</td>
-				<td>3 Oct 2019</td>
+				<td>03 Oct 2019</td>
 			</tr>
 			<tr>
 				<td>Sync</td>
 				<td>Steven H. Strogatz</td>
 				<td><a href="https://www.goodreads.com/review/show/2961192082">Review</a></td>
 				<td>5/5</td>
-				<td>1 Sep 2019</td>
+				<td>01 Sep 2019</td>
 			</tr>
 			<tr>
 				<td>A Grip of Time</td>
 				<td>Lauren Kessler</td>
 				<td><a href="https://www.goodreads.com/review/show/2961195239">Review</a></td>
 				<td>2/5</td>
-				<td>1 Sep 2019</td>
+				<td>01 Sep 2019</td>
 			</tr>
 			<tr>
 				<td>Desert Solitaire</td>
 				<td>Edward Abbey</td>
 				<td><a href="https://www.goodreads.com/review/show/2932419337">Review</a></td>
 				<td>5/5</td>
-				<td>1 Sep 2019</td>
+				<td>01 Sep 2019</td>
 			</tr>
 			<tr>
 				<td>Conscience</td>
