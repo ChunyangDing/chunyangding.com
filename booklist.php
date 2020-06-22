@@ -35,7 +35,7 @@
 				<td>Jenny Offill</td>
 				<td><a href="https://www.goodreads.com/review/show/3347091995">Review</a></td>
 				<td>4/5</td>
-				<td>20? June 2020</td>
+				<td>20 June 2020</td>
 			</tr>
 			<tr>
 				<td>The Oxford Handbook of Free Will</td>
