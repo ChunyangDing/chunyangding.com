@@ -22,21 +22,42 @@
 				<th>Review Link</th>
 				<th>Stars</th>
 				<th>Date Reviewed</th>
-			</tr>
-			<!--tr>
-				<td>Together</td>
-				<td>Vivek H. Murthy</td>
+			<tr>
+			<!--/tr>
+				<td>Strangers Drowning</td>
+				<td>Larissa MacFarquhar</td>
 				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
+				<td>/5</td>
+				<td>?? June 2020</td>
+			</tr-->
+			<tr>
+				<td>Dept. of Speculation</td>
+				<td>Jenny Offill</td>
+				<td><a href="https://www.goodreads.com/review/show/3347091995">Review</a></td>
 				<td>4/5</td>
-				<td>?? May 2020</td>
+				<td>20? June 2020</td>
 			</tr>
 			<tr>
-				<td>Cadillac Desert</td>
-				<td>Marc Reisner</td>
-				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
-				<td>5/5</td>
-				<td>?? May 2020</td>
-			</tr-->
+				<td>The Oxford Handbook of Free Will</td>
+				<td>Robert Kane</td>
+				<td><a href="https://www.goodreads.com/review/show/3382946494">Review</a></td>
+				<td>4/5</td>
+				<td>16 June 2020</td>
+			</tr>
+			<tr>
+				<td>The Qur'an: A Biography</td>
+				<td>Bruce B. Lawrence</td>
+				<td><a href="https://www.goodreads.com/review/show/3390680773">Review</a></td>
+				<td>3/5</td>
+				<td>16 June 2020</td>
+			</tr>
+			<tr>
+				<td>Gideon the Ninth</td>
+				<td>Tamsyn Muir</td>
+				<td><a href="https://www.goodreads.com/review/show/3210716232">Review</a></td>
+				<td>4/5</td>
+				<td>13 June 2020</td>
+			</tr>
 			<tr>
 				<td>Saving God from Religion</td>
 				<td>Robin Meyers</td>

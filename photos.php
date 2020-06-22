@@ -125,6 +125,20 @@
 						</a>
 					</div>
 				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200621_0530185.jpg">
+							<img src="/assets/pics/IMG_20200621_0530185.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200621_0606038.jpg">
+							<img src="/assets/pics/IMG_20200621_0606038.jpg" width="1000">
+						</a>
+					</div>
+				</div>
 				
 				<!-- photo template
 				<div class="responsive">
