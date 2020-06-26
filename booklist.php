@@ -23,13 +23,27 @@
 				<th>Stars</th>
 				<th>Date Reviewed</th>
 			<tr>
-			<!--/tr>
+			</tr>
 				<td>Strangers Drowning</td>
 				<td>Larissa MacFarquhar</td>
-				<td><a href="https://www.goodreads.com/review/show/3297920303">Review</a></td>
-				<td>/5</td>
-				<td>?? June 2020</td>
-			</tr-->
+				<td><a href="https://www.goodreads.com/review/show/3370164185">Review</a></td>
+				<td>5/5</td>
+				<td>25 June 2020</td>
+			</tr>
+			</tr>
+				<td>Indistractable</td>
+				<td>Nir Eyal</td>
+				<td><a href="https://www.goodreads.com/review/show/3403239620">Review</a></td>
+				<td>1/5</td>
+				<td>22 June 2020</td>
+			</tr>
+			</tr>
+				<td>The Plot Against America</td>
+				<td>Philip Roth</td>
+				<td><a href="https://www.goodreads.com/review/show/3395497456">Review</a></td>
+				<td>X/5</td>
+				<td>22 June 2020</td>
+			</tr>
 			<tr>
 				<td>Dept. of Speculation</td>
 				<td>Jenny Offill</td>
