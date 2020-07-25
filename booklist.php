@@ -24,6 +24,62 @@
 				<th>Date Reviewed</th>
 			<tr>
 			</tr>
+				<td>We Have No Idea</td>
+				<td>Jorge Cham, Daniel Whiteson</td>
+				<td><a href="https://www.goodreads.com/review/show/3454809949">Review</a></td>
+				<td>3/5</td>
+				<td>21 July 2020</td>
+			</tr>
+			</tr>
+				<td>Children of the New World</td>
+				<td>Alexander Weinstein</td>
+				<td><a href="https://www.goodreads.com/review/show/3448331945">Review</a></td>
+				<td>2/5</td>
+				<td>20 July 2020</td>
+			</tr>
+			</tr>
+				<td>Science: The Endless Frontier</td>
+				<td>Vannevar Bush</td>
+				<td><a href="https://www.goodreads.com/review/show/3450886021">Review</a></td>
+				<td>4/5</td>
+				<td>19 July 2020</td>
+			</tr>
+			</tr>
+				<td>Miss Leavitt's Stars</td>
+				<td>George Johnson</td>
+				<td><a href="https://www.goodreads.com/review/show/3449615141">Review</a></td>
+				<td>4/5</td>
+				<td>18 July 2020</td>
+			</tr>
+			</tr>
+				<td>How to Live Safely in a Science Fictional Universe</td>
+				<td>Charles Yu</td>
+				<td><a href="https://www.goodreads.com/review/show/3301718832">Review</a></td>
+				<td>4/5</td>
+				<td>17 July 2020</td>
+			</tr>
+			</tr>
+				<td>Cadillac Desert</td>
+				<td>Marc Reisner</td>
+				<td><a href="https://www.goodreads.com/review/show/3284339127">Review</a></td>
+				<td>5/5</td>
+				<td>13 July 2020</td>
+			</tr>
+			</tr>
+				<td>Assignment: Shanghai</td>
+				<td>Jack Birns</td>
+				<td><a href="https://www.goodreads.com/review/show/3433399353">Review</a></td>
+				<td>2/5</td>
+				<td>08 June 2020</td>
+			</tr>
+			</tr>
+				<td>The Longing for Less</td>
+				<td>Kyle Chayka</td>
+				<td><a href="https://www.goodreads.com/review/show/3308393654">Review</a></td>
+				<td>3/5</td>
+				<td>06 July 2020</td>
+			</tr>
+			</tr>
 				<td>Strangers Drowning</td>
 				<td>Larissa MacFarquhar</td>
 				<td><a href="https://www.goodreads.com/review/show/3370164185">Review</a></td>
