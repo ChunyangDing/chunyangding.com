@@ -58,7 +58,7 @@
 		<p> NB2: Republishing this in the public, because this kind of thinking seems particularly useful at the present moment. This is partially motivated by <a href="https://www.youtube.com/watch?v=snAhsXyO3Ck">CGP Grey's recent video</a>, but mostly driven by the framework that gives my life a bit more structure right now during this pandemic. I think the one main thing that I would add to all of this is to have the capacity to forgive yourself when your life gets out of balance. Holding on to frustrations leads to downward spirals, but being able to acknowledge that sometimes, things just don't quite work out, and being able to move forwards nonetheless, can be very powerful. </p>
 
 		
-		<p> <a href="/2020/04/23/optimal-goodreads">Previous</a> | <a href="/blog">Return to main</a> </p>
+		<p> <a href="/2020/04/23/optimal-goodreads">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/07/24/stranger-in-a-strange-land">Next</a></p>
 
 		</div>
 		</div>
