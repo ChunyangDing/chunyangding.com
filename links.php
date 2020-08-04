@@ -24,6 +24,7 @@
 					<li> Adrienne LaFrance - The Atlantic - <a href="https://www.theatlantic.com/technology/archive/2015/10/what-makes-a-volcano-sacred/413203/">What Makes a Volcano Sacred?</a> </li> 
 					<li> Tim Urban - Wait but Why - Why Procrastinators Procrastinate: <a href="https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html"> Part One </a> <a href="https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html"> Part Two </a> </li>
 					<li> Tim Urban - Wait but Why - <a href="https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html">Life is a Picture, but You Live in a Pixel</a> </li>
+					<li> Corey Mohler - Existential Comics - <a href="https://existentialcomics.com/comic/353">The Elflord and the Mayfly</a> </li>
 				</ul>
 				
 				<p> Websites that I <del>ripped off</del> found inspiration in </p>
@@ -37,6 +38,7 @@
 					<li> <a href="http://p13i.io/">Pramod Kotipalli</a></li>
 					<li> <a href="https://dellsystem.me/">Wendy Liu</a></li>
 					<li> <a href="https://www.gov.uk/">UK Gov</a></li>
+					<li> <a href="https://dannosowitz.com/">Dan Nosowitz </a></li>
 				</ul>
 				<img src="/assets/pics/toonLink.jpg" alt="more links!" style="width:200px;height:auto;" class="center">
 
