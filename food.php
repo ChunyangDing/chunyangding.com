@@ -44,6 +44,9 @@
 				<p> <a href="/2020/08/22/boiled-taro">Boiled Taro</a> </p>
 				<p> <a href="/2020/08/22/lotus-pancake">Lotus Pancake (藕饼）</a> </p>
 				<p> <a href="/2020/08/22/standard-pork-filling">Standard Pork Filling （猪肉馅）</a> </p>
+				<p> <a href="/2020/08/22/nian-gao">Rice Cakes （年糕）</a> </p>
+				<p> <a href="/2020/08/22/winter-melon-ham-soup">Wintermelon Ham Soup（火腿冬瓜汤）</a> </p>
+				<p> <a href="/2020/08/22/oxtail-soup">Oxtail Soup（牛尾汤）</a> </p>
 
 			</div>
 
