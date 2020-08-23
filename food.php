@@ -24,8 +24,8 @@
 				<h1>My recipes</h1>
 
 				<p> <a href="/2020/03/30/honey-soy-salmon">Honey Soy Salmon</a> </p>
-				<p> <a href="/2020/03/30/smashed-cucumbers">Smashed Cucumbers</a></p>
-				<p> <a href="/2020/04/12/stir-fried-tomato-eggs">Stir Fried Tomatoes and Egg </a> </p>
+				<p> <a href="/2020/03/30/smashed-cucumbers">Smashed Cucumbers （凉拌黄瓜）</a></p>
+				<p> <a href="/2020/04/12/stir-fried-tomato-eggs">Stir Fried Tomatoes and Egg （番茄炒蛋）</a> </p>
 				<p> <a href="/2020/04/12/lentil-soup">Lentil Soup </a> </p>
 				<p> <a href="/2020/04/12/anchovy-pasta">Anchovy Pasta </a> </p>
 				<p> <a href="/2020/04/26/black-beans">Black Beans </a> </p>
@@ -36,10 +36,14 @@
 				<p> <a href="/2020/05/25/hong-shao-kao-fu">Hongshao Kaofu (红烧烤麸) - Red Braised Baked Gluten </a> </p>
 				<p> <a href="/2020/05/25/tang-cu-pai-gu">Tangcu Paigu （糖醋排骨） - Sweet and Sour Pork Shortribs </a> </p>
 				<p> <a href="/2020/06/10/shanghai-qing-cai">Shanghai Qingcai （上海青菜） </a> </p>
-				<p> <a href="/2020/08/22/fried-porkchop">Fried Pork Chop</a> </p>
-				<p> <a href="/2020/08/22/fried-shrimp">Fried Shrimp</a> </p>
-				<p> <a href="/2020/08/22/pickled-fish-slices">Pickled Fish Slices</a> </p>
-				<p> <a href="/2020/08/22/steamed-black-cod">Steamed Black Cod</a> </p>
+				<p> <a href="/2020/08/22/fried-pork-chop">Fried Pork Chop (炸猪排）</a> </p>
+				<p> <a href="/2020/08/22/fried-shrimp">Fried Shrimp （油爆虾）</a> </p>
+				<p> <a href="/2020/08/22/pickled-fish-slices">Pickled Fish Slices （糟溜鱼片）</a> </p>
+				<p> <a href="/2020/08/22/steamed-black-cod">Steamed Black Cod （清蒸黑鳕鱼）</a> </p>
+				<p> <a href="/2020/08/22/xian-cai-dou-ban-su">Pickled Vegetables with Broad Beans (咸菜豆瓣酥）</a> </p>
+				<p> <a href="/2020/08/22/boiled-taro">Boiled Taro</a> </p>
+				<p> <a href="/2020/08/22/lotus-pancake">Lotus Pancake (藕饼）</a> </p>
+				<p> <a href="/2020/08/22/standard-pork-filling">Standard Pork Filling （猪肉馅）</a> </p>
 
 			</div>
 
