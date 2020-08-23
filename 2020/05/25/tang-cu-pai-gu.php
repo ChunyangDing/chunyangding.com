@@ -31,7 +31,7 @@
 				
 				<p> Instructions </p> 
 				<ol>
-					<li> Cut the short ribs to two-inch pieces, and marinate with about a tablespoon of light soy sauce and Shaoxing cooking wine for ~15-30 minutes, as you prepare other things. </li>
+					<li> Cut the short ribs to two-inch pieces, and boil in water for 30 minutes, to make the meat tender. Dry fully.</li>
 					<li> Chop up the whites of the scallions and the ginger. Fry in oil for a few minutes, until fragrant. </li>
 					<li> Briefly fry up the short ribs in a large wok, mostly to brown the outsides. I think a medium heat would probably be good. This doesn't have a huge effect on the end result, but it is nicer to have it be crispy earlier on. </li>
 					<li> Clean out the wok and add in a few tablespoons of oil. Very, very carefully, dissolve sugar in the oil. You want the heat to be fairly low during this process, because if overheated, the sugar can very easily burn. Also be very careful about not getting any water in to the mixture - the sugar/oil mixture has a tendancy to explode outwards, and the sugar will instantly cool and harden on any surface it comes in contact with. As soon as the sugar is partialy dissolved, add in the short ribs slowly, one at a time. Coat the short ribs with the sugar mixture, to create a crust on them. Don't overcrowd the pan here - I used chopsticks and closely monitored the process, picking them out and placing them into side bowls if they seemed to be too well done. </li>

@@ -36,6 +36,11 @@
 				<p> <a href="/2020/05/25/hong-shao-kao-fu">Hongshao Kaofu (红烧烤麸) - Red Braised Baked Gluten </a> </p>
 				<p> <a href="/2020/05/25/tang-cu-pai-gu">Tangcu Paigu （糖醋排骨） - Sweet and Sour Pork Shortribs </a> </p>
 				<p> <a href="/2020/06/10/shanghai-qing-cai">Shanghai Qingcai （上海青菜） </a> </p>
+				<p> <a href="/2020/08/22/fried-porkchop">Fried Pork Chop</a> </p>
+				<p> <a href="/2020/08/22/fried-shrimp">Fried Shrimp</a> </p>
+				<p> <a href="/2020/08/22/pickled-fish-slices">Pickled Fish Slices</a> </p>
+				<p> <a href="/2020/08/22/steamed-black-cod">Steamed Black Cod</a> </p>
+
 			</div>
 
 		</div>
