@@ -47,6 +47,8 @@
 				<p> <a href="/2020/08/22/nian-gao">Rice Cakes （年糕）</a> </p>
 				<p> <a href="/2020/08/22/winter-melon-ham-soup">Wintermelon Ham Soup（火腿冬瓜汤）</a> </p>
 				<p> <a href="/2020/08/22/oxtail-soup">Oxtail Soup（牛尾汤）</a> </p>
+				<p> <a href="/2020/08/22/stir-fried-tofu-pork">Stir Fried Tofu and Pork （青椒豆干丝）</a> </p>
+				<p> <a href="/2020/08/22/gong-bao-ji-ding">Gongbao Chicken (宫保鸡丁）</a> </p>
 
 			</div>
 
