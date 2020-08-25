@@ -22,50 +22,71 @@
 				<th>Review Link</th>
 				<th>Stars</th>
 				<th>Date Reviewed</th>
-			<tr>
 			</tr>
+			<tr>
+				<td>The Second Mountain</td>
+				<td>David Brooks</td>
+				<td><a href="https://www.goodreads.com/review/show/3499890076">Review</a></td>
+				<td>2/5</td>
+				<td>24 Aug 2020</td>
+			</tr>
+			<tr>
+				<td>The Paper Menagerie and Other Stories</td>
+				<td>Ken Liu</td>
+				<td><a href="https://www.goodreads.com/review/show/3499899499">Review</a></td>
+				<td>6/5</td>
+				<td>16 Aug 2020</td>
+			</tr>
+			<tr>
+				<td>Why Fish Don't Exist</td>
+				<td>Lulu Miller</td>
+				<td><a href="https://www.goodreads.com/review/show/3352671119">Review</a></td>
+				<td>5/5</td>
+				<td>12 Aug 2020</td>
+			</tr>
+			<tr>
 				<td>Tuxedo Park</td>
 				<td>Jennet Connant</td>
 				<td><a href="https://www.goodreads.com/review/show/3461242470">Review</a></td>
 				<td>2/5</td>
 				<td>10 Aug 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>Minor Feelings</td>
 				<td>Cathy Park Hong</td>
 				<td><a href="https://www.goodreads.com/review/show/3415406440">Review</a></td>
 				<td>4/5</td>
 				<td>10 Aug 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>We Have No Idea</td>
 				<td>Jorge Cham, Daniel Whiteson</td>
 				<td><a href="https://www.goodreads.com/review/show/3454809949">Review</a></td>
 				<td>3/5</td>
 				<td>21 Jul 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>Children of the New World</td>
 				<td>Alexander Weinstein</td>
 				<td><a href="https://www.goodreads.com/review/show/3448331945">Review</a></td>
 				<td>2/5</td>
 				<td>20 Jul 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>Science: The Endless Frontier</td>
 				<td>Vannevar Bush</td>
 				<td><a href="https://www.goodreads.com/review/show/3450886021">Review</a></td>
 				<td>4/5</td>
 				<td>19 Jul 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>Miss Leavitt's Stars</td>
 				<td>George Johnson</td>
 				<td><a href="https://www.goodreads.com/review/show/3449615141">Review</a></td>
 				<td>4/5</td>
 				<td>18 Jul 2020</td>
 			</tr>
-			</tr>
+			<tr>
 				<td>How to Live Safely in a Science Fictional Universe</td>
 				<td>Charles Yu</td>
 				<td><a href="https://www.goodreads.com/review/show/3301718832">Review</a></td>
