@@ -139,6 +139,34 @@
 						</a>
 					</div>
 				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200805_1053276.jpg">
+							<img src="/assets/pics/IMG_20200805_1053276.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200810_1854391.jpg">
+							<img src="/assets/pics/IMG_20200810_1854391.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200813_2216142.jpg">
+							<img src="/assets/pics/IMG_20200813_2216142.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200820_1158161.jpg">
+							<img src="/assets/pics/IMG_20200820_1158161.jpg" width="1000">
+						</a>
+					</div>
+				</div>
 				
 				<!-- photo template
 				<div class="responsive">
