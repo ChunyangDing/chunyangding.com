@@ -29,10 +29,21 @@
 				<h2> <a href="/music/country-roads"> Take Me Home, Country Roads </a> </h2>
 
 				<h2> <a href="/music/poems-prayers-promises"> Poems, Prayers, and Promises </a> </h2>
+
+				<h2> <a href="/music/i-will-follow-you-into-the-dark"> I Will Follow You into the Dark </a> </h2>
+
+				<h2> <a href="/music/falling-away-with-you"> Falling Away with You </a> </h2>
 				
 				<h1> Albums I'm listening to </h1>
 				
 				<p> I don't have Spotify, (mostly because I don't really believe in streaming/SaaS), but I have been getting more and more into listening to full albums. Here are some albums that I have been recently been getting more into! </p>
+				
+				<p> Update on 28 Aug 2020: </p>
+				<ul> 
+					<li> Donnie Trumpet and the Social Experiment - Surf </li>
+					<li> David Byrne - Grown Backwards </li>
+					<li> Fun - Some Nights </li>
+				</ul>
 				
 				<p> Update on 21 May 2020: </p>
 				<ul>
