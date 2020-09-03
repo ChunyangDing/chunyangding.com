@@ -3,8 +3,7 @@
 	<header>
 		<?php $page_name = "Blog - Web Design Complete!"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 	</header>
 	
 	<body> 
@@ -28,9 +27,8 @@
 
 		<p> But now, we enter April - Spring, proper - and the second quarter of the year. The past month has truly accentuated how nothing can be considered to be stable, and that growth will only come from within. </p> 
 		
+		<p> <a href="/2020/03/24/my-blog-pt-2">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/04/23/optimal-goodreads"> Next </a> </p>
 		
-		<p> <a href="/blogHome">Return to main</a> </p>
-
 		</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';

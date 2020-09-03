@@ -27,6 +27,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 		<div class="container">
 			<div class="blurb">
+			<h1> Click me to copy the shrug </h1>
 			<button class = "button" onclick="copyVal('¯\\_(ツ)_/¯')">¯\_(ツ)_/¯</button> 
 			<script src="/assets/copyVal.js"></script> 
 			</div>

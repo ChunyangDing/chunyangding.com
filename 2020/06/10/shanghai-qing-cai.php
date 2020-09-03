@@ -3,9 +3,7 @@
 	<head>
 		<?php $page_name = "Recipe - Shanghai Qingcai"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
-		<link rel="stylesheet" type="text/css" href="/css/recipes.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 	</head>
 	
 	<body>

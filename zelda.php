@@ -3,8 +3,7 @@
 	<head>
 		<?php $page_name = "Chunyang Ding - Zelda"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 		
 		<style>
 			div.gallery {

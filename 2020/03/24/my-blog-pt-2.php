@@ -3,8 +3,7 @@
 	<header>
 		<?php $page_name = "Blog - My Blog Pt 2"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 	</header>
 	
 	<body> 
@@ -44,7 +43,7 @@
 
 		<p> <a id="note4">[4]</a> Sorry, I just realized that I got to the end of this post and had not even properly defined what I set out to say. This blog, if not already obvious, will be for reflections that I hope would be fairly long-lasting in intent. I have recently discovered that I am growing old and is now full of opinions about all kinds of things. While I would like to share those opinions with you face-to-face, having a semi-public platform to write still feels incredibly attractive to me, partially for the reasons I have discussed above, and partially for reasons that I do not yet understand in myself. </p> 
 		
-		<p> <a href="/2020/02/04/2020-plan">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/04/23/optimal-goodreads"> Next </a> </p>
+		<p> <a href="/2020/02/04/2020-plan">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2020/04/01/progress-update"> Next </a> </p>
 
 		</div>
 		</div>

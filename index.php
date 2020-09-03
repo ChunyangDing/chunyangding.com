@@ -3,8 +3,7 @@
 	<head>
 		<?php $page_name = "Chunyang Ding - Index"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 		<style>
 			/*For formatting the copy email button */
 			.emailCopy {
@@ -44,7 +43,7 @@
 				<p> Feel free to poke around, and drop me a line! </p>
 				
 				<script src="/assets/copyVal.js"></script> 
-				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Contact me: me@chunyangding.com</button> 
+				<button class = "emailCopy" onclick="copyVal('me@chunyangding.com')">Click me to copy my email: me(at)chunyangding.com</button> 
 
 			</div>
 		</div>

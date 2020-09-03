@@ -3,8 +3,7 @@
 	<header>
 		<?php $page_name = "Blog - Stranger in a Strange Land"; ?>
 		<title><?php echo $page_name; ?></title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="stylesheet" type="text/css" href="/css/dropdown.css">
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 	</header>
 	
 	<body> 
