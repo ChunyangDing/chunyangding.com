@@ -1,7 +1,6 @@
 Falling Away with You
 by Muse
 
-Intro:
 	  8 8 7 7 5| 5 				 |		   1
 5 6 8 		   |  8 6 5 5	   5 | 5 			3/5 5
 			   |		  4 4 5 5|   7 5  2 2  1 
@@ -34,10 +33,8 @@ A			 Dm
 I'll feel my life crumbling
 A			 Dm				 A
 I'll feel my soul crumbling away
-		Am
-Falling away
-		  G		  C (end on 3 quick downstrokes)
-Falling away with you
+		Am   		   G		  C (end on 3 quick downstrokes)
+Falling away   Falling away with you
 
 Staying awake to chase a dream
 Tasting the air you're breathing in
@@ -55,20 +52,15 @@ Making the same mistakes again
 And I'll feel my world crumbling
 I'll feel my life crumbling
 I'll feel my soul crumbling
-And falling away
-Falling away with you
+And falling away, falling away with you
 
 All of the love we left behind
 Watching our flash backs intertwine
 Memories I will never find
 Memories I will never find
 
-C  X32010
-Am 002210
-G  320003
-F  133211
+C  X32010		Em 022000
+Am 002210		E  022100
+G  320003		A  X02220
+F  133211		Dm XX0231
 Fm 133111
-Em 022000
-E  022100
-A  X02220
-Dm XX0231
