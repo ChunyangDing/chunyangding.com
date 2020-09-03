@@ -10,7 +10,7 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 		<div class='container'>
 			<div class='blurb'>
-				<h1>Last Leaf</h1>
+				<h1>Marching Bands of Manhattan</h1>
 				
 				<p> Recorded 03 Sept 2020 </p>
 				
