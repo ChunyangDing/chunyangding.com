@@ -11,7 +11,6 @@
 			<div class="blurb">
 			<h1> Well, this is embarrassing. </h1>
 			<p> Looks like I've led you into a dead end! <a href="/index">Want to try again?</a> </p>
-			<p> \[ \frac{1}{2} \] </p> 
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
