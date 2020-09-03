@@ -33,6 +33,12 @@
 
 				<h2> <a href="/music/falling-away-with-you"> Falling Away with You </a> </h2>
 				
+				<h2> <a href="/music/last-leaf"> Last Leaf </a> </h2>
+				
+				<h2> <a href="/music/marching-bands-of-manhattan"> Marching Bands of Manhattan </a> </h2>
+				
+				<h2> <a href="/music/we-are-going-to-be-friends"> We Are Going To Be Friends </a> </h2>
+				
 				<h1> Albums I'm listening to </h1>
 				
 				<p> I don't have Spotify, (mostly because I don't really believe in streaming/SaaS), but I have been getting more and more into listening to full albums. Here are some albums that I have been recently been getting more into! </p>
