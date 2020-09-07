@@ -23,6 +23,34 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>Little Fires Everywhere</td>
+				<td>Celeste Ng</td>
+				<td><a href="https://www.goodreads.com/review/show/3501273163">Review</a></td>
+				<td>4/5</td>
+				<td>04 Sep 2020</td>
+			</tr>
+			<tr>
+				<td>Principles for Success</td>
+				<td>Ray Dalio</td>
+				<td><a href="https://www.goodreads.com/review/show/3519597125">Review</a></td>
+				<td>2/5</td>
+				<td>28 Aug 2020</td>
+			</tr>
+			<tr>
+				<td>Chicago Poems</td>
+				<td>Carl Sandburg</td>
+				<td><a href="https://www.goodreads.com/review/show/3500861369">Review</a></td>
+				<td>4/5</td>
+				<td>27 Aug 2020</td>
+			</tr>
+			<tr>
+				<td>On Earth We're Briefly Gorgeous</td>
+				<td>Ocean Vuong</td>
+				<td><a href="https://www.goodreads.com/review/show/3369487999">Review</a></td>
+				<td>5/5</td>
+				<td>25 Aug 2020</td>
+			</tr>
+			<tr>
 				<td>The Second Mountain</td>
 				<td>David Brooks</td>
 				<td><a href="https://www.goodreads.com/review/show/3499890076">Review</a></td>
