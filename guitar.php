@@ -11,7 +11,7 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Guitar Playing</h1>
-				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say "Anyways, here's Wonderwall." My goal is to <a href="https://reductress.com/post/man-learning-guitar-plans-to-ruin-first-party-after-this-is-all-over/"> become this man.</a> </p>
+				<p> I started learning how to play the guitar in January 2020. My goal is to walk into a crowded room, whip out my acoustic, and say <a href="/music/wonderwall"> "Anyways, here's Wonderwall."</a> My goal is to <a href="https://reductress.com/post/man-learning-guitar-plans-to-ruin-first-party-after-this-is-all-over/"> become this man.</a> </p>
 				
 				<h2> <a href="/music/la-vie-en-rose"> La Vie En Rose </a> </h2>
 				
@@ -39,6 +39,8 @@
 				
 				<h2> <a href="/music/we-are-going-to-be-friends"> We Are Going To Be Friends </a> </h2>
 				
+				<h2> <a href="/music/you-ruined-everything"> You Ruined Everything </a> </h2>
+								
 				<h1> Albums I'm listening to </h1>
 				
 				<p> I don't have Spotify, (mostly because I don't really believe in streaming/SaaS), but I have been getting more and more into listening to full albums. Here are some albums that I have been recently been getting more into! </p>
