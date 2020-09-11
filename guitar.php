@@ -40,6 +40,8 @@
 				<h2> <a href="/music/we-are-going-to-be-friends"> We Are Going To Be Friends </a> </h2>
 				
 				<h2> <a href="/music/you-ruined-everything"> You Ruined Everything </a> </h2>
+
+				<h2> <a href="/music/wild-montana-skies"> Wild Montana Skies </a> </h2>
 								
 				<h1> Albums I'm listening to </h1>
 				
