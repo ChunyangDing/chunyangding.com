@@ -42,6 +42,10 @@
 				<h2> <a href="/music/you-ruined-everything"> You Ruined Everything </a> </h2>
 
 				<h2> <a href="/music/wild-montana-skies"> Wild Montana Skies </a> </h2>
+
+				<h2> <a href="/music/hallelujah"> Hallelujah </a> </h2>
+
+				<h2> <a href="/music/love-love-love"> Love Love Love </a> </h2>
 								
 				<h1> Albums I'm listening to </h1>
 				
