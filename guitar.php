@@ -46,6 +46,8 @@
 				<h2> <a href="/music/hallelujah"> Hallelujah </a> </h2>
 
 				<h2> <a href="/music/love-love-love"> Love Love Love </a> </h2>
+
+				<h2> <a href="/music/norwegian-wood"> Norwegian Wood </a> </h2>
 								
 				<h1> Albums I'm listening to </h1>
 				
