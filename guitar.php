@@ -51,6 +51,10 @@
 
 				<h2> <a href="/music/put-your-records-on"> Put Your Records On </a> </h2>
 
+				<h2> <a href="/music/to-make-you-feel-my-love"> To Make You Feel My Love </a> </h2>
+
+				<h2> <a href="/music/space-oddity"> Space Oddity </a> </h2>
+
 								
 				<h1> Albums I'm listening to </h1>
 				
