@@ -55,6 +55,10 @@
 
 				<h2> <a href="/music/space-oddity"> Space Oddity </a> </h2>
 
+				<h2> <a href="/music/first-day-of-my-life"> First Day of My Life </a> </h2>
+
+				<h2> <a href="/music/let-her-go"> Let Her Go </a> </h2>
+
 								
 				<h1> Albums I'm listening to </h1>
 				
