@@ -16,7 +16,7 @@
 				<p> Recorded 5 Oct 2020 </p>
 				
 				<video width="480" height=auto controls>
-					<source src="/assets/vids/20200520_LetHerGo.mp4" type="video/mp4">
+					<source src="/assets/vids/20201005_LetHerGo.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 				</video> 
 				
