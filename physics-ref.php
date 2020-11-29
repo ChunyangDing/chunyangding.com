@@ -71,7 +71,7 @@
 				<h2> Approximations </h2>
 				<p> \( \sqrt{1 + x} \approx 1 + \frac{x}{2} - \frac{x^2}{8} - ... \) </p> 
 				<p> \( e^{ix} \approx 1 + ix - \frac{x^2}{2!} - i \frac{x^3}{3!} + \frac{x^4}{4!} + ... \) </p> 
-				<p> \( \sin(x) \approx x; \quad \cos(x) \approx 1 - \frac{x^2}{2}; \quad \tan(x) \approx x </p> 
+				<p> \( \sin(x) \approx x; \quad \cos(x) \approx 1 - \frac{x^2}{2}; \quad \tan(x) \approx x \) </p> 
 				
 				<h2> Pauli Matrices </h2>
 				<p> \( S_x = \frac{\hbar}{2} \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \) </p> 
@@ -84,10 +84,10 @@
 				<h2> Matrix Exponentials </h2>
 				<p> \( \mathrm{exp}(X^T) = \mathrm{exp}(X)^T \) </p>
 				<p> \( \mathrm{exp}(X^*) = \mathrm{exp}{X}^* \) </p> 
-				<p> Jacobi's Formula: \mathrm{det}(e^A) = e^{\mathrm{tr}(A)}
+				<p> Jacobi's Formula: \( \mathrm{det}(e^A) = e^{\mathrm{tr}(A)} \) </p> 
 				
 				<h2> Baker-Campbell-Hausdoff Formula </h2> 
-				<p> \( e^X e^Y = e^Z, where Z = X + Y + \frac{1}{2}[X, Y] + \frac{1}{12} [X, [X, Y] ] - \frac{1}{12} [Y, [X, Y] ] + ... \) </p> 
+				<p> \( e^X e^Y = e^Z, \mathrm{where} Z = X + Y + \frac{1}{2}[X, Y] + \frac{1}{12} [X, [X, Y] ] - \frac{1}{12} [Y, [X, Y] ] + ... \) </p> 
 
 				<h2> Quantum Harmonic Oscillator </h2>
 				<p> \( E_n = (n + \frac{1}{2}) \hbar \omega \) </p> 
@@ -124,8 +124,8 @@
 				<p> Degenerate perturbations: </p> 
 				
 				<h2> Hamilton's Equations </h2> 
-				<p> \frac{\partial H}{\partial q_i} = - \dot{p}_i </p>
-				<p> \frac{\partial H}{\partial p_i} = \dot{q}_i </p>
+				<p> \( \frac{\partial H}{\partial q_i} = - \dot{p}_i \)</p>
+				<p> \( \frac{\partial H}{\partial p_i} = \dot{q}_i \) </p>
 				
 
 			</div>

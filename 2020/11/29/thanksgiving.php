@@ -14,20 +14,20 @@
 				
 				<p> Making a big thanksgiving meal always felt like a classic tradition for my family and me. Here are a collection of recipes that I like to use! </p>
 				
-				<p> Dishes </p>
+				<h2 id="all"> Dishes </h2>
 				<ul>
-					<li> Vegetable Broth </li>
-					<li> Roast Turkey </li>
-					<li> Stuffing </li>
-					<li> Cranberry Sauce </li>
-					<li> Mashed Potatoes </li>
-					<li> Candied Sweet Potatoes </li>
-					<li> Green Bean Casserole </li>
-					<li> Turkey Gravy </li>
-					<li> Turkey Soup </li>
+					<li> <a href="#broth"> Vegetable Broth </a> </li>
+					<li> <a href="#turkey"> Roast Turkey </a> </li>
+					<li> <a href="#stuffing"> Stuffing </a> </li>
+					<li> <a href="#cranberry"> Cranberry Sauce </a> </li>
+					<li> <a href="#mashed">Mashed Potatoes </a> </li>
+					<li> <a href="#candied"> Candied Sweet Potatoes </a> </li>
+					<li> <a href="#green-bean"> Green Bean Casserole </a> </li>
+					<li> <a href="#gravy"> Turkey Gravy </a> </li>
+					<li> <a href="#soup"> Turkey Soup </a> </li>
 				</ul>
 				
-				<p> Vegetable Broth </p>
+				<h2 id="broth"> Vegetable Broth </h2>
 				
 				<p> This is a very useful thing to prep for thanksgiving, and honestly, for any time that you have spare vegetables in your fridge that are about to go bad. Specifically for thanksgiving, I like to brine my turkey with a base that has vegetable broth in it, so I make a batch ahead of time. </p>
 				
@@ -52,7 +52,9 @@
 				
 				<p> Specifically for thanksgiving, you want to use this vegetable broth as a starter for the brine for your turkey - which is covered in the next recipe! </p>
 				
-				<p> Turkey </p>
+				<p> <a href="#all"> Back to top </a> </p>
+				
+				<h2 id="turkey"> Turkey </h2>
 				
 				<p> I subscribe to Alton Brown's Good Eats version of the turkey, which is primarily a brined turkey that is cooked at high temperature. I highly recommend watching the Youtube videos - they are very instructional! </p>
 				
@@ -82,8 +84,10 @@
 					<li> Set your meat thermometer to 161 degrees and remove turkey when that temperature is reached. Allow the turkey to rest for 20-30 mins - you should notice the temperature of the turkey to continue to rise until about 165. 
 					<li> For carving... I'm not great. But, it seems like you can get decent chunks of white meat by starting at the centerbone and carving down in slices, and to also roughly remove the turkey legs. </li>
 				</ol> 
+								
+				<p> <a href="#all"> Back to top </a> </p>
 				
-				<p> Stuffing </p>
+				<h2 id="stuffing"> Stuffing </h2>
 				
 				<p> Stuffing is definitely my favorite part of the thanksgiving meal - it has a lovely amount of variety, and you can spruce it up however you like! </p>
 				
@@ -105,8 +109,10 @@
 					<li> In a large mixing bowl, put in the stale bread. Pour over your vegetable mixture, two beaten eggs, and the vegetable or turkey stock. Roughly mix, and lay out the bread into a large baking pan. Cover with aluminum foil. </li> 
 					<li> Pop into a 350 degree oven for 20ish minutes, and then remove the aluminum foil. Take it out of the oven when the tops are sufficiently browned to your liking. </li> 
 				</ol> 
+
+				<p> <a href="#all"> Back to top </a> </p>
 				
-				<p> Cranberry Sauce </p>
+				<h2 id="cranberry"> Cranberry Sauce </h2>
 				
 				<p> I think cranberry sauce was the first dish I was allowed to help prepare, at least after we moved away from the canned cranberry jelly. This is an incredibly simple process, and provides you with a lot more control over customizing the sauce, especially in controlling the amount of sugar that goes into it. </p>
 				
@@ -127,8 +133,10 @@
 					<li> After about 20 minutes or so, most of the cranberries will have popped, but the liquid might still seem a bit runny. Eventually, the pectin in the cranberries will make the mixture become more solid, so there is no need to constantly let it boil. </li> 
 				</ol>
 				
-				<p> Mashed Potatoes </p>
-				
+				<p> <a href="#all"> Back to top </a> </p>
+
+				<h2 id="mashed"> Mashed Potatoes </h2>				
+
 				<p> This really is not strictly a thanksgiving dish, but it does seem like a classic at a large thanksgiving dinner, especially with the turkey gravy! </p>
 				
 				<p> Ingredients </p>
@@ -151,13 +159,88 @@
 					<li> Return your potatoes to the pot, and using a wooden spoon, roughly mash the potatoes. Add in your butter/garlic mixture, a few splashes of heavy cream, and maybe half a cup of milk. Keep adding in milk and the reserved water mixture until you reach your desired consistency. Keep over low heat during this process. </li>
 					<li> Add in salt and pepper to taste. For me, I highly prefer dumping just a boatload of smoked paprika in, as well as adding a bit of preshredded cheddar cheese (you probably don't really need to break out the fancy stuff for this dish). </li>
 				</ol>
+
+				<p> <a href="#all"> Back to top </a> </p>
 				
-				<p> Candied Sweet Potatoes </p>
+				<h2 id="candied"> Candied Sweet Potatoes </h2>
 				<p> Honestly, this is more of a dessert than a appetizer, but it is truly quite delicious. </p>
 				
 				<p> Ingredients </p>
 				<ul> 
-					
+					<li> Butter </li>
+					<li> Brown sugar, cinnamon, cloves </li>
+					<li> Orange juice, orange peel </li> 
+					<li> Sweet potatoes </li> 
+				</ul>
+				
+				<p> Instructions </p> 
+				<ol> 
+					<li> Peel and slice sweet potatoes. The shape of these don't really matter, but you want fairly thin slices. Perhaps a mandolin might be easier - sweet potatoes are deceptively difficult to slice, especially large ones. </li>
+					<li> Make a syrup by melting in equal parts butter, brown sugar, and orange juice. Add in your spices as well. If you have some leftover oranges, I highly recommend using a vegetable peeler to get some orange peel twists. Throw that into your sauce mixture for a few minutes, until things look nice and bubbly. </li>
+					<li> Arrange the sweet potatoes in a large pan, and pour over the sauce. The sweet potatoes do not need to be super uniform - they can easily stack on top of each other, although you do get a much nicer crispy effect from the top layer. Make sure each slice of sweet potato is nicely coated by the syrup. </li>
+					<li> Bake at 350 for about 30-40 minutes, or until the sweet potatoes are soft. Be careful of not leaving it in the oven for too long, or else the sugar in the syrup will start to burn. </li> 
+				</ol>
+
+				<p> <a href="#all"> Back to top </a> </p>
+				
+				<h2 id="greenbean"> Green Bean Casserole </h2> 
+				<p> A classic dish that can be straight out of cans. I try to fortify the cream of mushroom soup a bit with fresh mushrooms - you can also throw the mushroom ends into the vegetable broth. </p> 
+				
+				<p> Ingredients </p> 
+				<ul> 
+					<li> 2 cans of green beans </li>
+					<li> 1 can of cream of mushroom soup </li>
+					<li> French's fried onions </li> 
+					<li> Heavy cream or milk </li>
+					<li> Mushrooms </li> 
+				</ul>
+				
+				<ol>
+					<li> Quarter or sliver the mushrooms, and gently sautee with some butter and salt. </li>
+					<li> Boil the cream of mushroom soup, and add in some extra milk/cream. Add in your sauteed mushrooms and a dash of soy sauce. Allow the soup to come to a simmer, and add in additional water/salt/seasonings as desired. </li> 
+					<li> In a large baking pan, mix together the green beans, your prepared cream of mushroom soup, and a handful of fried onions. Spread out evenly in the pan, and top with more fried onions. </li>
+					<li> Bake at 350 for about 30 minutes, until the entire mixture looks bubbly. </li> 
+				</ol>
+
+				<p> <a href="#all"> Back to top </a> </p>
+				
+				<h2 id="gravy">Turkey Gravy </h2> 
+				<p> Ingredients </p> 
+				<ul>
+					<li> Leftover turkey drippings, separated into fat and liquid </li>
+					<li> Flour, cornstarch/tapioca starch </li>
+					<li> Premade chicken broth </li> 
+					<li> Neck and gibbards </li> 
+				</ul> 
+				<p> Instructions </p> 
+				<ol>
+					<li> First, I like to make a fortified turkey broth, starting with just frying the neck and gibbards in a pan, and adding in chicken broth. Add a bit of salt and pepper to taste. I'm not sure how much difference this makes, but it does give the chicken broth a more gamey flavor. You can use this turkey broth in the stuffing recipe, as well as here. </li> 
+					<li> We will make a simple roux with this turkey fat. Heat the separated oil in a pan, and stir in flour a spoonful at a time. Keep the heat fairly low, and make sure that nothing burns. </li> 
+					<li> Slowly add in the turkey drippings, being very careful to not make the hot fat explode. Also add in your turkey stock as desired. Thicken with cornstarch or tapioca starch. Note that the gravy will thicken as it cools, so don't add too much starch at the beginning! </li> 
+				</ol> 
+
+				<p> <a href="#all"> Back to top </a> </p>
+				
+				<h2 id="soup">Turkey Soup </h2> 
+				<p> This is probably my favorite part of Thanksgiving food - the morning after, where you slowly break down the turkey. The leftover turkey parts have absorbed all of that delicious flavor from the overnight brine, as well as having great roasted notes from being in the oven. </p> 
+				
+				<p> Ingredients </p> 
+				<ul>
+					<li> Large pot or dutch oven </li>
+					<li> Leftover turkey bones </li>
+					<li> Whole peppercorns, salt, bay leaf, onions (optional) </li>
+				</ul> 
+				<p> Instructions </p> 
+				<ol>
+					<li> Break up the turkey bones as best as you can. In the largest pot you have, fit in the turkey bones, the additional seasonings, and cover with water. </li>
+					<li> Bring to a boil and reduce to a simmer. Keep the lid on. You want to simmer this for as long as you can - 3-4 hours at least, to really break everything down. </li> 
+					<li> Add in more water if it appears that too much steam is escaping. The soup should turn an incredibly smooth, milky color. Feel free to discard the oil that rises to the top periodically. </li>
+					<li> Strain the broth from all of the bones and seasoning. Store the broth up to about a week. As it cools, the broth may become quite jello-y - there should be quite a bit of gelatin from the bones that comes out. </li> 
+					<li> My favorite way to enjoy this broth, besides just plain, is with simple chinese noodles. Bring your thin shandong noodles to a boil, and in a separate pot, reheat the broth. When the noodles are tender, transfer to the pot with the broth to finish. Season with a sprinkle of salt and add an egg. </li> 
+				</ol> 				
+
+				<p> <a href="#all"> Back to top </a> </p>
+
 				<p> <a href="/food">Back to All Recipes </a> </p>
 			</div>
 		</div>
