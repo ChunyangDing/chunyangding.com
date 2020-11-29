@@ -59,7 +59,7 @@
 				
 				<h2 id="turkey"> Turkey </h2>
 				
-				<p> I subscribe to Alton Brown's Good Eats version of the turkey, which is primarily a brined turkey that is cooked at high temperature. I highly recommend watching the Youtube videos - they are very instructional! </p>
+				<p> I subscribe to <a href="https://www.foodnetwork.com/recipes/alton-brown/good-eats-roast-turkey-recipe-1950271">Alton Brown's Good Eats</a> version of the turkey, which is primarily a brined turkey that is cooked at high temperature. I highly recommend watching the Youtube videos - they are very instructional! </p>
 				
 				<p> Ingredients </p>
 				<ul>
