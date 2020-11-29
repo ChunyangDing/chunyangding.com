@@ -14,7 +14,7 @@
 				
 				<p> Making a big thanksgiving meal always felt like a classic tradition for my family and me. Here are a collection of recipes that I like to use! </p>
 				
-				<img src="/assets/pics/20201129_Thanksgiving.jpg" alt="A full Thanksgiving spread!" style="width:400px;height:auto;" class="center">
+				<img src="/assets/pics/20201126_Thanksgiving.jpg" alt="A full Thanksgiving spread!" style="width:400px;height:auto;" class="center">
 
 				
 				<h2 id="all"> Dishes </h2>
