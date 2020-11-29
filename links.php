@@ -20,10 +20,17 @@
 					<li> N. R. Kleinfeld - NYTimes - <a href="https://www.nytimes.com/2015/10/18/nyregion/dying-alone-in-new-york-city.html">The Lonely Death of George Bell </a> </li>
 					<li> Marina Keegan - YDN - <a href="https://yaledailynews.com/blog/2012/05/27/keegan-the-opposite-of-loneliness/">The Opposite of Loneliness </a> </li>
 					<li> Jon Bois - SB Nation - <a href="https://www.sbnation.com/a/17776-football">17776 </a> </li>
+					<li> Jon Bois - SB Nation - <a href="https://www.sbnation.com/secret-base/21410129/20020/chapters-index">20020 </a> </li>
 					<li> Adrienne LaFrance - The Atlantic - <a href="https://www.theatlantic.com/technology/archive/2015/10/what-makes-a-volcano-sacred/413203/">What Makes a Volcano Sacred?</a> </li> 
 					<li> Tim Urban - Wait but Why - Why Procrastinators Procrastinate: <a href="https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html"> Part One </a> <a href="https://waitbutwhy.com/2013/11/how-to-beat-procrastination.html"> Part Two </a> </li>
 					<li> Tim Urban - Wait but Why - <a href="https://waitbutwhy.com/2013/11/life-is-picture-but-you-live-in-pixel.html">Life is a Picture, but You Live in a Pixel</a> </li>
 					<li> Corey Mohler - Existential Comics - <a href="https://existentialcomics.com/comic/353">The Elflord and the Mayfly</a> </li>
+					<li> Abstruse Goose - <a href="https://abstrusegoose.com/477">In Cabin'd Ships at Sea</a> </li>
+					<li> Many Worlds Theory - <a href="https://manyworldstheory.com/2013/10/03/the-9-kinds-of-physics-seminar/">The 9 Kinds of Physics Seminar</a> </li>
+					<li> Ken Liu - <a href="https://io9.gizmodo.com/read-ken-lius-amazing-story-that-swept-the-hugo-nebula-5958919">The Paper Menagerie</a> </li>
+					<li> Aaron Bleyaert - <a href="https://medium.com/@AaronBleyaert/how-to-lose-weight-in-4-easy-steps-1f135f7e1dec"> How To Lose Weight in 4 Easy Steps! </a> </li>
+					<li> Jenny Odell - <a href="https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb"> how to do nothing </a> </li>
+					
 				</ul>
 				
 				<p> Websites that I <del>ripped off</del> found inspiration in </p>

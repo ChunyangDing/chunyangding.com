@@ -13,9 +13,13 @@
 				<h1> Past Works </h1>
 				<p> Here is a list of some of the stuff I have written or worked on in the past. </p>
 
+				<p> Physics Today: <br>
+					<a href="https://www.nature.com/articles/d41586-020-03189-1">Don't Fear the Gap Year </a> 
+				</p>
+				
 				<p> The Yale Scientific Magazine:<br>
-					<a href="http://www.yalescientific.org/2019/05/cant-sleep-neither-do-flies/">Can't Sleep? Neither do Flies. </a><br>
-					<a href="http://www.yalescientific.org/2017/10/from-the-editor-issue-90-3-innovating-for-the-future/">From the Editor: Innovating for the Future. </a><br>
+					<a href="http://www.yalescientific.org/2019/05/cant-sleep-neither-do-flies/">Can't Sleep? Neither do Flies</a><br>
+					<a href="http://www.yalescientific.org/2017/10/from-the-editor-issue-90-3-innovating-for-the-future/">From the Editor: Innovating for the Future</a><br>
 					<a href="http://www.yalescientific.org/2017/10/from-the-editor-issue-90-2-truth-in-science/">From the Editor: Truth in Science</a><br>
 					<a href="http://www.yalescientific.org/2017/07/peering-into-the-earths-violent-past-new-techniques-see-origin-of-ancient-volcanic-eruptions/">Peering into the Earth's Violent Past</a><br>
 					<a href="http://www.yalescientific.org/2017/04/high-school-profile-emelia-mclaughlin/">High School Profile: Emelia McLaughlin</a><br>
