@@ -148,7 +148,7 @@
 					<li> Heavy cream, milk </li>
 					<li> Salt, pepper </li>
 					<li> Cheddar cheese, smoked paprika, chives </li>
-				<ul>
+				</ul>
 				
 				<p> Instructions </p>
 				<ol>
