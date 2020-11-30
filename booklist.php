@@ -23,6 +23,55 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>This is How You Lose the Time War</td>
+				<td>Amal El-Mohtar, Max Gladstone</td>
+				<td><a href="https://www.goodreads.com/review/show/3196508606">Review</a></td>
+				<td>3/5</td>
+				<td>22 Nov 2020</td>
+			</tr>
+			<tr>
+				<td>Good Omens</td>
+				<td>Terry Pratchett, Neil Gaiman</td>
+				<td><a href="https://www.goodreads.com/review/show/3640712667">Review</a></td>
+				<td>4/5</td>
+				<td>11 Nov 2020</td>
+			</tr>
+			<tr>
+				<td>The Structure of Scientific Revolutions</td>
+				<td>Thomas S. Kuhn</td>
+				<td><a href="https://www.goodreads.com/review/show/3601960358">Review</a></td>
+				<td>5/5</td>
+				<td>09 Nov 2020</td>
+			</tr>
+			<tr>
+				<td>The First Fifteen Lives of Henry August</td>
+				<td>Claire North</td>
+				<td><a href="https://www.goodreads.com/review/show/3630950263">Review</a></td>
+				<td>3/5</td>
+				<td>05 Nov 2020</td>
+			</tr>
+			<tr>
+				<td>Team of Teams</td>
+				<td>Stanely McChrystal</td>
+				<td><a href="https://www.goodreads.com/review/show/3319930891">Review</a></td>
+				<td>4/5</td>
+				<td>03 Oct 2020</td>
+			</tr>
+			<tr>
+				<td>Story of Christianity, Vol. 2</td>
+				<td>Justo L. Gonzalez</td>
+				<td><a href="https://www.goodreads.com/review/show/3261031556">Review</a></td>
+				<td>4/5</td>
+				<td>20 Sep 2020</td>
+			</tr>
+			<tr>
+				<td>Fear and Trembling</td>
+				<td>Soren Kierkegaard</td>
+				<td><a href="https://www.goodreads.com/review/show/3533234406">Review</a></td>
+				<td>4/5</td>
+				<td>11 Sep 2020</td>
+			</tr>
+			<tr>
 				<td>Little Fires Everywhere</td>
 				<td>Celeste Ng</td>
 				<td><a href="https://www.goodreads.com/review/show/3501273163">Review</a></td>
