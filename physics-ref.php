@@ -114,8 +114,8 @@
 				<p> \( L^2 |l, m\rangle = \hbar l (l+1) |l, m \rangle \) </p>
 				<p> \( L_z |l, m\rangle = \hbar m |l, m \rangle \) </p>
 				
-				<p> \( L_+ |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m+1)} |l, m+1 \rangle </p> 
-				<p> \( L_- |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m-1)} |l, m-1 \rangle </p> 
+				<p> \( L_+ |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m+1)} |l, m+1 \rangle \)</p> 
+				<p> \( L_- |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m-1)} |l, m-1 \rangle \) </p> 
 				<p> \( L_x = \frac{1}{2} (L_+ + L_-); \quad L_y = \frac{1}{2i} (L_+ - L_-) \) </p> 
 				
 				<h2> Spin Additions </h2> 
@@ -126,9 +126,13 @@
 				
 				<p> Non-degenerate perturbations: \(H' = H^{(0)} + \lambda V \) </p>
 				<p> First order: </p> 
-				<p> \( \Delta E_n = \langle n | V | n \rangle \) </p>
+				<p> \( \Delta E_n^{(1)} = \lambda \langle n | V | n \rangle \) </p>
+				
+				<p> Second order: </p> 
+				<p> \( \Delta E_n^{(2)} =  \lambda \Sigma_{i \neq n} \frac{|\langle i | V | n \rangle|^2}{E_n^{(0)} - E_i^{(0)}} \) </p> 
 				
 				<p> Degenerate perturbations: </p> 
+				<p> \( W_{ij} = \langle i | V | j \rangle \) </p> 
 				
 				<h2> Hamilton's Equations </h2> 
 				<p> \( \frac{\partial H}{\partial q_i} = - \dot{p}_i \)</p>
