@@ -19,24 +19,24 @@
 					<ul> 
 						<li> 1 <a href="#motivation"> Math </a> </li>
 							<ul>
-								<li> 1.1 <a href="Trig"> Trig Identities </a> </li> 
-								<li> 1.2 <a href="HyperbolicTrig"> Hyperbolic Trig Identities </a> </li> 
-								<li> 1.3 <a href="Commutator"> Commutator Identities </a> </li>
-								<li> 1.4 <a href="Poisson"> Poisson Brackets </a> </li>
-								<li> 1.5 <a href="Determinant"> Determinant Rules </a> </li>
-								<li> 1.6 <a href="Levi-Cevita"> Levi-Cevita Symbol </a> </li> 
-								<li> 1.7 <a href="Coordinate"> Coordinate Transforms </a> </li>
-								<li> 1.8 <a href="Taylor"> Taylor Expansions </a> </li> 
-								<li> 1.9 <a href="Approximations"> Approximations </a> </li> 
+								<li> 1.1 <a href="#Trig"> Trig Identities </a> </li> 
+								<li> 1.2 <a href="#HyperbolicTrig"> Hyperbolic Trig Identities </a> </li> 
+								<li> 1.3 <a href="#Commutator"> Commutator Identities </a> </li>
+								<li> 1.4 <a href="#Poisson"> Poisson Brackets </a> </li>
+								<li> 1.5 <a href="#Determinant"> Determinant Rules </a> </li>
+								<li> 1.6 <a href="#Levi-Cevita"> Levi-Cevita Symbol </a> </li> 
+								<li> 1.7 <a href="#Coordinate"> Coordinate Transforms </a> </li>
+								<li> 1.8 <a href="#Taylor"> Taylor Expansions </a> </li> 
+								<li> 1.9 <a href="#Approximations"> Approximations </a> </li> 
 							</ul>
 						<li> 2 <a href> Quantum Mechanics </a> </li>
 							<ul> 
-								<li> 2.1 <a href="Pauli"> Pauli Matrices </a> </li> 
-								<li> 2.2 <a href="MatrixExponentials"> Matrix Exponentials </a> </li>
-								<li> 2.3 <a href="BCH"> Baker-Campbell-Hausdorff Formula </a> </li> 
-								<li> 2.4 <a href="QHO"> Quantum Harmonic Oscillator </a> </li> 
-								<li> 2.5 <a href="SphericalHarmonics"> Spherical Harmonics </a> </li> 
-								<li> 2.6 <a href="Angular"> Angular Momentum </a> </li> 
+								<li> 2.1 <a href="#Pauli"> Pauli Matrices </a> </li> 
+								<li> 2.2 <a href="#MatrixExponentials"> Matrix Exponentials </a> </li>
+								<li> 2.3 <a href="#BCH"> Baker-Campbell-Hausdorff Formula </a> </li> 
+								<li> 2.4 <a href="#QHO"> Quantum Harmonic Oscillator </a> </li> 
+								<li> 2.5 <a href="#SphericalHarmonics"> Spherical Harmonics </a> </li> 
+								<li> 2.6 <a href="#Angular"> Angular Momentum </a> </li> 
 							</ul> 
 						<li> 3 <a href> Classical Mechanics </a> </li>
 						</ul>
