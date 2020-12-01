@@ -110,6 +110,13 @@
 				<p> \( Y_2^1 = - \frac{1}{2} \sqrt{\frac{15}{2\pi}} e^{i \phi} \sin(\theta) \cos(\theta) \) </p> 			
 				<p> \( Y_2^2 = \frac{1}{4} \sqrt{\frac{15}{2\pi}} e^{2 i \phi} \sin^2(\theta) \) </p> 
 
+				<h2> Angular Momentum </h2>
+				<p> \( L^2 |l, m\rangle = \hbar l (l+1) |l, m \rangle \) </p>
+				<p> \( L_z |l, m\rangle = \hbar m |l, m \rangle \) </p>
+				
+				<p> \( L_+ |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m+1)} |l, m+1 \rangle </p> 
+				<p> \( L_- |l, m\rangle = \hbar \sqrt{ l (l+1) + m(m-1)} |l, m-1 \rangle </p> 
+				<p> \( L_x = \frac{1}{2} (L_+ + L_-); \quad L_y = \frac{1}{2i} (L_+ - L_-) \) </p> 
 				
 				<h2> Spin Additions </h2> 
 				
