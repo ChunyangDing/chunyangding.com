@@ -35,8 +35,9 @@
 								<li> 2.2 <a href="#MatrixExponentials"> Matrix Exponentials </a> </li>
 								<li> 2.3 <a href="#BCH"> Baker-Campbell-Hausdorff Formula </a> </li> 
 								<li> 2.4 <a href="#QHO"> Quantum Harmonic Oscillator </a> </li> 
-								<li> 2.5 <a href="#SphericalHarmonics"> Spherical Harmonics </a> </li> 
-								<li> 2.6 <a href="#Angular"> Angular Momentum </a> </li> 
+								<li> 2.5 <a href="#ParticleBox"> Particle in a Box </a> </li> 
+								<li> 2.6 <a href="#SphericalHarmonics"> Spherical Harmonics </a> </li> 
+								<li> 2.7 <a href="#Angular"> Angular Momentum </a> </li> 
 							</ul> 
 						<li> 3 <a href> Classical Mechanics </a> </li>
 						</ul>
@@ -61,6 +62,11 @@
 				
 				<h2 id="HyperbolicTrig" > Hyperbolic Trig Identities <a href="#toc">(top)</a> </h2>
 				
+				<p> \( \sinh(x) = \frac{e^x + e^(-x)}{2} \) </p>
+				<p> \( \cosh(x) = \frac{e^x - e^(-x)}{2} \) </p>
+				
+				<p> \( \cosh(x) - \sinh(x) = 1 \) </p>
+				
 				<h2 id="Commutator"> Commutator Identities <a href="#toc">(top)</a>  </h2>
 				
 				<p> \( [A, B] = AB - BA \) </p> 
@@ -70,16 +76,16 @@
 				<p> \( [AB, C] = [A, C]B + A[B, C] \) </p>
 				
 				<h2 id="Poisson" > Poisson Brackets <a href="#toc">(top)</a> </h2> 
-				<p> \( {F, G} = \Sigma_i \left( \frac{\partial F}{\partial q_i} \frac{\partial G}{\partial p_i} - \frac{\partial F}{\partial p_i} \frac{\partial G}{\partial q_i} \right) \) </p>
-				<p> \( {F, G} = -{G, F} \) </p>
-				<p> \( {aF + bG, H} = a{F, H} + b{G, H} \) </p>
-				<p> \( {FG, H} = F [G, H] + [F, H] G \) </p> 
-				<p> \( {q_i, q_j} = 0; \quad {p_i, p_j} = 0; \quad {q_i, p_j} = \delta_{ij} \) </p>
+				<p> \( \{F, G\} = \Sigma_i \left( \frac{\partial F}{\partial q_i} \frac{\partial G}{\partial p_i} - \frac{\partial F}{\partial p_i} \frac{\partial G}{\partial q_i} \right) \) </p>
+				<p> \( \{F, G\} = -\{G, F\} \) </p>
+				<p> \( \{aF + bG, H\} = a\{F, H\} + b\{G, H\} \) </p>
+				<p> \( \{FG, H\} = F [G, H] + [F, H] G \) </p> 
+				<p> \( \{q_i, q_j\} = 0; \quad {p_i, p_j} = 0; \quad {q_i, p_j} = \delta_{ij} \) </p>
 				
 				<h2 id="Determinant" > Determinant Identities <a href="#toc">(top)</a> </h2> 
 				
 				<h2 id="Levi-Cevita" > Levi-Cevita Symbol <a href="#toc">(top)</a> </h2>
-				<p> \( \epsilon_{ijk} = 1 \mathrm{if} ijk = 123, 231, 312; -1 \mathrm{if} ijk = 321, 213, 132 \) </p> 
+				<p> \( \epsilon_{ijk} = 1 \mathrm{ if } ijk = 123, 231, 312; \quad -1 \mathrm{ if } ijk = 321, 213, 132 \) </p> 
 				<p> \( a \times b = \epsilon_{ijk} a_j b_k \)</p>
 				<p> \( L_i = \epsilon_{ijk} x_j p_k \) </p>
 				<p> \( \epsilon_{ijk} \epsilon_{ilm} = \delta_{jl} \delta_{km} - \delta{jm} \delta_{kl} \) </p> 
@@ -97,6 +103,10 @@
 				<p> \( f(x=a) = f(a) + \frac{f'(a)}{1!} (x-a) + \frac{f''(a)}{2!} (x-a)^2 + \frac{f'''(a)}{3!} (x-a)^3 + ... \) </p>
 				<p> \( \sin(x) = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + ... \) </p> 
 				<p> \( \cos(x) = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + ... \) </p> 
+				
+				<p> \( \sinh(x) = x + \frac{x^3}{3!} + \frac{x^5}{5!} + \frac{x^7}{7!} + ... \) </p> 
+				<p> \( \cosh(x) = 1 + \frac{x^2}{2!} + \frac{x^4}{4!} + \frac{x^6}{6!} + ... \) </p> 
+
 				
 				<h2 id="Approximations" > Approximations <a href="#toc">(top)</a> </h2>
 				<p> \( \sqrt{1 + x} \approx 1 + \frac{x}{2} - \frac{x^2}{8} - ... \) </p> 
@@ -118,6 +128,8 @@
 				
 				<h2 id = "BCH" > Baker-Campbell-Hausdoff Formula <a href="#toc">(top)</a> </h2> 
 				<p> \( e^X e^Y = e^Z, \mathrm{where} Z = X + Y + \frac{1}{2}[X, Y] + \frac{1}{12} [X, [X, Y] ] - \frac{1}{12} [Y, [X, Y] ] + ... \) </p> 
+				<p> Baker Hasudorff Lemma: </p> 
+				<p> \( e^{-G} A e^G = A + [G, A] + \frac{1}{2!} [G, [G, A]] + \frac{1}{3!} [G, [G, [G, A]]] + ... \) </p> 
 
 				<h2 id = "QHO" > Quantum Harmonic Oscillator <a href="#toc">(top)</a> </h2>
 				<p> \( E_n = (n + \frac{1}{2}) \hbar \omega \) </p> 
@@ -125,6 +137,11 @@
 				
 				<p> \( x = \sqrt{\frac{\hbar}{2 m \omega} } (a^\dagger + a); \quad p = i \sqrt{\frac{m \hbar \omega}{2}} (a^\dagger - a) \) </p> 
 				<p> \( a|n\rangle = \sqrt{n} |n - 1\rangle; \quad a^\dagger |n \rangle = \sqrt{n+1} |n+1\rangle \) </p> 
+				
+				<h2 id ="ParticleBox"> Particle in a Box </h2>
+				<p> \( V = 0, 0 \leq x \leq L /) </p>
+				<p> \( E_n = \frac{n^2 \pi^2 \hbar^2}{2 m L^2} \) </p>
+				<p> \( \psi_n = \sqrt{\frac{2}{L}} \sin(\frac{n \pi x}{L}) \) </p> 
 				
 				<h2 id = "SphericalHarmonics" > Spherical Harmonics (Central Potentials) <a href="#toc">(top)</a>  </h2>
 				
@@ -163,6 +180,7 @@
 				
 				<p> Degenerate perturbations: </p> 
 				<p> \( W_{ij} = \langle i | V | j \rangle \) </p> 
+				<p> Solve for eigenvalues of W to find the lifted degeneracies for energy and eigenvectors for new "good" states. </p> 
 				
 				<h2 id="HamiltonEquations" > Hamilton's Equations <a href="#toc">(top)</a> </h2> 
 				<p> \( \frac{\partial H}{\partial q_i} = - \dot{p}_i \)</p>
