@@ -62,8 +62,8 @@
 				
 				<h2 id="HyperbolicTrig" > Hyperbolic Trig Identities <a href="#toc">(top)</a> </h2>
 				
-				<p> \( \sinh(x) = \frac{e^x + e^(-x)}{2} \) </p>
-				<p> \( \cosh(x) = \frac{e^x - e^(-x)}{2} \) </p>
+				<p> \( \sinh(x) = \frac{e^x + e^{-x}}{2} \) </p>
+				<p> \( \cosh(x) = \frac{e^x - e^{-x}}{2} \) </p>
 				
 				<p> \( \cosh(x) - \sinh(x) = 1 \) </p>
 				
@@ -85,7 +85,7 @@
 				<h2 id="Determinant" > Determinant Identities <a href="#toc">(top)</a> </h2> 
 				
 				<h2 id="Levi-Cevita" > Levi-Cevita Symbol <a href="#toc">(top)</a> </h2>
-				<p> \( \epsilon_{ijk} = 1 \mathrm{ if } ijk = 123, 231, 312; \quad -1 \mathrm{ if } ijk = 321, 213, 132 \) </p> 
+				<p> \( \epsilon_{ijk} = 1 \mathrm{if} ijk = 123, 231, 312; \quad -1 \mathrm{ if } ijk = 321, 213, 132 \) </p> 
 				<p> \( a \times b = \epsilon_{ijk} a_j b_k \)</p>
 				<p> \( L_i = \epsilon_{ijk} x_j p_k \) </p>
 				<p> \( \epsilon_{ijk} \epsilon_{ilm} = \delta_{jl} \delta_{km} - \delta{jm} \delta_{kl} \) </p> 
@@ -139,7 +139,7 @@
 				<p> \( a|n\rangle = \sqrt{n} |n - 1\rangle; \quad a^\dagger |n \rangle = \sqrt{n+1} |n+1\rangle \) </p> 
 				
 				<h2 id ="ParticleBox"> Particle in a Box </h2>
-				<p> \( V = 0, 0 \leq x \leq L /) </p>
+				<p> \( V = 0, 0 \leq x \leq \) </p>
 				<p> \( E_n = \frac{n^2 \pi^2 \hbar^2}{2 m L^2} \) </p>
 				<p> \( \psi_n = \sqrt{\frac{2}{L}} \sin(\frac{n \pi x}{L}) \) </p> 
 				
