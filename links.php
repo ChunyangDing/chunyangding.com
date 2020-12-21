@@ -15,6 +15,7 @@
 				<p> Articles and comics that I still frequently think about </p>
 				<ul>
 					<li> Zach Weinersmith - SMBC - <a href="https://www.smbc-comics.com/comic/the-art-cycle">The Art Cycle </a> </li>
+					<li> Zach Weinersmith - SMBC - <a href="https://www.smbc-comics.com/comic/2013-04-07">How Internet Fighting Works </a> </li>
 					<li> PHD Comics - <a href="http://phdcomics.com/comics.php?f=1924">Academia </a> </li> 
 					<li> Randall Munroe - XKCD - <a href="https://xkcd.com/1909/">Digital Resource Lifespan</a> </li>
 					<li> N. R. Kleinfeld - NYTimes - <a href="https://www.nytimes.com/2015/10/18/nyregion/dying-alone-in-new-york-city.html">The Lonely Death of George Bell </a> </li>
@@ -30,6 +31,7 @@
 					<li> Ken Liu - <a href="https://io9.gizmodo.com/read-ken-lius-amazing-story-that-swept-the-hugo-nebula-5958919">The Paper Menagerie</a> </li>
 					<li> Aaron Bleyaert - <a href="https://medium.com/@AaronBleyaert/how-to-lose-weight-in-4-easy-steps-1f135f7e1dec"> How To Lose Weight in 4 Easy Steps! </a> </li>
 					<li> Jenny Odell - <a href="https://medium.com/@the_jennitaur/how-to-do-nothing-57e100f59bbb"> how to do nothing </a> </li>
+					<li> Matt Might - <a href="http://matt.might.net/articles/phd-school-in-pictures/"> The Illustrated Guide to a Ph.D. </a> </li>
 					
 				</ul>
 				

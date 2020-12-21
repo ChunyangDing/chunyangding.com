@@ -14,7 +14,7 @@
 				<p> Here is a list of some of the stuff I have written or worked on in the past. </p>
 
 				<p> Physics Today: <br>
-					<a href="https://www.nature.com/articles/d41586-020-03189-1">Don't Fear the Gap Year </a> 
+					<a href="https://physicstoday.scitation.org/do/10.1063/PT.6.3.20201118a/full/">Don't Fear the Gap Year </a> 
 				</p>
 				
 				<p> The Yale Scientific Magazine:<br>
