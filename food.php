@@ -49,6 +49,8 @@
 				<p> <a href="/2020/08/22/stir-fried-tofu-pork">Stir Fried Tofu and Pork （青椒豆干丝）</a> </p>
 				<p> <a href="/2020/08/22/gong-bao-ji-ding">Gongbao Chicken (宫保鸡丁）</a> </p>
 				<p> <a href="/2020/11/29/thanksgiving">Thanksgiving Foods</a> </p>
+				<p> <a href="/2020/12/25/quick-pickled-red-onions">Quick Pickled Red Onions</a> </p>
+				<p> <a href="/2020/12/25/shi-zi-tou"> Lion's Head Meatballs (狮子头） </a> </p>
 
 			</div>
 

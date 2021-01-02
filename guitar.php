@@ -58,6 +58,13 @@
 				<h2> <a href="/music/first-day-of-my-life"> First Day of My Life </a> </h2>
 
 				<h2> <a href="/music/let-her-go"> Let Her Go </a> </h2>
+				
+				<h2> <a href="/music/blue-buckets-of-gold"> Blue Buckets of Gold </a> </h2>
+				<h2> <a href="/music/hotel-california"> Hotel California </a> </h2>
+				<h2> <a href="/music/jambalaya"> Jambalaya (On The Bayou)</a> </h2>
+				<h2> <a href="/music/love-me-tender"> Love Me Tender </a> </h2>
+				<h2> <a href="/music/rocky-top"> Rocky Top </a> </h2>
+				<h2> <a href="/music/whole-new-world"> A Whole New World </a> </h2>
 
 								
 				<h1> Albums I'm listening to </h1>
