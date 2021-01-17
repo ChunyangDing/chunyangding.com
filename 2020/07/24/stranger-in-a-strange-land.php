@@ -48,7 +48,7 @@
 		<p> Will I buck the trend? Do I even want to buck the trend? That is a question that only future me can possibly answer. But for now, I am happy with where I am, and I hope against hope not to lose this inner joy. </p>
 
 		
-		<p> <a href="/2020/05/01/the-four-cs">Previous</a> | <a href="/blog">Return to main</a></p>
+		<p> <a href="/2020/05/01/the-four-cs">Previous</a> | <a href="/blog">Return to main</a> | <a href="/2021/01/17/temperature-scales"> Next </a> </p>
 
 		</div>
 		</div>
