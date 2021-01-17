@@ -18,7 +18,7 @@
 			<p><b>23 Apr 2020 &gt; &gt;</b> <a href="/2020/04/23/optimal-goodreads">Why Goodreads is my Optimal Social Media Platform</a></p> 
 			<p><b>01 May 2020 &gt; &gt;</b> <a href="/2020/05/01/the-four-cs">The Four Cs</a></p> 
 			<p><b>24 Jul 2020 &gt; &gt;</b> <a href="/2020/07/24/stranger-in-a-strange-land">Stranger in a Strange Land</a></p> 
-			<p><b>17 Jan 2021 &gt; &gt;</b> <a href="/2020/01/17/temperature-scales">Why Fahrenheit is a better temperature scale (for humans!) than Celsius</a></p> 
+			<p><b>17 Jan 2021 &gt; &gt;</b> <a href="/2021/01/17/temperature-scales">Why Fahrenheit is a better temperature scale (for humans!) than Celsius</a></p> 
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
