@@ -23,6 +23,20 @@
 				<th>Date Reviewed</th>
 			</tr>
 			<tr>
+				<td>The Good and Beautiful God</td>
+				<td>James Bryan Smith</td>
+				<td><a href="https://www.goodreads.com/review/show/3694899702">Review</a></td>
+				<td>4/5</td>
+				<td>29 Dec 2020</td>
+			</tr>
+			<tr>
+				<td>Midnight Sun</td>
+				<td>Stephanie Meyer</td>
+				<td><a href="https://www.goodreads.com/review/show/3699406488">Review</a></td>
+				<td>3/5</td>
+				<td>16 Dec 2020</td>
+			</tr>
+			<tr>
 				<td>This is How You Lose the Time War</td>
 				<td>Amal El-Mohtar, Max Gladstone</td>
 				<td><a href="https://www.goodreads.com/review/show/3196508606">Review</a></td>

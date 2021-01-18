@@ -11,7 +11,7 @@
 		<div class="container">
 		<div class="blurb">
 				
-		<<h1> Why Fahrenheit is a better temperature scale (for humans!) than Celsius </h1>
+		<h1> Why Fahrenheit is a better temperature scale (for humans!) than Celsius </h1>
 
 		<p> In most things, I am a staunch supporter of the metric system. The units are logical, convert easily, and have well-defined physical meanings. However, the one place where this breaks down is in the temperature scales, at least for humans and for describing weather events. While other arguments about units tend to be around familiarity, I think temperature in particular has some unique applications. </p>
 
