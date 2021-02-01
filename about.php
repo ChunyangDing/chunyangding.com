@@ -43,6 +43,8 @@
 					communication</a>. He's currently learning how to <a href="/guitar">be bad at more instruments</a>, 
 					create <a href="/quine">poorly-designed websites</a>, and <a href ="/food">cooking non-poisonous foods</a>.
 				</p>
+				
+				<p> Website, content by Chunyang Ding, logo designed by <a href="https://tangsida.com/">Sida Tang</a> </p> 
 			</div>
 		</div>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';

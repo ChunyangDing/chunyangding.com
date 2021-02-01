@@ -116,7 +116,7 @@
 				<h2 id="Pauli" > Pauli Matrices <a href="#toc">(top)</a> </h2>
 				<p> \( S_x = \frac{\hbar}{2} \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix} \) </p> 
 				<p> \( S_y = \frac{\hbar}{2} \begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix} \) </p> 
-				<p> \( S_z = \frac{\hbar}{2} \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix} \) </p> 
+				<p> \( S_z = \frac{\hbar}{2} \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix} \) </p> 
 				
 				<p> \( [S_i, S_j] = i \epsilon_{ijk} \hbar S_k \) </p>
 				<p> \( {S_i, S_j} = \frac{\hbar^2}{2} \delta_{ij} \) </p> 
