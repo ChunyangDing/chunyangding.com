@@ -72,14 +72,6 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0002.jpg">
-							<img src="/assets/pics/Zelda/zelda_0002.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0003.jpg">
 							<img src="/assets/pics/Zelda/zelda_0003.jpg" width="1000">
 						</a>
