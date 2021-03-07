@@ -61,19 +61,19 @@
 			<div class='blurb'>
 				<h1>Zelda</h1>
 				<p> We &<3 Zelda! </p>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
-							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-								
+											
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0005.jpg">
 							<img src="/assets/pics/Zelda/zelda_0005.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0006.jpg">
+							<img src="/assets/pics/Zelda/zelda_0006.jpg" width="1000">
 						</a>
 					</div>
 				</div>
@@ -104,11 +104,12 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0010.jpg">
-							<img src="/assets/pics/Zelda/zelda_0010.jpg" width="1000">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
+							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="1000">
 						</a>
 					</div>
 				</div>
+				
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0011.jpg">
