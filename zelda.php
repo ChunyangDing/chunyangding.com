@@ -129,7 +129,7 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
-							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="1000">
+							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="800">
 						</a>
 					</div>
 				</div>
