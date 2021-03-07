@@ -43,8 +43,10 @@ echo
 			<!--a href="/finance">Finance</a-->
 			<a href="/guitar">Guitar</a>
 			<a href="/photos">Photography</a>
+			<a href="/zelda">Zelda</a>
 			<a href="/quine">Server Design</a>
 			<a href="/physics-ref">Physics/Math References</a>
+			<a href="/useful-uchicago-links">Useful UChicago Links</a>
 		</div>
 	</div>
 </div>';
