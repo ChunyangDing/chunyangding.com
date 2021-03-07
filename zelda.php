@@ -96,22 +96,6 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0009.jpg">
-							<img src="/assets/pics/Zelda/zelda_0009.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
-							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0011.jpg">
 							<img src="/assets/pics/Zelda/zelda_0011.jpg" width="1000">
 						</a>
@@ -138,6 +122,14 @@
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0014.jpg">
 							<img src="/assets/pics/Zelda/zelda_0014.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
+							<img src="/assets/pics/Zelda/zelda_0001.jpg" width="1000">
 						</a>
 					</div>
 				</div>
