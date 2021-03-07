@@ -60,7 +60,7 @@
 		<div class='container'>
 			<div class='blurb'>
 				<h1>Zelda</h1>
-				<p> We &<3 Zelda! </p>
+				<p> We &lt;3 Zelda! </p>
 											
 				<div class="responsive">
 					<div class="gallery">
