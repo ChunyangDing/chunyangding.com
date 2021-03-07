@@ -168,20 +168,21 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0020.jpg">
-							<img src="/assets/pics/Zelda/zelda_0020.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
 							<img src="/assets/pics/Zelda/zelda_0001.jpg" height="520">
 						</a>
 					</div>
 				</div>
 				
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0020.jpg">
+							<img src="/assets/pics/Zelda/zelda_0020.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+
 			</div>
 		</div>
 				
