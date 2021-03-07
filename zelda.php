@@ -72,14 +72,6 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0003.jpg">
-							<img src="/assets/pics/Zelda/zelda_0003.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
 						<a target="_blank" href="/assets/pics/Zelda/zelda_0004.jpg">
 							<img src="/assets/pics/Zelda/zelda_0004.jpg" width="1000">
 						</a>
@@ -104,7 +96,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0007.jpg">
 							<img src="/assets/pics/Zelda/zelda_0007.jpg" width="1000">
 						</a>
 					</div>
@@ -112,7 +104,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0007.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0008.jpg">
 							<img src="/assets/pics/Zelda/zelda_0008.jpg" width="1000">
 						</a>
 					</div>
@@ -120,7 +112,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0008.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0009.jpg">
 							<img src="/assets/pics/Zelda/zelda_0009.jpg" width="1000">
 						</a>
 					</div>
@@ -128,14 +120,14 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0009.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0010.jpg">
 							<img src="/assets/pics/Zelda/zelda_0010.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0011.jpg">
 							<img src="/assets/pics/Zelda/zelda_0011.jpg" width="1000">
 						</a>
 					</div>
@@ -143,7 +135,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0002.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0012.jpg">
 							<img src="/assets/pics/Zelda/zelda_0012.jpg" width="1000">
 						</a>
 					</div>
@@ -151,7 +143,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0003.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0013.jpg">
 							<img src="/assets/pics/Zelda/zelda_0013.jpg" width="1000">
 						</a>
 					</div>
@@ -159,7 +151,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0004.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0014.jpg">
 							<img src="/assets/pics/Zelda/zelda_0014.jpg" width="1000">
 						</a>
 					</div>
@@ -167,7 +159,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0005.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0015.jpg">
 							<img src="/assets/pics/Zelda/zelda_0015.jpg" width="1000">
 						</a>
 					</div>
@@ -175,7 +167,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0006.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0016.jpg">
 							<img src="/assets/pics/Zelda/zelda_0016.jpg" width="1000">
 						</a>
 					</div>
@@ -183,7 +175,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0001.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0017.jpg">
 							<img src="/assets/pics/Zelda/zelda_0017.jpg" width="1000">
 						</a>
 					</div>
@@ -191,7 +183,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0007.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0018.jpg">
 							<img src="/assets/pics/Zelda/zelda_0018.jpg" width="1000">
 						</a>
 					</div>
@@ -199,7 +191,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0008.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0019.jpg">
 							<img src="/assets/pics/Zelda/zelda_0019.jpg" width="1000">
 						</a>
 					</div>
@@ -207,7 +199,7 @@
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0009.jpg">
+						<a target="_blank" href="/assets/pics/Zelda/zelda_0020.jpg">
 							<img src="/assets/pics/Zelda/zelda_0020.jpg" width="1000">
 						</a>
 					</div>
