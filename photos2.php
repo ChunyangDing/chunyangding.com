@@ -123,21 +123,21 @@
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/PXL_20210216_031539020.jpg">
-							<img src="/assets/pics/PXL_20201104_032205167.jpg" width="1000">
+							<img src="/assets/pics/PXL_20210216_031539020.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/PXL_20210227_194134869-EFFECTS.jpg">
-							<img src="/assets/pics/PXL_20201128_055752652.jpg" width="1000">
+							<img src="/assets/pics/PXL_20210227_194134869-EFFECTS.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 				<div class="responsive">
 					<div class="gallery">
 						<a target="_blank" href="/assets/pics/PXL_20210221_152817387.jpg">
-							<img src="/assets/pics/PXL_20201129_215021791.jpg" width="1000">
+							<img src="/assets/pics/PXL_20210221_152817387.jpg" width="1000">
 						</a>
 					</div>
 				</div>	
