@@ -140,6 +140,20 @@
 				</div>
 				<div class="responsive">
 					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200702_1551455.jpg">
+							<img src="/assets/pics/IMG_20200702_1551455.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/IMG_20200702_2040442.jpg">
+							<img src="/assets/pics/IMG_20200702_2040442.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
 						<a target="_blank" href="/assets/pics/IMG_20200805_1053276.jpg">
 							<img src="/assets/pics/IMG_20200805_1053276.jpg" width="1000">
 						</a>
@@ -176,7 +190,7 @@
 					</div>
 				</div>
 				-->
-				<p> Hope you enjoy! </p>
+				<p> <a href="/photos2">Next collection</a> </p>
 				
 			</div>
 		</div>

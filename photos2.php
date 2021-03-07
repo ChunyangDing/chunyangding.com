@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php $page_name = "Chunyang Ding - Zelda"; ?>
+		<?php $page_name = "Chunyang Ding - Photos"; ?>
 		<title><?php echo $page_name; ?></title>
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php'; ?>
 		
@@ -59,108 +59,103 @@
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/navbar.php'; ?>
 		<div class='container'>
 			<div class='blurb'>
-				<h1>Zelda</h1>
-				<p> We &lt;3 Zelda! </p>
-											
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0005.jpg">
-							<img src="/assets/pics/Zelda/zelda_0005.jpg" width="1000">
-						</a>
-					</div>
-				</div>
+				<h1>Photography</h1>
+				<p> Here are some photos that I have taken. Camera: Pixel 4a. </p>
 				
 				<div class="responsive">
 					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0006.jpg">
-							<img src="/assets/pics/Zelda/zelda_0006.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0007.jpg">
-							<img src="/assets/pics/Zelda/zelda_0007.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0011.jpg">
-							<img src="/assets/pics/Zelda/zelda_0011.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0013.jpg">
-							<img src="/assets/pics/Zelda/zelda_0013.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0014.jpg">
-							<img src="/assets/pics/Zelda/zelda_0014.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0015.jpg">
-							<img src="/assets/pics/Zelda/zelda_0015.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0016.jpg">
-							<img src="/assets/pics/Zelda/zelda_0016.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0017.jpg">
-							<img src="/assets/pics/Zelda/zelda_0017.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0018.jpg">
-							<img src="/assets/pics/Zelda/zelda_0018.jpg" width="1000">
-						</a>
-					</div>
-				</div>
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0019.jpg">
-							<img src="/assets/pics/Zelda/zelda_0019.jpg" width="1000">
-						</a>
-					</div>
-				</div>				
-				
-				<div class="responsive">
-					<div class="gallery">
-						<a target="_blank" href="/assets/pics/Zelda/zelda_0020.jpg">
-							<img src="/assets/pics/Zelda/zelda_0020.jpg" width="1000">
+						<a target="_blank" href="/assets/pics/PXL_20201016_233312495.NIGHT.jpg">
+							<img src="/assets/pics/PXL_20201016_233312495.NIGHT.jpg" width="1000">
 						</a>
 					</div>
 				</div>
 
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201024_192943957.jpg">
+							<img src="/assets/pics/PXL_20201024_192943957.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201024_195857705.jpg">
+							<img src="/assets/pics/PXL_20201024_195857705.jpg" width="1000">
+						</a>
+					</div>
+				</div>				
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201024_201517320.jpg">
+							<img src="/assets/pics/PXL_20201024_201517320.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201104_032205167.jpg">
+							<img src="/assets/pics/PXL_20201104_032205167.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201128_055752652.jpg">
+							<img src="/assets/pics/PXL_20201128_055752652.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201129_215021791.jpg">
+							<img src="/assets/pics/PXL_20201129_215021791.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20201129_223527337.jpg">
+							<img src="/assets/pics/PXL_20201129_223527337.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20210216_031539020.jpg">
+							<img src="/assets/pics/PXL_20201104_032205167.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20210227_194134869-EFFECTS.jpg">
+							<img src="/assets/pics/PXL_20201128_055752652.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="/assets/pics/PXL_20210221_152817387.jpg">
+							<img src="/assets/pics/PXL_20201129_215021791.jpg" width="1000">
+						</a>
+					</div>
+				</div>	
+				
+				
+				<!-- photo template
+				<div class="responsive">
+					<div class="gallery">
+						<a target="_blank" href="img_mountains.jpg">
+							<img src="img_mountains.jpg" width="1000">
+						</a>
+					</div>
+				</div>
+				-->
+				<p> <a href="/photos">Previous collection</a> </p>
+				
 			</div>
 		</div>
-				
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/webcounter.php';
 		$access_number = visitor($page_name); ?>
 	<?php include $_SERVER['DOCUMENT_ROOT'].'/assets/footbar.php'; ?>
