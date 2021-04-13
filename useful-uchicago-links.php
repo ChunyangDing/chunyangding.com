@@ -40,6 +40,7 @@
 					<li> <a href="https://physicsdev.uchicago.edu/site/basic_page/919/"> Research facilities </a> </li>
 					<li> <a href="https://grad.uchicago.edu/fellowships/"> Fellowship database </a> </li>
 					<li> <a href="https://physicalsciences.uchicago.edu/academics/academic-departments/"> PSD Departments </a> </li>
+					<li> <a href="https://wiki.uchicago.edu/spaces/viewspace.action?key=schusterlab"> SLab Wiki </a> </li> 
 				</ul> 
 				
 				<p> Transportation </p> 
