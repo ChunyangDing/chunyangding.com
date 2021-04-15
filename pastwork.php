@@ -50,13 +50,13 @@
 				</p>
 
 				<p> The Scope:<br>
-					<a href="http://yalescientific.org/thescope/2016/03/odd-asteroids-lead-caltech-scientists-towards-a-new-planet/">Odd Asteroids lead Caltech Scientists to a New Planet</a><br>
-					<a href="http://yalescientific.org/thescope/2016/02/new-science-in-the-age-of-twitter/">New Science in the Age of Twitter</a><br>
-					<a href="http://yalescientific.org/thescope/2016/01/learning-from-our-statistical-mistakes/">Learning from our Statistical Mistakes</a><br>
-					<a href="http://yalescientific.org/thescope/2015/11/sensationalizing-the-sensational-yale-exoplanet-research-in-the-news/">Sensationalizing the Sensational</a><br>
-					<a href="http://yalescientific.org/thescope/2015/10/launching-the-yale-quantum-institute/">Launching the Yale Quantum Institute</a><br>
-					<a href="http://yalescientific.org/thescope/2015/10/lost-in-lecture/">Lost in Lecture</a><br>
-					<a href="http://yalescientific.org/thescope/2015/10/scientific-diplomacy-a-path-to-peace/">Scientific Diplomacy: A Path to Peace</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/odd-asteroids-lead-caltech-scientists-towards-a-new-planet-4af709227f2">Odd Asteroids lead Caltech Scientists to a New Planet</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/new-science-in-the-age-of-twitter-8a14915ce4d5">New Science in the Age of Twitter</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/learning-from-our-statistical-mistakes-58907853ed18">Learning from our Statistical Mistakes</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/sensationalizing-the-sensational-yale-exoplanet-research-in-the-news-84f64fccbc7c?source=rss----5068fa1b9489--astronomy">Sensationalizing the Sensational</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/launching-the-yale-quantum-institute-b2c598ea8c7">Launching the Yale Quantum Institute</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/lost-in-lecture-ace95d8f9c84">Lost in Lecture</a><br>
+					<a href="https://medium.com/the-scope-yale-scientific-magazines-online-blog/scientific-diplomacy-a-path-to-peace-ddb795d2d440">Scientific Diplomacy: A Path to Peace</a><br>
 				</p>
 
 				<p> Summer Science Program/Yale Summer Program in Astrophysics <br>
