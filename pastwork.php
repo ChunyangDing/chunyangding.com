@@ -13,6 +13,10 @@
 				<h1> Past Works </h1>
 				<p> Here is a list of some of the stuff I have written or worked on in the past. </p>
 				
+				<p> Physics World: </br> 
+					<a href="https://physicsworld.com/a/physicists-find-a-brighter-way-to-diagnose-quantum-states/">A Brighter Way to Diagnose Quantum States </a>
+				</p> 
+				
 				<p> Where I'm Really From: <br>
 					<a href="https://www.whereimreallyfrom.com/read/whats_in_a_name_20210124/">What's In a Name? </a> 
 				</p>
